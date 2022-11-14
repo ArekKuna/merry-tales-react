@@ -1,12 +1,13 @@
 import HeroSection from "../components/HeroSection/HeroSection";
+import ProfessionalSection from '../components/ProfessionalSection/ProfessionalSection';
 
 const HomePage = () => {
   return (
-      <main>
+    <main>
       <HeroSection />
-      <div className="min-h-[200rem]"></div>
+      <ProfessionalSection />
     </main>
-  )
+  );
 }
 
 export default HomePage

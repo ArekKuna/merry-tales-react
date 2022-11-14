@@ -1,8 +1,8 @@
 const variantMap = {
-  hero: 'container px-6 py-56'
+  default: 'flex flex-col px-2 mx-auto'
 }
 
-const Container = ({ children, variant }) => {
+const Container = ({ children, variant='default' }) => {
   const variantClasses = variantMap[variant];
 
   return <div className={variantClasses}>{children}</div>;

@@ -4,9 +4,7 @@ import Container from '../../layout//Container/Container';
 
 const HeroSection = () => {
   return (
-    <Section id='hero'>
-      <Container variant='hero'>
-      </Container>
+    <Section id='hero' variant='hero'>
     </Section>
   )
 }

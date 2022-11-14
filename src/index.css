@@ -15,7 +15,7 @@ html {
 
 .checkbox-button {
     position: fixed;
-    top: 25px;
+    top: 30px;
     right: 20px;
     width: 55px;
     height: 55px;
@@ -78,7 +78,7 @@ html {
 }
 
 .mobile-icon-middle-active {
-    display: none;
+    background-color: transparent;
 }
 
 .mobile-icon-bottom-active {
