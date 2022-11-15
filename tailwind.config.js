@@ -12,6 +12,9 @@ module.exports = {
       maxWidth: {
         '3/4': '75%' 
       },
+      zIndex: {
+        '100': '100'
+      }
     },
   },
   plugins: [],

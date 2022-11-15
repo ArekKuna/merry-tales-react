@@ -1,5 +1,10 @@
 import MobileNavItem from '../MobileNavItem/MobileNavItem';
 
+const variantMap = {
+  def: 'flex flex-col items-center opacity-0 transition-all duration-500',
+  active: 'opacity-100 transition-all duration-500',
+};
+
 const MobileMenuConfig = {
   home: {
     links: [
@@ -66,7 +71,9 @@ const MobileMenuConfig = {
   },
 };
 
-const MobileNavList = ({onClick}) => {
+const MobileNavList = ({ onClick, isActive }) => {
+  const { def, active } = variantMap;
+
   const {
     home,
     professional,
@@ -78,7 +85,7 @@ const MobileNavList = ({onClick}) => {
   } = MobileMenuConfig;
 
   return (
-    <ul className='flex flex-col items-center'>
+    <ul className={`${def} ${isActive ? active : ''}`}>
       <MobileNavItem links={home.links} onClick={onClick} />
       <MobileNavItem links={professional.links} onClick={onClick} />
       <MobileNavItem links={videoGames.links} onClick={onClick} />
