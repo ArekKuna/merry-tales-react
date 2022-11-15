@@ -2,120 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
-}
-
-#hero {
-  background-image: url('./assets/mobile/hero-image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.checkbox-button {
-    position: fixed;
-    top: 25px;
-    right: 20px;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    z-index: 110;
-    box-shadow: 0 10px 40px #000;
-    text-align: center;
-    cursor: pointer;
-    background-color: #fff;
-}
-
-.navigation-background {
-    position: fixed;
-    top: 37px;
-    right: 27px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    z-index: 10;
-    background-image: linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235));
-    transition: all .8s;
-}
-
-.navigation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    z-index: 70;
-    visibility: hidden;
-    transition: all .4s;
-}
-
-.mobile-icon-top,
-.mobile-icon-middle,
-.mobile-icon-bottom {
+.icon-top,
+.icon-middle,
+.icon-bottom {
     position: absolute;
-    top: 27px;
-    left: 13px;
+    top: 20px;
+    left: 5px;
     width: 30px;
-    height: 2px;
+    height: 3px;
     background-color: #000;
     transition: all .3s;
 }
 
-.mobile-icon-top {
+.icon-top {
     margin-top: -10px;
 }
 
-.mobile-icon-bottom {
+.icon-bottom {
     margin-top: 10px;
 }
 
 
-.mobile-icon-top-active {
+.icon-top-active {
     transform: rotate(45deg) translate(7px, 8px);
     transition: all .3s;
 }
 
-.mobile-icon-middle-active {
+.icon-middle-active {
     display: none;
 }
 
-.mobile-icon-bottom-active {
+.icon-bottom-active {
     transform: rotate(-45deg) translate(6px, -7px);
     transition: all .3s;
 }
 
-.navigation-background-active {
-    transform: scale(50);
-    transition: all .8s;
+.swiper-button-next {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #FFF;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border: 6px solid black;
+    font-size: 10px;
 }
 
-.navigation-active {
-    opacity: 1;
-    visibility: visible;
-    transition: all 1s;
-}
-
-.header-background {
-    position: absolute;
+.swiper-button-prev {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #FFF;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -10;
-    background: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
-    opacity: 0;
-    transition: all 1s;
+    margin: 0;
+     border: 6px solid black;
+    font-size: 10px;
 }
 
-.header-background-active {
-  opacity: .9;
+.swiper-button-next::after {
+    content: '\2794';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 30px;
 }
 
-@media(max-width: 576px) {
-    #hero {
-    background-image: url('./assets/mobile/hero-image.jpg');
-    background-position: 50% 50%;
-  }
+.swiper-button-prev::after {
+    content: '\2794';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 30px;
+    transform: rotate(180deg);
 }

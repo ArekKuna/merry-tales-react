@@ -1,23 +1,13 @@
-import { useState } from "react";
+import MobileNavButton from './MobileNavButton/MobileNavButton';
+import MobileNavMenu from './MobileMenu/MobileNavMenu';
 
-import Checkbox from "./Checkbox/Checkbox";
-import NavBackground from './NavBackground/NavBackground';
-import MobileNav from "./MobileNav/MobileNav";
-
-const MobileNavigation = () => {
-  const [isChecked, setIsChecked] = useState(false)
-
-  const handleIsChecked = () => {
-    setIsChecked(isChecked => !isChecked)
-    }
-
+const MobileNav = ({ onClick, isActive }) => {
   return (
-    <div className='mobile-navigation'>
-      <Checkbox isChecked={isChecked} onCheck={handleIsChecked} />
-      <NavBackground isChecked={isChecked} />
-      <MobileNav isChecked={isChecked} onClick={handleIsChecked} />
-    </div>
+    <>
+      <MobileNavButton isActive={isActive} onClick={onClick} />
+      <MobileNavMenu isActive={isActive} onClick={onClick} />
+    </>
   );
-}
+};
 
-export default MobileNavigation;
+export default MobileNav;

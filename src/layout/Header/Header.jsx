@@ -1,13 +1,18 @@
-import HeaderBackground from "./HeaderBackground/HeaderBackground";
-import Logo from "../../components/Logo/Logo";
+import { useState } from "react";
+
 import MobileNavigation from "./MobileNavigation/MobileNavigation";
 
 const Header = () => {
+    const [isActive, setIsActive] = useState(false)
+
+    const handleIsActive = () => {
+        setIsActive(prevState => !prevState);
+    }
+
   return (
-    <header className='fixed w-full p-1'>
-      <HeaderBackground />
-      <Logo />
-      <MobileNavigation />
+    <header className='fixed flex items-center justify-between w-full p-1 px-4 border-8 border-black bg-gray-300'>
+      <h1 className="text-xl font-bold">Merry Tale Games</h1>
+      <MobileNavigation isActive={isActive} onClick={handleIsActive} />
     </header>
   );
 }

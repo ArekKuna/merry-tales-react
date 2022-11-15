@@ -7,12 +7,12 @@ module.exports = {
         sm: '480px',
       },
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
+        sans: ['Sono', 'sans-serif'],
       },
       maxWidth: {
-        xxs: '6rem',
+        '3/4': '75%' 
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [],
 };
