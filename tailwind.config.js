@@ -10,7 +10,8 @@ module.exports = {
         sans: ['Sono', 'sans-serif'],
       },
       maxWidth: {
-        '3/4': '75%' 
+        '3/4': '75%',
+        '1/2': '50%',
       },
       zIndex: {
         '100': '100'
