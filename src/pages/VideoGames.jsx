@@ -1,8 +1,7 @@
+import Main from 'layout/Main/Main';
 
 const VideoGames = () => {
-    return (
-        <main className='border-8 border-black min-h-[100rem]'>VideoGames</main>
-  )
-}
+  return <Main>Video Games Page</Main>;
+};
 
-export default VideoGames
+export default VideoGames;

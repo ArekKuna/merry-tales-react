@@ -1,12 +1,19 @@
+import { Link } from 'react-router-dom';
+
 import BoxTitle from 'components/Boxes/BoxTitle/BoxTitle';
-import HomePageTabletopSlider from 'components/HomePageTabletopSlider/HomePageTabletopSlider';
+import TabletopSlider from 'components/HomePage/TabletopSlider/TabletopSlider';
 
 const TabletopBox = () => {
   return (
     <>
       <BoxTitle title='tabletop games' to='tabletopGames' />
-      <HomePageTabletopSlider />
-      <p className='text-lg'>Knack for roleplaying</p>
+      <p className='text-lg text-center'>Knack for roleplaying</p>
+      <TabletopSlider />
+      <Link to='tabletopGames'>
+        <p className='font-black text-3xl text-center mt-4 underline underline-offset-4'>
+          More stories
+        </p>
+      </Link>
     </>
   );
 };

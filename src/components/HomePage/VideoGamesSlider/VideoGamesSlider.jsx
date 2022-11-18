@@ -19,10 +19,7 @@ import 'swiper/css/navigation';
 
 const VideoGamesSlider = () => {
   return (
-    <Swiper
-      modules={[Navigation]}
-      navigation
-    >
+    <Swiper modules={[Navigation]} navigation>
       <SwiperSlide>
         <VideoGamesSliderSlide
           srcSet={`${evilWestMobile} 500w,`}

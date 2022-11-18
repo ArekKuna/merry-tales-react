@@ -14,6 +14,9 @@ module.exports = {
       },
       borderWidth: {
         '10': '10px'
+      },
+      padding: {
+        'header': '82px'
       }
     },
   },

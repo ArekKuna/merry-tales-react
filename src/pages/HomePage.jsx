@@ -1,18 +1,19 @@
+import Main from 'layout/Main/Main';
 import Box from 'layout/Box/Box';
 import Logo from 'layout/Logo/Logo';
 import MainImage from 'components/MainImage/MainImage';
 import AboutBox from 'components/Boxes/AboutBox/AboutBox';
 import VideoGamesBox from 'components/Boxes/VideoGamesBox/VideoGamesBox';
 import WorkshopsBox from 'components/Boxes/WorkshopsBox/WorkshopsBox';
-import MediaBox from '../components/Boxes/MediaBox/MediaBox';
-import TabletopSlider from '../components/HomePage/TabletopSlider/TabletopSlider';
+import MediaBox from 'components/Boxes/MediaBox/MediaBox';
+import TabletopBox from 'components/Boxes/TabletopBox/TabletopBox';
 import AchievementsBox from 'components/Boxes/AchievementsBox/AchievementsBox';
-import SocialsBox from '../components/Boxes/SocialsBox/Socials';
+import SocialsBox from 'components/Boxes/SocialsBox/Socials';
 
 const HomePage = () => {
   return (
-    <main className='border-10 border-black'>
-      <Box variant='logo'>
+    <Main>
+      <Box>
         <Logo />
       </Box>
       <Box>
@@ -31,7 +32,7 @@ const HomePage = () => {
         <MediaBox />
       </Box>
       <Box variant='tabletop'>
-        <TabletopSlider />
+        <TabletopBox />
       </Box>
       <Box variant='achievements'>
         <AchievementsBox />
@@ -39,7 +40,7 @@ const HomePage = () => {
       <Box>
         <SocialsBox />
       </Box>
-    </main>
+    </Main>
   );
 };
 

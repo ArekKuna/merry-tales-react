@@ -43,7 +43,7 @@
     width: 60px;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     background-color: #FFF;
     top: 0;
     margin: 0;
@@ -72,5 +72,43 @@
 }
 
 .swiper-button-prev::after {
+    transform: rotate(180deg);
+}
+
+.tabletop-button-next,
+.tabletop-button-prev {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    bottom: 50%;
+    margin: 0;
+    z-index: 10;
+}
+
+.tabletop-button-next {
+    right: 10px;
+    border: 6px solid black;
+}
+
+.tabletop-button-prev {
+    left: 10px;
+    border: 6px solid black;
+}
+
+.tabletop-button-next::after,
+.tabletop-button-prev::after  {
+    content: '\2794';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 40px;
+}
+
+.tabletop-button-prev::after {
     transform: rotate(180deg);
 }

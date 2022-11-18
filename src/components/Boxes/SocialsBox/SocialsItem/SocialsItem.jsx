@@ -1,14 +1,23 @@
 const variantMap = {
-    def: 'p-5 w-1/4 bg-gray-300',
-    borderLeft: 'border-l-10 border-black'
+  def: 'p-2 w-1/4 bg-gray-300',
+  borderLeft: 'border-l-10 border-black',
 };
 
-const SocialsItem = ({ element, variant }) => {
-    const variantClasses = variantMap[variant];
-    
-    const { def } = variantMap;
+const SocialsItem = ({ element, variant, href }) => {
+  const variantClasses = variantMap[variant];
 
-  return <div className={`${def} ${variantClasses}`}>{element}</div>;
+  const { def } = variantMap;
+
+  return (
+    <a
+      href={href}
+      target='_blank'
+      rel='noreferrer'
+      className={`${def} ${variantClasses}`}
+    >
+      {element}
+    </a>
+  );
 };
 
-export default SocialsItem
+export default SocialsItem;

@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
+import Main from 'layout/Main/Main';
 
 const NotFound = () => {
   return (
-      <div>
-          <h1>xxx</h1>
-          <Link to='/'>
-            Home
-          </Link>
-    </div>
-  )
-}
+    <Main>
+      <h1>Page not Found</h1>
+      <Link to='/'>Home</Link>
+    </Main>
+  );
+};
 
-export default NotFound
+export default NotFound;

@@ -1,8 +1,7 @@
+import Main from 'layout/Main/Main';
 
 const Professional = () => {
-  return (
-    <main className="pt-[55px] border-8 border-black min-h-[100rem]">Professional</main>
-  )
-}
+  return <Main>Professional Page</Main>;
+};
 
-export default Professional
+export default Professional;

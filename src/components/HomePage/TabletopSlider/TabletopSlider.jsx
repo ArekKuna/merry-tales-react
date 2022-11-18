@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper';
 
-import BoxTitle from 'components/Boxes/BoxTitle/BoxTitle';
 import TabletopSliderSlide from 'components/HomePage/TabletopSlider/TabletopSliderSlide/TabletopSliderSlide';
 
 import zewCthulhu from 'assets/tabletop/mobile/cthulhu-uslysz-zew-cthulhu.webp';
@@ -22,19 +21,18 @@ import 'swiper/css/pagination';
 const TabletopSlider = () => {
   return (
     <>
-      <BoxTitle title='tabletop rpg games' />
-      <p className='text-lg text-center'>Knack for roleplaying</p>
       <Swiper
         modules={[Pagination, Navigation]}
         slidesPerView={1}
         spaceBetween={0}
+        loop={true}
         pagination={{
           enabled: false,
         }}
         navigation={{
           enabled: true,
-          // nextEl: '.' ,
-          // prevEl: '.',
+          nextEl: '.tabletop-button-next',
+          prevEl: '.tabletop-button-prev',
         }}
       >
         <SwiperSlide>
@@ -77,10 +75,9 @@ const TabletopSlider = () => {
             alt='Sibir Punk'
           />
         </SwiperSlide>
+        <div className='tabletop-button-next'></div>
+        <div className='tabletop-button-prev'></div>
       </Swiper>
-      <p className='font-black text-3xl text-center mt-4 underline underline-offset-4'>
-        More stories
-      </p>
     </>
   );
 };
