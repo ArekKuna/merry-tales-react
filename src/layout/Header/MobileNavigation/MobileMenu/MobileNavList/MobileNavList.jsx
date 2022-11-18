@@ -71,13 +71,7 @@ const MobileMenuConfig = {
   },
 };
 
-<<<<<<< HEAD
 const MobileNavList = ({ onClick, isActive }) => {
-  const { def, active } = variantMap;
-
-=======
-const MobileNavList = ({ onClick }) => {
->>>>>>> grid-layout
   const {
     home,
     professional,
@@ -87,6 +81,8 @@ const MobileNavList = ({ onClick }) => {
     media,
     achievements,
   } = MobileMenuConfig;
+
+  const { def, active } = variantMap;
 
   return (
     <ul className={`${def} ${isActive ? active : ''}`}>

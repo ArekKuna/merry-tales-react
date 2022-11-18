@@ -39,9 +39,6 @@ const HomePage = () => {
       <Box>
         <SocialsBox />
       </Box>
-      <Box>Workshops</Box>
-      <Box>Media</Box>
-      <Box>Achievments</Box>
     </main>
   );
 };

@@ -40,11 +40,7 @@
 .swiper-button-next,
 .swiper-button-prev {
     height: 40px;
-<<<<<<< HEAD
-    width: 50px;
-=======
     width: 60px;
->>>>>>> grid-layout
     display: flex;
     align-items: center;
     justify-items: center;
@@ -65,10 +61,6 @@
     border-left: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> grid-layout
 .swiper-button-next::after,
 .swiper-button-prev::after  {
     content: '\2794';
