@@ -1,4 +1,4 @@
-import MobileNavItem from '../MobileNavItem/MobileNavItem';
+import MobileNavItem from 'layout/Header/MobileNavigation/MobileMenu/MobileNavItem/MobileNavItem';
 
 const MobileMenuConfig = {
   home: {
@@ -66,7 +66,7 @@ const MobileMenuConfig = {
   },
 };
 
-const MobileNavList = ({onClick}) => {
+const MobileNavList = ({ onClick }) => {
   const {
     home,
     professional,

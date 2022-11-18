@@ -1,14 +1,17 @@
-import Box from '../layout/Box/Box';
-import Logo from '../layout/Logo/Logo';
-import MainImage from '../components/MainImage/MainImage';
-import Paragraph from '../layout/Paragraph/Paragraph';
-import VideoGamesSlider from '../components/VideoGamesSlider/VideoGamesSlider';
-
-
+import Box from 'layout/Box/Box';
+import Logo from 'layout/Logo/Logo';
+import MainImage from 'components/MainImage/MainImage';
+import AboutBox from 'components/Boxes/AboutBox/AboutBox';
+import VideoGamesBox from 'components/Boxes/VideoGamesBox/VideoGamesBox';
+import WorkshopsBox from 'components/Boxes/WorkshopsBox/WorkshopsBox';
+import MediaBox from '../components/Boxes/MediaBox/MediaBox';
+import TabletopSlider from '../components/HomePage/TabletopSlider/TabletopSlider';
+import AchievementsBox from 'components/Boxes/AchievementsBox/AchievementsBox';
+import SocialsBox from '../components/Boxes/SocialsBox/Socials';
 
 const HomePage = () => {
   return (
-    <main className='border-8 border-black min-h-[200rem] md:grid-cols-2 md:grid-rows-2'>
+    <main className='border-10 border-black'>
       <Box variant='logo'>
         <Logo />
       </Box>
@@ -16,16 +19,28 @@ const HomePage = () => {
         <MainImage />
       </Box>
       <Box variant='about'>
-        <p className='text-4xl'>Marian Paździoch</p>
-        <p className=''>Writing and narrative design</p>
-        <p className='font-black underline'>Read more about me!</p>
+        <AboutBox />
       </Box>
       <Box variant='videoGames'>
-        <h2 className='text-3xl text-center font-bold space-y-8 '>Video Games</h2>
-        <VideoGamesSlider />
+        <VideoGamesBox />
+      </Box>
+      <Box variant='workshops'>
+        <WorkshopsBox />
+      </Box>
+      <Box variant='media'>
+        <MediaBox />
+      </Box>
+      <Box variant='tabletop'>
+        <TabletopSlider />
+      </Box>
+      <Box variant='achievements'>
+        <AchievementsBox />
+      </Box>
+      <Box>
+        <SocialsBox />
       </Box>
     </main>
   );
-}
+};
 
-export default HomePage
+export default HomePage;
