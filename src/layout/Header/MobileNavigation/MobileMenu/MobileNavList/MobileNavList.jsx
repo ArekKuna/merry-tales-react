@@ -1,4 +1,4 @@
-import MobileNavItem from '../MobileNavItem/MobileNavItem';
+import MobileNavItem from 'layout/Header/MobileNavigation/MobileMenu/MobileNavItem/MobileNavItem';
 
 const variantMap = {
   def: 'flex flex-col items-center opacity-0 transition-all duration-500',
@@ -71,9 +71,13 @@ const MobileMenuConfig = {
   },
 };
 
+<<<<<<< HEAD
 const MobileNavList = ({ onClick, isActive }) => {
   const { def, active } = variantMap;
 
+=======
+const MobileNavList = ({ onClick }) => {
+>>>>>>> grid-layout
   const {
     home,
     professional,

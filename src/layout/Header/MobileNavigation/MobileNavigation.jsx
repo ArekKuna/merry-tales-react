@@ -1,5 +1,5 @@
-import MobileNavButton from './MobileNavButton/MobileNavButton';
-import MobileNavMenu from './MobileMenu/MobileNavMenu';
+import MobileNavButton from 'layout/Header//MobileNavigation/MobileNavButton/MobileNavButton';
+import MobileNavMenu from 'layout/Header/MobileNavigation/MobileMenu/MobileNavMenu';
 
 const MobileNav = ({ onClick, isActive }) => {
   return (
