@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+#hero {
+    background-image: url('assets/main-photo/mobile/merry-main-280.webp');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 36.3em) {
+  #hero {
+    background-image: url('assets/main-photo/mobile/merry-main-580.webp');
+    background-position: 50% 0;
+  }
+}
+
 .icon-top,
 .icon-middle,
 .icon-bottom {
@@ -75,6 +89,19 @@
     transform: rotate(180deg);
 }
 
+@media only screen and (min-width: 36.3em) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        height: 50px;
+        width: 100px;
+    }  
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 40px;
+    } 
+}
+
 .tabletop-button-next,
 .tabletop-button-prev {
     position: absolute;
@@ -84,24 +111,27 @@
     align-items: center;
     justify-content: center;
     background-color: #FFF;
-    bottom: 50%;
+    bottom: 45%;
     margin: 0;
     z-index: 10;
 }
 
 .tabletop-button-next {
-    right: 10px;
+    right: 3px;
     border: 6px solid black;
+    padding-top: 2px;
 }
 
 .tabletop-button-prev {
-    left: 10px;
+    left: 3px;
     border: 6px solid black;
+    padding-bottom: 2px;
 }
 
 .tabletop-button-next::after,
 .tabletop-button-prev::after  {
     content: '\2794';
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,4 +141,26 @@
 
 .tabletop-button-prev::after {
     transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 36.3em) {
+    .tabletop-button-next,
+    .tabletop-button-prev {
+        height: 50px;
+        width: 100px;
+    }
+
+    .tabletop-button-next {
+        right: 20px;
+    }
+
+    .tabletop-button-prev {
+        left: 20px;
+    }
+
+    .tabletop-button-prev::after,
+    .tabletop-button-next::after {
+        height: 100%;
+        font-size: 60px;
+    }
 }

@@ -6,7 +6,7 @@ const AchievementsBox = () => {
   return (
     <>
       <BoxTitle title='achievements' to='/achievements' />
-      <p className='text-lg'>Ambition to learn</p>
+      <p className='text-lg sm:text-xl'>Ambition to learn</p>
       <GrAchievement size='100' />
     </>
   );

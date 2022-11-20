@@ -1,6 +1,9 @@
 const variantMap = {
-  def: 'p-2 w-1/4 bg-gray-300',
-  borderLeft: 'border-l-10 border-black',
+  def: 'p-2 w-1/4 bg-gray-300 sm:w-full sm:h-full flex items-center justify-center',
+  facebook: 'border-r-10 border-black sm:border-b-10',
+  linkedIn: 'border-r-10 border-black sm:border-r-0 sm:border-b-10',
+  youTube: 'border-r-10 border-black',
+  mail: '',
 };
 
 const SocialsItem = ({ element, variant, href }) => {

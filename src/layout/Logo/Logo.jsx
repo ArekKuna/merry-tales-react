@@ -8,7 +8,7 @@ const Logo = () => {
       srcSet={`${logo1x} 1x, ${logo2x} 2x`}
       src={logo}
       alt='Merry Tale Logo'
-      className='max-w-1/2 mx-auto'
+      className='max-w-1/3 sm:max-w-3/4 md:max-w-1/2'
       loading='lazy'
     />
   );

@@ -5,24 +5,25 @@ import SocialsItem from './SocialsItem/SocialsItem';
 
 const SocialsBox = () => {
   return (
-    <div className='w-full flex'>
+    <div className='w-full h-full flex sm:grid sm:grid-cols-2 sm:grid-rows-2'>
       <SocialsItem
-        element={<FaFacebookF size='30' className='mx-auto' />}
+        variant='facebook'
+        element={<FaFacebookF className='mx-auto h-8 w-8 sm:h-12 smś:w-12' />}
         href='https://www.facebook.com/szmeryznadkamery'
       />
       <SocialsItem
-        variant='borderLeft'
-        element={<FaLinkedinIn size='30' className='mx-auto' />}
+        variant='linkedIn'
+        element={<FaLinkedinIn className='mx-auto h-8 w-8 sm:h-12 sm:w-12' />}
         href='https://www.linkedin.com/in/maria-borys-pi%C4%85tkowska-126308149/'
       />
       <SocialsItem
-        variant='borderLeft'
-        element={<GrYoutube size='30' className='mx-auto' />}
+        variant='youTube'
+        element={<GrYoutube className='mx-auto h-8 w-8 sm:h-12 sm:w-12' />}
         href='https://www.youtube.com/@GrajKolektyw'
       />
       <SocialsItem
-        variant='borderLeft'
-        element={<GrMail size='30' className='mx-auto' />}
+        variant='mail'
+        element={<GrMail className='mx-auto h-8 w-8 sm:h-12 smś:w-12' />}
         href='mailto:merry.rpg@gmail.com?subject=Merry Tale Games Contact'
       />
     </div>

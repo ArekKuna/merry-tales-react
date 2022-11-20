@@ -5,7 +5,7 @@ const VideoGamesBox = () => {
   return (
     <>
       <BoxTitle title='video games' to='videoGames' />
-      <p className='text-lg text-center'>Passion for gaming</p>
+      <p className='text-lg sm:text-xl'>Passion for gaming</p>
       <VideoGamesSlider />
     </>
   );

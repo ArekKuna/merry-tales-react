@@ -7,7 +7,7 @@ const TabletopBox = () => {
   return (
     <>
       <BoxTitle title='tabletop games' to='tabletopGames' />
-      <p className='text-lg text-center'>Knack for roleplaying</p>
+      <p className='text-lg sm:text-xl'>Knack for roleplaying</p>
       <TabletopSlider />
       <Link to='tabletopGames'>
         <p className='font-black text-3xl text-center mt-4 underline underline-offset-4'>

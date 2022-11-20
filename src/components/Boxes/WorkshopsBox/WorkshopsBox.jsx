@@ -6,7 +6,7 @@ const WorkshopsBox = () => {
   return (
     <>
       <BoxTitle title='Workshops' to='/workshops' />
-      <p className='text-lg'>skill of teaching</p>
+      <p className='text-lg sm:text-xl'>skill of teaching</p>
       <GrWorkshop size='100' />
     </>
   );

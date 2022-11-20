@@ -6,7 +6,7 @@ const MediaBox = () => {
   return (
     <>
       <BoxTitle title='Media' to='/media' />
-      <p className='text-lg'>Love to share</p>
+      <p className='text-lg sm:text-xl'>Love to share</p>
       <GiAlliedStar size='100' />
     </>
   );

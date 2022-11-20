@@ -1,6 +1,6 @@
 const Main = ({ children }) => {
   return (
-    <main className='pt-header border-10 border-black min-h-screen'>
+    <main className='pt-header sm:grid sm:grid-cols-2 sm:grid-rows-1 border-10 border-black min-h-screen'>
       {children}
     </main>
   );

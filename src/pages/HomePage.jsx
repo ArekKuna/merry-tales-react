@@ -1,7 +1,6 @@
 import Main from 'layout/Main/Main';
 import Box from 'layout/Box/Box';
 import Logo from 'layout/Logo/Logo';
-import MainImage from 'components/MainImage/MainImage';
 import AboutBox from 'components/Boxes/AboutBox/AboutBox';
 import VideoGamesBox from 'components/Boxes/VideoGamesBox/VideoGamesBox';
 import WorkshopsBox from 'components/Boxes/WorkshopsBox/WorkshopsBox';
@@ -13,17 +12,18 @@ import SocialsBox from 'components/Boxes/SocialsBox/Socials';
 const HomePage = () => {
   return (
     <Main>
-      <Box>
+      <Box variant='logo'>
         <Logo />
       </Box>
-      <Box>
-        <MainImage />
-      </Box>
+      <Box variant='image' id='hero'></Box>
       <Box variant='about'>
         <AboutBox />
       </Box>
       <Box variant='videoGames'>
         <VideoGamesBox />
+      </Box>
+      <Box variant='tabletop'>
+        <TabletopBox />
       </Box>
       <Box variant='workshops'>
         <WorkshopsBox />
@@ -31,13 +31,10 @@ const HomePage = () => {
       <Box variant='media'>
         <MediaBox />
       </Box>
-      <Box variant='tabletop'>
-        <TabletopBox />
-      </Box>
       <Box variant='achievements'>
         <AchievementsBox />
       </Box>
-      <Box>
+      <Box variant='socials'>
         <SocialsBox />
       </Box>
     </Main>

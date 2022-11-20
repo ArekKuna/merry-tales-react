@@ -16,7 +16,7 @@ const MobileNavButton = ({ isActive, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className='relative h-[40px] w-[40px] cursor-pointer'
+      className='relative h-[40px] w-[40px] cursor-pointer md:hidden'
     >
       <span className={`icon-top ${isActive ? top.active : ''}`}>&nbsp;</span>
       <span className={`icon-middle ${isActive ? middle.active : ''}`}>

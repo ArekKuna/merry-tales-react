@@ -3,16 +3,21 @@ import { Navigation, Pagination } from 'swiper';
 
 import TabletopSliderSlide from 'components/HomePage/TabletopSlider/TabletopSliderSlide/TabletopSliderSlide';
 
-import zewCthulhu from 'assets/tabletop/mobile/cthulhu-uslysz-zew-cthulhu.webp';
-import zewCthulhuFallback from 'assets/tabletop/mobile/cthulhu-uslysz-zew-cthulhu.png';
-import nutka from 'assets/tabletop/mobile/nutka-w-nutke-exe.webp';
-import nutkaFallback from 'assets/tabletop/mobile/nutka-w-nutke-exe.png';
-import zgrozy from 'assets/tabletop/mobile/cthulhu-zgrozy-gotyckie.webp';
-import zgrozyFallback from 'assets/tabletop/mobile/cthulhu-zgrozy-gotyckie.jpg';
-import wampir from 'assets/tabletop/mobile/az-po-zeby.webp';
-import wampitFallback from 'assets/tabletop/mobile/az-po-zeby.png';
-import sibirPunk from 'assets/tabletop/mobile/sibir-punk.webp';
-import sibirPunkFallback from 'assets/tabletop/mobile/sibir-punk.jpg';
+import zewCthulhuMobile from 'assets/tabletop/mobile/cthulhu-uslysz-zew-cthulhu-280.webp';
+import zewCthulhuTablet from 'assets/tabletop/mobile/cthulhu-uslysz-zew-cthulhu-580.webp';
+import zewCthulhuFallback from 'assets/tabletop/mobile/cthulhu-uslysz-zew-cthulhu-580.png';
+import nutkaMobile from 'assets/tabletop/mobile/nutka-w-nutke-exe-280.webp';
+import nutkaTablet from 'assets/tabletop/mobile/nutka-w-nutke-exe-580.webp';
+import nutkaFallback from 'assets/tabletop/mobile/nutka-w-nutke-exe-580.png';
+import zgrozyMobile from 'assets/tabletop/mobile/cthulhu-zgrozy-gotyckie-280.webp';
+import zgrozyTablet from 'assets/tabletop/mobile/cthulhu-zgrozy-gotyckie-580.webp';
+import zgrozyFallback from 'assets/tabletop/mobile/cthulhu-zgrozy-gotyckie-580.jpg';
+import wampirMobile from 'assets/tabletop/mobile/az-po-zeby-280.webp';
+import wampirTablet from 'assets/tabletop/mobile/az-po-zeby-580.webp';
+import wampirFallback from 'assets/tabletop/mobile/az-po-zeby-580.png';
+import sibirPunkMobile from 'assets/tabletop/mobile/sibir-punk-280.webp';
+import sibirPunkTablet from 'assets/tabletop/mobile/sibir-punk-580.webp';
+import sibirPunkFallback from 'assets/tabletop/mobile/sibir-punk-580.jpg';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -37,41 +42,41 @@ const TabletopSlider = () => {
       >
         <SwiperSlide>
           <TabletopSliderSlide
-            srcSet={`${zewCthulhu} 500w`}
+            srcSet={`${zewCthulhuMobile} 400w, ${zewCthulhuTablet} 800w`}
             src={zewCthulhuFallback}
-            sizes='100vw'
+            sizes='(max-width: 639px) 200px, 310px'
             alt='Usłysz Zew Cthulhu'
           />
         </SwiperSlide>
         <SwiperSlide>
           <TabletopSliderSlide
-            srcSet={`${nutka} 500w`}
+            srcSet={`${nutkaMobile} 400w, ${nutkaTablet} 800w`}
             src={nutkaFallback}
-            sizes='100vw'
+            sizes='(max-width: 639px) 200px, 310px'
             alt='Nutka W Nutkę.EXE'
           />
         </SwiperSlide>
         <SwiperSlide>
           <TabletopSliderSlide
-            srcSet={`${zgrozy} 500w`}
+            srcSet={`${zgrozyMobile} 400w, ${zgrozyTablet} 800w`}
             src={zgrozyFallback}
-            sizes='100vw'
+            sizes='(max-width: 639px) 200px, 310px'
             alt='Zgrozy Gotyckie'
           />
         </SwiperSlide>
         <SwiperSlide>
           <TabletopSliderSlide
-            srcSet={`${wampir} 500w`}
-            src={wampitFallback}
-            sizes='100vw'
+            srcSet={`${wampirMobile} 400w, ${wampirTablet} 800w`}
+            src={wampirFallback}
+            sizes='(max-width: 639px) 200px, 310px'
             alt='Aż Po Zęby'
           />
         </SwiperSlide>
         <SwiperSlide>
           <TabletopSliderSlide
-            srcSet={`${sibirPunk} 500w`}
+            srcSet={`${sibirPunkMobile} 400w, ${sibirPunkTablet} 800w`}
             src={sibirPunkFallback}
-            sizes='100vw'
+            sizes='(max-width: 639px) 200px, 310px'
             alt='Sibir Punk'
           />
         </SwiperSlide>
