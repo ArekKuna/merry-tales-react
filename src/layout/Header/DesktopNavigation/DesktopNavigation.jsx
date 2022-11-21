@@ -2,7 +2,7 @@ import DesktopNavList from 'layout/Header/DesktopNavigation/DesktopNavList/Deskt
 
 const DesktopNavigation = () => {
   return (
-    <nav className='hidden md:flex'>
+    <nav className='hidden w-full md:flex'>
       <DesktopNavList />
     </nav>
   );

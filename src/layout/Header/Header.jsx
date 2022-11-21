@@ -11,8 +11,8 @@ const Header = () => {
   };
 
   return (
-    <header className='fixed flex items-center justify-between w-full px-2 py-4 border-10 border-black z-20 bg-gray-300 sm:px-6'>
-    <h1 className='text-xl font-bold sm:text-4xl md:hidden'>Merry Tale Games</h1>
+    <header className='fixed flex items-center justify-between w-full h-[70px] px-2 py-1 border-10 border-black z-20 bg-gray-300 sm:px-4 md:p-0'>
+    <h1 className='text-xl font-bold sm:text-3xl md:hidden'>Merry Tale Games</h1>
       <MobileNavigation isActive={isActive} onClick={handleIsActive} />
       <DesktopNavigation />
     </header>

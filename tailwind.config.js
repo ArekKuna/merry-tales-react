@@ -17,7 +17,7 @@ module.exports = {
         10: '10px',
       },
       padding: {
-        header: '82px',
+        header: '60px',
       },
       fontSize: {
         0: '0px',

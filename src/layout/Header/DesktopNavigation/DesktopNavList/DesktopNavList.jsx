@@ -23,7 +23,7 @@ const DesktopMenuConfig = {
     links: [
       {
         to: '/videoGames',
-        text: 'video games',
+        text: 'games',
         id: 3,
       },
     ],
@@ -32,7 +32,7 @@ const DesktopMenuConfig = {
     links: [
       {
         to: '/tabletopGames',
-        text: 'tabletop games',
+        text: 'TTRPG',
         id: 4,
       },
     ],
@@ -68,7 +68,7 @@ const DesktopMenuConfig = {
 
 const DesktopNavList = () => {
   return (
-    <ul>
+    <ul className='flex w-full justify-center items-center space-x-6 capitalize'>
       <DesktopNavItem links={DesktopMenuConfig.home.links} />
       <DesktopNavItem links={DesktopMenuConfig.professional.links} />
       <DesktopNavItem links={DesktopMenuConfig.videoGames.links} />
