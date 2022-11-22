@@ -7,7 +7,7 @@ const TabletopSliderImageSlide = ({ srcSet, src, alt, sizes, text }) => {
         alt={alt}
         sizes={sizes}
         loading='lazy'
-        className='w-1/4 mb-14 mt-3 mx-auto shadow-black shadow-xl'
+        className='w-2/3 mb-14 mt-3 mx-auto shadow-black shadow-xl sm:w-1/3'
       />
     </>
   );

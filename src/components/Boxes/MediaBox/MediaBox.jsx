@@ -1,13 +1,14 @@
 import { GiAlliedStar } from 'react-icons/gi';
 
 import BoxTitle from 'components/Boxes/BoxTitle/BoxTitle';
+import BoxParagraph from 'components/Boxes/BoxParagraph/BoxParagraph';
 
 const MediaBox = () => {
   return (
     <>
       <BoxTitle title='Media' to='/media' />
-      <p className='text-lg sm:text-xl'>Love to share</p>
-      <GiAlliedStar size='100' />
+      <BoxParagraph text='Love to share' />
+      <GiAlliedStar size='60' />
     </>
   );
 };

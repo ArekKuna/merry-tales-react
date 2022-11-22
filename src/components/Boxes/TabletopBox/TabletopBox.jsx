@@ -1,11 +1,12 @@
 import BoxTitle from 'components/Boxes/BoxTitle/BoxTitle';
+import BoxParagraph from 'components/Boxes/BoxParagraph/BoxParagraph';
 import TabletopSlider from 'components/HomePage/TabletopSlider/TabletopSlider';
 
 const TabletopBox = () => {
   return (
     <>
       <BoxTitle title='tabletop games' to='tabletopGames' />
-      <p className='text-lg sm:text-xl'>Knack for roleplaying</p>
+      <BoxParagraph text='Knack for roleplaying' />
       <TabletopSlider />
     </>
   );

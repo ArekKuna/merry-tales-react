@@ -1,13 +1,14 @@
 import { GrWorkshop } from 'react-icons/gr';
 
 import BoxTitle from 'components/Boxes/BoxTitle/BoxTitle';
+import BoxParagraph from 'components/Boxes/BoxParagraph/BoxParagraph';
 
 const WorkshopsBox = () => {
   return (
     <>
       <BoxTitle title='Workshops' to='/workshops' />
-      <p className='text-lg sm:text-xl'>skill of teaching</p>
-      <GrWorkshop size='100' />
+      <BoxParagraph text='skill of teaching' />
+      <GrWorkshop size='60' />
     </>
   );
 };

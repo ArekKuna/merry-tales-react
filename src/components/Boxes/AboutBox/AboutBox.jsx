@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
 
+import BoxTitle from 'components/Boxes/BoxTitle/BoxTitle';
+import BoxParagraph from 'components/Boxes/BoxParagraph/BoxParagraph';
+
 const AboutBox = () => {
   return (
     <>
-      <h2 className='text-4xl font-black uppercase'>Maria Borys-Piątkowska</h2>
-      <p className='text-lg sm:text-xl'>Storyteller - game writer - narrative designer</p>
+      <BoxTitle to='professional' title='Maria Borys-Piątkowska' />
+      <BoxParagraph text='Storyteller - game writer - narrative designer' />
       <Link to='/professional'>
-        <p className='font-black text-3xl underline underline-offset-4'>
+        <p className='font-black text-xl underline underline-offset-4'>
           What's my story?
         </p>
       </Link>
