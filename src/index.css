@@ -43,6 +43,21 @@
     transition: all .3s;
 }
 
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -5px !important;
+    padding-bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px !important;
+    background-color: #000;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
     height: 40px;
