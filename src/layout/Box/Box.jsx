@@ -1,9 +1,9 @@
 const variantMap = {
-  def: 'flex flex-col items-center justify-center w-full p-3 text-center font-medium border-b-10 border-black space-y-4 bg-indigo-200 sm:p-4 sm:space-y-6',
+  def: 'flex flex-col items-center justify-center w-full p-3 text-center font-medium border-b-10 border-black space-y-4 bg-indigo-200 sm:p-6 sm:space-y-6',
   logo: '!p-0 !bg-gray-300 sm:-order-1',
   image: '!p-0 sm:col-span-2 sm:order-2',
   about: 'sm:-order-1 sm:border-l-10',
-  videoGames: '!block pt-3 px-0 pb-0 sm:order-3 sm:col-span-2 sm:p-0 sm:pt-3',
+  videoGames: '!block pt-3 px-0 pb-0 sm:order-3 sm:col-span-2 sm:pb-0 sm:px-0 sm:pt-6',
   workshops: 'sm:order-5 sm:border-r-10',
   media: 'sm:order-6',
   tabletop: '!block sm:order-4 sm:col-span-2 sm:pb-8',

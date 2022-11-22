@@ -23,7 +23,7 @@ const SocialsBox = () => {
       />
       <SocialsItem
         variant='mail'
-        element={<GrMail className='mx-auto h-6 w-6 sm:h-12 smś:w-12' />}
+        element={<GrMail className='mx-auto h-6 w-6 sm:h-12 sm:w-12' />}
         href='mailto:merry.rpg@gmail.com?subject=Merry Tale Games Contact'
       />
     </div>
