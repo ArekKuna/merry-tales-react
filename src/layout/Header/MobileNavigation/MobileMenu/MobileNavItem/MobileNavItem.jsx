@@ -5,7 +5,7 @@ const MobileNavItem = ({ links, onClick }) => {
     <>
       {links.map(({ to, text, id }) => (
         <Link
-          className='w-full p-2 text-xl text-center text-black font-bold capitalize border-t-2 border-gray-400'
+          className='w-full p-2 text-xl text-center text-black font-bold capitalize border-t-2 border-gray-200'
           key={id}
           to={to}
           onClick={onClick}

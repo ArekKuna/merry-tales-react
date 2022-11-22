@@ -24,7 +24,7 @@ import 'swiper/css/navigation';
 
 const VideoGamesSlider = () => {
   return (
-    <Swiper modules={[Navigation]} navigation>
+    <Swiper modules={[Navigation]} navigation className='!mx-0'>
       <SwiperSlide>
         <VideoGamesSliderSlide
           srcSet={`${evilWestMobile} 1000w, ${evilWestTablet}, 1500w`}

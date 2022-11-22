@@ -35,6 +35,7 @@ const TabletopSlider = () => {
           enabled: true,
           clickable: true,
         }}
+        className='!mx-0'
       >
         <SwiperSlide>
           <TabletopSliderImageSlide

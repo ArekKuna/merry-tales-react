@@ -5,8 +5,8 @@ import VideoGamesSlider from 'components/HomePage/VideoGamesSlider/VideoGamesSli
 const VideoGamesBox = () => {
   return (
     <>
-      <BoxTitle title='video games' to='videoGames' />
-      <BoxParagraph text='Passion for gaming' />
+      {/* <BoxTitle title='video games' to='videoGames' /> */}
+      {/* <BoxParagraph text='Passion for gaming' /> */}
       <VideoGamesSlider />
     </>
   );

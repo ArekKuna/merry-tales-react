@@ -1,14 +1,19 @@
 const variantMap = {
-  def: 'flex flex-col items-center justify-center w-full p-3 text-center font-medium border-b-10 border-black space-y-4 bg-indigo-200 sm:p-6 sm:space-y-6',
-  logo: '!p-0 !bg-gray-300 sm:-order-1',
-  image: '!p-0 sm:col-span-2 sm:order-2',
-  about: 'sm:-order-1 sm:border-l-10',
-  videoGames: '!block pt-3 px-0 pb-0 sm:order-3 sm:col-span-2 sm:pb-0 sm:px-0 sm:pt-6',
-  workshops: 'sm:order-5 sm:border-r-10',
-  media: 'sm:order-6',
-  tabletop: '!block sm:order-4 sm:col-span-2 sm:pb-8',
-  achievements: 'sm:order-7 sm:border-r-10 sm:border-b-0',
-  socials: '!p-0 border-none sm:order-8',
+  def: 'flex flex-col justify-center w-full p-3 text-center font-medium border-b-10 border-black space-y-4 bg-orange-400 sm:p-6 sm:space-y-6 lg:p-0 lg:space-y-0 lg:justify-evenly',
+  logo: '!p-0 !bg-gray-400 items-center sm:-order-1 lg:col-span-2 lg:row-span-1',
+  image: '!p-0 sm:col-span-2 sm:-order-2 lg:col-span-4 lg-row-span-1 lg:order-2',
+  about: 'sm:-order-1 items-center sm:border-l-10 lg:col-span-2 lg:row-span-1',
+  videoGames:
+    '!p-0 sm:order-3 sm:col-span-2 lg:col-span-4 lg:row-span-3 lg:border-b-0',
+  workshops:
+    'items-center sm:order-5 sm:border-r-10 lg:col-span-3 lg:row-span-1 lg:border-l-10',
+  media: 'items-center sm:order-6 lg:col-span-1 lg:row-span-1',
+  tabletop:
+    'sm:order-4 sm:col-span-2 sm:pb-8 lg:order-1 lg:col-span-4 lg:row-span-2 lg:border-l-10',
+  achievements:
+    'items-center sm:order-7 sm:border-r-10 sm:border-b-0 lg:col-span-3 lg:row-span-1 lg:border-l-10',
+  socials:
+    '!p-0 items-center border-none sm:order-8 lg:col-span-1 lg:row-span-1',
 };
 
 const Box = ({ children, variant = 'def', id }) => {
