@@ -1,7 +1,7 @@
 const variantMap = {
   def: 'flex flex-col items-center justify-center w-full px-2 py-8 text-center font-medium border-b-10 border-black space-y-5 bg-indigo-200 sm:p-4 sm:space-y-6',
   logo: '!p-0 !bg-gray-300 sm:-order-1',
-  image: '!p-0 h-[60vw] sm:h-[50vw] sm:col-span-2 sm:order-2',
+  image: '!p-0 sm:col-span-2 sm:order-2',
   about: 'px-6 tracking-wide sm:-order-1 sm:border-l-10',
   videoGames: '!block pt-8 px-0 py-0 sm:order-3 sm:col-span-2 sm:p-0 sm:pt-3',
   workshops: 'sm:order-5 sm:border-r-10',
