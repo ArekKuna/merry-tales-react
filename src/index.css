@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+#hero {
+    background-image: url('assets/main-photo/desktop/merry-300.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 .active {
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -60,25 +67,27 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    height: 40px;
+    height: 30px;
     width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FFF;
-    top: 0;
+    top: 0;;
     margin: 0;
 }
 
 .swiper-button-next {
     right: 0;
     border: 6px solid black;
+    border-top: none;
     border-right: none;
 }
 
 .swiper-button-prev {
     left: 0;
     border: 6px solid black;
+    border-top: none;
     border-left: none;
 }
 
@@ -99,7 +108,7 @@
 @media only screen and (min-width: 36.3em) {
     .swiper-button-next,
     .swiper-button-prev {
-        height: 50px;
+        height: 40px;
         width: 100px;
     }  
 

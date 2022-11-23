@@ -8,7 +8,7 @@ const AchievementsBox = () => {
     <>
       <BoxTitle title='achievements' to='/achievements' />
       <BoxParagraph text='Ambition to learn' />
-      <GrAchievement size='60' />
+      <GrAchievement className='h-14 w-14' />
     </>
   );
 };

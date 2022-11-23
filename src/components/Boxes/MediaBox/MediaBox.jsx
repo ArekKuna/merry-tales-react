@@ -8,7 +8,7 @@ const MediaBox = () => {
     <>
       <BoxTitle title='Media' to='/media' />
       <BoxParagraph text='Love to share' />
-      <GiAlliedStar size='60' />
+      <GiAlliedStar className='h-14 w-14' />
     </>
   );
 };

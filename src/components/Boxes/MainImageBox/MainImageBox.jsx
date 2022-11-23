@@ -10,6 +10,7 @@ const MainImageBox = () => {
       src={mainImageFallback}
       alt='Merry'
       loading='lazy'
+      className='lg:h-full'
     />
   );
 };
