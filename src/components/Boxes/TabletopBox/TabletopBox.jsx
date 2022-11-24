@@ -6,7 +6,7 @@ const TabletopBox = () => {
   return (
     <>
       <BoxTitle title='tabletop games' to='tabletopGames' />
-      {/* <BoxParagraph text='Knack for roleplaying' /> */}
+      <BoxParagraph text='Knack for roleplaying' />
       <TabletopSlider />
     </>
   );

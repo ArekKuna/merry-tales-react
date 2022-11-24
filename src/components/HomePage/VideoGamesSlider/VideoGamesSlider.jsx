@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 
 import VideoGamesSliderSlide from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlide';
+import VideoGamesSliderSlideText from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlideText';
 
 import evilWestMobile from 'assets/video-games/mobile/evil-west-280.webp';
 import evilWestTablet from 'assets/video-games/mobile/evil-west-580.webp';
@@ -64,6 +65,9 @@ const VideoGamesSlider = () => {
           src={shadowWarriorFallback}
           sizes='(max-width: 639px) 1000px, 1500px'
         />
+      </SwiperSlide>
+      <SwiperSlide className='h-auto flex justify-center items-center bg-gray-400'>
+        <VideoGamesSliderSlideText text='More about video games projects...' />
       </SwiperSlide>
     </Swiper>
   );

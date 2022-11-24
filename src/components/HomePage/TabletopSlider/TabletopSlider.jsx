@@ -30,14 +30,14 @@ const TabletopSlider = () => {
       <Swiper
         modules={[Pagination, Navigation]}
         slidesPerView={1}
-        spaceBetween={0}
+        spaceBetween={50}
         pagination={{
           enabled: true,
           clickable: true,
         }}
-        className='!mx-0'
+        className='w-full mx-auto xl:h-full'
       >
-        <SwiperSlide>
+        <SwiperSlide className='flex items-center'>
           <TabletopSliderImageSlide
             srcSet={`${ksiegaStraznikaMobile} 400w, ${ksiegaStraznikaTablet} 800w`}
             src={ksiegaStraznikaFallback}
@@ -45,7 +45,7 @@ const TabletopSlider = () => {
             alt='Usłysz Zew Cthulhu'
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className='flex items-center'>
           <TabletopSliderImageSlide
             srcSet={`${zewCthulhuMobile} 400w, ${zewCthulhuTablet} 800w`}
             src={zewCthulhuFallback}
@@ -53,7 +53,7 @@ const TabletopSlider = () => {
             alt='Nutka W Nutkę.EXE'
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className='flex items-center'>
           <TabletopSliderImageSlide
             srcSet={`${nutkaMobile} 400w, ${nutkaTablet} 800w`}
             src={nutkaFallback}
@@ -61,7 +61,7 @@ const TabletopSlider = () => {
             alt='Zgrozy Gotyckie'
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className='flex items-center'>
           <TabletopSliderImageSlide
             srcSet={`${fantastykaMobile} 400w, ${fantastykaTablet} 800w`}
             src={fantastykaFallback}
@@ -69,7 +69,7 @@ const TabletopSlider = () => {
             alt='Aż Po Zęby'
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className='flex items-center'>
           <TabletopSliderImageSlide
             srcSet={`${sibirPunkMobile} 400w, ${sibirPunkTablet} 800w`}
             src={sibirPunkFallback}

@@ -2,7 +2,7 @@ import MobileNavList from 'layout/Header/MobileNavigation/MobileMenu/MobileNavLi
 
 const variantMap = {
   def: 'fixed top-0 left-0 h-0 w-full transition-all duration-500 mt-[60px] overflow-hidden border-10 border-black border-t-0 bg-gray-400',
-  active: 'h-[330px]',
+  active: 'h-[21rem] md:hidden',
 };
 
 const MobileNavMenu = ({ isActive, onClick }) => {

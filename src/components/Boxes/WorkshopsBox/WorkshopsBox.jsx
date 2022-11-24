@@ -8,7 +8,7 @@ const WorkshopsBox = () => {
     <>
       <BoxTitle title='Workshops' to='/workshops' />
       <BoxParagraph text='skill of teaching' />
-      <GrWorkshop className='h-14 w-14' />
+      <GrWorkshop className='h-16 w-16 mx-auto lg:h-20 lg:w-20 xl:lg:h-14 xl:w-14' />
     </>
   );
 };

@@ -1,9 +1,18 @@
 import { Link } from 'react-router-dom';
 
-const BoxTitle = ({ title, to }) => {
+const variantMap = {
+  def: 'text-3xl text-center font-black uppercase underline underline-offset-4 sm:text-4xl lg:text-5xl xl:text-2xl xl:leading-7',
+  about: 'xl:!text-2xl',
+};
+
+const BoxTitle = ({ title, to, variant }) => {
+  const variantClasses = variantMap[variant];
+
+  const { def } = variantMap;
+
   return (
     <Link to={to}>
-      <h2 className='text-3xl text-center font-black uppercase underline underline-offset-4 sm:text-3xl lg:text-xl xl:text-2xl xl:leading-7'>
+      <h2 className={`${def} ${variantClasses}`}>
         {title}
       </h2>
     </Link>
