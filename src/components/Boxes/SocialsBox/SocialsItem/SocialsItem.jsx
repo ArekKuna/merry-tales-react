@@ -3,7 +3,6 @@ const variantMap = {
   facebook: 'border-r-10 border-black sm:border-b-10',
   linkedIn: 'border-r-10 border-black sm:border-r-0 sm:border-b-10',
   youTube: 'border-r-10 border-black',
-  mail: '',
 };
 
 const SocialsItem = ({ element, variant, href }) => {

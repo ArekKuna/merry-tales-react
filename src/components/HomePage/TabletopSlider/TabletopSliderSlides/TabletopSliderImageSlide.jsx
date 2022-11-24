@@ -1,4 +1,4 @@
-const TabletopSliderImageSlide = ({ srcSet, src, alt, sizes, text }) => {
+const TabletopSliderImageSlide = ({ srcSet, src, alt, sizes }) => {
   return (
     <>
       <img

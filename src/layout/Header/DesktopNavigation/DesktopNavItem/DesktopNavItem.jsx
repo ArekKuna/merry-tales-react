@@ -5,7 +5,9 @@ const DesktopNavItem = ({ links }) => {
     <>
       {links.map(({ to, text, id }) => (
         <li key={id}>
-          <NavLink className='text-xl font-bold' to={to}>{text}</NavLink>
+          <NavLink className='text-xl font-bold' to={to}>
+            {text}
+          </NavLink>
         </li>
       ))}
     </>

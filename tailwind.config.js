@@ -13,6 +13,9 @@ module.exports = {
         '4/6': '66%',
         '3/4': '75%',
       },
+      height: {
+        '81': '21rem'
+      },
       borderWidth: {
         10: '10px',
       },

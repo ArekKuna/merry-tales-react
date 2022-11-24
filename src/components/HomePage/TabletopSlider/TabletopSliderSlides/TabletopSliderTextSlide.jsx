@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const TabletopSliderTextSlide = ({ text, to }) => {
   return (
@@ -10,4 +10,4 @@ const TabletopSliderTextSlide = ({ text, to }) => {
   );
 };
 
-export default TabletopSliderTextSlide
+export default TabletopSliderTextSlide;
