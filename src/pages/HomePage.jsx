@@ -1,7 +1,6 @@
 import Main from 'layout/Main/Main';
 import Box from 'layout/Box/Box';
 import Logo from 'layout/Logo/Logo';
-import MainImageBox from '../components/Boxes/MainImageBox/MainImageBox';
 import AboutBox from 'components/Boxes/AboutBox/AboutBox';
 import VideoGamesBox from 'components/Boxes/VideoGamesBox/VideoGamesBox';
 import WorkshopsBox from 'components/Boxes/WorkshopsBox/WorkshopsBox';
@@ -16,9 +15,7 @@ const HomePage = () => {
       <Box variant='logo'>
         <Logo />
       </Box>
-      <Box variant='image'>
-        <MainImageBox />
-      </Box>
+      <Box variant='image' id='hero'></Box>
       <Box variant='about'>
         <AboutBox />
       </Box>
