@@ -6,7 +6,7 @@ const VideoGamesSliderSlide = ({ srcSet, src, alt, sizes }) => {
       alt={alt}
       sizes={sizes}
       loading='lazy'
-      className='xl:h-full xl:w-[120%]'
+      className='w-full h-full'
     />
   );
 };
