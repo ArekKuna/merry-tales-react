@@ -71,7 +71,7 @@ const VideoGamesSlider = () => {
           sizes='(max-width: 639px) 620px, (max-width: 1279px) 70vw, (min-width: 1280px) 100vw'
         />
       </SwiperSlide>
-      <SwiperSlide className='h-auto flex justify-center items-center bg-gray-400'>
+      <SwiperSlide className='h-auto flex justify-center items-center bg-orange-600'>
         <VideoGamesSliderSlideText text='More about video games projects...' />
       </SwiperSlide>
     </Swiper>

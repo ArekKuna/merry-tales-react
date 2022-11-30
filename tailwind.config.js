@@ -14,7 +14,7 @@ module.exports = {
         '3/4': '75%',
       },
       height: {
-        '81': '21rem'
+        81: '20.5rem',
       },
       borderWidth: {
         10: '10px',
@@ -24,6 +24,9 @@ module.exports = {
       },
       fontSize: {
         0: '0px',
+      },
+      colors: {
+        ghostWhite: '#f8f8ff',
       },
     },
   },

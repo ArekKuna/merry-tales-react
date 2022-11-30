@@ -68,7 +68,7 @@ const DesktopMenuConfig = {
 
 const DesktopNavList = () => {
   return (
-    <ul className='flex w-full justify-center items-center space-x-4 capitalize'>
+    <ul className='flex w-full justify-center items-center space-x-4 capitalize xl:space-x-10'>
       <DesktopNavItem links={DesktopMenuConfig.home.links} />
       <DesktopNavItem links={DesktopMenuConfig.professional.links} />
       <DesktopNavItem links={DesktopMenuConfig.videoGames.links} />

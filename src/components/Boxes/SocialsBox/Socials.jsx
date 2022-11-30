@@ -9,28 +9,40 @@ const SocialsBox = () => {
       <SocialsItem
         variant='facebook'
         element={
-          <FaFacebookF className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8' />
+          <FaFacebookF
+            className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8'
+            fill='#fff'
+          />
         }
         href='https://www.facebook.com/szmeryznadkamery'
       />
       <SocialsItem
         variant='linkedIn'
         element={
-          <FaLinkedinIn className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8' />
+          <FaLinkedinIn
+            className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8'
+            fill='#fff'
+          />
         }
         href='https://www.linkedin.com/in/maria-borys-pi%C4%85tkowska-126308149/'
       />
       <SocialsItem
         variant='youTube'
         element={
-          <GrYoutube className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8' />
+          <GrYoutube
+            className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8'
+            fill='#fff'
+          />
         }
         href='https://www.youtube.com/@GrajKolektyw'
       />
       <SocialsItem
         variant='mail'
         element={
-          <GrMail className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8' />
+          <GrMail
+            className='mx-auto h-6 w-6 sm:h-12 sm:w-12 xl:h-8 xl:w-8'
+            fill='#fff'
+          />
         }
         href='mailto:merry.rpg@gmail.com?subject=Merry Tale Games Contact'
       />

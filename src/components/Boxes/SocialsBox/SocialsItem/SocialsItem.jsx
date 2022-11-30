@@ -1,8 +1,8 @@
 const variantMap = {
-  def: 'p-2 w-1/4 bg-gray-400 sm:w-full sm:h-full flex items-center justify-center',
-  facebook: 'border-r-10 border-black sm:border-b-10',
-  linkedIn: 'border-r-10 border-black sm:border-r-0 sm:border-b-10',
-  youTube: 'border-r-10 border-black',
+  def: 'p-2 w-1/4 bg-black sm:w-full sm:h-full flex items-center justify-center',
+  facebook: 'border-r-2 border-ghostWhite sm:border-b-2',
+  linkedIn: 'border-r-2 border-ghostWHite sm:border-r-0 sm:border-b-2',
+  youTube: 'border-r-2 border-ghostWhite',
 };
 
 const SocialsItem = ({ element, variant, href }) => {
