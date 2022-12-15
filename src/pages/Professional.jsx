@@ -1,7 +1,5 @@
-import Main from 'layout/Main/Main';
-
 const Professional = () => {
-  return <Main>Professional Page</Main>;
+  return <h1>Professional Page</h1>;
 };
 
 export default Professional;

@@ -1,7 +1,5 @@
-import Main from 'layout/Main/Main';
-
 const VideoGames = () => {
-  return <Main>Video Games Page</Main>;
+  return <h1>Video Games Page</h1>;
 };
 
 export default VideoGames;

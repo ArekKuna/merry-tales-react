@@ -1,7 +1,5 @@
-import Main from 'layout/Main/Main';
-
 const Media = () => {
-  return <Main>Media Page</Main>;
+  return <h1>Media Page</h1>;
 };
 
 export default Media;

@@ -1,7 +1,5 @@
-import Main from 'layout/Main/Main';
-
 const TabletopGames = () => {
-  return <Main>Tabletop Games Page</Main>;
+  return <h1>Tabletop Games Page</h1>;
 };
 
 export default TabletopGames;

@@ -1,7 +1,5 @@
-import Main from 'layout/Main/Main';
-
 const Achievements = () => {
-  return <Main>Achievements Page</Main>;
+  return <h1>Achievements Page</h1>;
 };
 
 export default Achievements;

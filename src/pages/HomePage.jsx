@@ -11,7 +11,7 @@ import SocialsBox from 'components/Boxes/SocialsBox/Socials';
 
 const HomePage = () => {
   return (
-    <Main>
+    <>
       <Box variant='logo'>
         <Logo />
       </Box>
@@ -37,7 +37,7 @@ const HomePage = () => {
       <Box variant='socials'>
         <SocialsBox />
       </Box>
-    </Main>
+    </>
   );
 };
 

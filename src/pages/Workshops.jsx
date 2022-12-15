@@ -1,7 +1,5 @@
-import Main from 'layout/Main/Main';
-
 const Workshops = () => {
-  return <Main>Workshops</Main>;
+  return <h1>Workshops</h1>;
 };
 
 export default Workshops;
