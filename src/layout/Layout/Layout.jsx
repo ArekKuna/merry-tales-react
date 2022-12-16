@@ -1,11 +1,15 @@
+import { useLocation } from 'react-router-dom';
+
 import Header from 'layout/Header/Header';
 import Main from 'layout/Main/Main';
 
 const Layout = ({ children }) => {
+  const { pathname } = useLocation();
+
   return (
     <>
       <Header />
-      <Main>{children}</Main>
+      <Main variant={pathname === '/' ? 'grid' : 'flex'}>{children}</Main>
     </>
   );
 };

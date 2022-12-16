@@ -1,5 +1,13 @@
+import PageTitle from 'layout/PageTitle/PageTitle';
+import About from 'components/About/About';
+
 const Professional = () => {
-  return <h1>Professional Page</h1>;
+  return (
+    <>
+      <PageTitle text='Professional' />
+      <About />
+    </>
+  );
 };
 
 export default Professional;

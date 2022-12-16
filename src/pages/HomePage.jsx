@@ -1,4 +1,3 @@
-import Main from 'layout/Main/Main';
 import Box from 'layout/Box/Box';
 import Logo from 'layout/Logo/Logo';
 import AboutBox from 'components/Boxes/AboutBox/AboutBox';
