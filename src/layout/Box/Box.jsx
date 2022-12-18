@@ -4,7 +4,7 @@ const variantMap = {
   image:
     '!p-0 flex flex-col row-span-2 sm:col-span-2 sm:row-span-2 sm:-order-1 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:order-2',
   about:
-    'flex flex-col justify-center items-center lg:!space-y-12 xl:!p-0 xl:!space-y-1 xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-t-0',
+    'flex flex-col justify-center items-center lg:!space-y-12 xl:!p-0 xl:justify-evenly xl:!space-y-0 xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-t-0',
   videoGames:
     '!p-0 sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:border-b-0 xl:flex xl:order-4',
   workshops:

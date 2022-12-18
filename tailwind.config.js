@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Sono', 'sans-serif'],
+        sans: ['Open Sans', 'sans-serif'],
       },
       maxWidth: {
         '1/4': '25%',
