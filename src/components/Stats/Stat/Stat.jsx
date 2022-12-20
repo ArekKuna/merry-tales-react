@@ -9,18 +9,23 @@ const sizeMap = {
 const Stat = ({ title, percent, size }) => {
   const mappedSize = sizeMap[size];
   const [isVisible, setIsVisible] = useState(false);
-  const barRef = useRef();
+    const barRef = useRef();
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      if (entry.isIntersecting) {
-        setIsVisible(true);
-      }
-    });
+    const options = {
+      rootMargin: '-10px',
+    };
 
-    observer.observe(barRef.current);
-  }, []);
+    useEffect(() => {
+      const observer = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      }, options);
+
+      observer.observe(barRef.current);
+      // eslint-disable-next-line
+    }, []);
 
   return (
     <div>
