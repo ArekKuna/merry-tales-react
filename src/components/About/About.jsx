@@ -14,7 +14,11 @@ const About = () => {
     <div className='w-full flex flex-col items-center'>
       <h3 className='mb-10 text-4xl'>My story</h3>
       <div>
-        <img src={merry} alt='Merry' className='w-full mb-10 object-cover ' />
+        <img
+          src={merry}
+          alt='Merry'
+          className='w-full mb-10 object-cover min-h-[500px]'
+        />
       </div>
       <div>
         <div className='px-4'>
