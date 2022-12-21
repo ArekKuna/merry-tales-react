@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 #hero {
     background-image: url('assets/main-photo/mobile/merry-main-280.webp');
     background-size: cover;
@@ -67,12 +71,12 @@
     justify-content: center;
     align-items: center;
     bottom: -5px !important;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .swiper-pagination-bullet {
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     margin-right: 10px !important;
     background-color: #000;
 }

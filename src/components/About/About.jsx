@@ -3,7 +3,6 @@ import { AiOutlineDown } from 'react-icons/ai';
 
 import merry from 'assets/about/about.webp';
 
-import SectionTitle from 'layout/SectionTitle/SectionTitle';
 import AboutParagraph from './AboutParagraph/AboutParagraph';
 
 const About = () => {
@@ -14,8 +13,7 @@ const About = () => {
   };
 
   return (
-    <div className='w-full max-w-lg pb-10 flex flex-col items-center lg:max-w-3xl xl:max-w-xl'>
-      <SectionTitle sectionTitle='My story' />
+    <div className='w-full max-w-lg pb-10 flex flex-col items-center text-base lg:max-w-3xl xl:max-w-xl xl:text-lg'>
       <div className='flex justify-center'>
         <img
           src={merry}

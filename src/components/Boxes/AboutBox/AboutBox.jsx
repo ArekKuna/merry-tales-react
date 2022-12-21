@@ -6,10 +6,10 @@ import BoxParagraph from 'components/Boxes/BoxParagraph/BoxParagraph';
 const AboutBox = () => {
   return (
     <>
-      <BoxTitle
-        to='professional'
-        title='Maria Borys-Piątkowska'
-      />
+      <div>
+        <BoxTitle to='professional' title='Maria' variant='name' />
+        <BoxTitle to='professional' title='Borys - Piątkowska' variant='name' />
+      </div>
       <BoxParagraph
         variant='about'
         text='Storyteller - game writer - narrative designer'
