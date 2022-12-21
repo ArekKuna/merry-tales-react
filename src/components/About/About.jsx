@@ -18,7 +18,7 @@ const About = () => {
         <img
           src={merry}
           alt='Merry'
-          className='w-full mb-10 object-cover min-h-[350px] sm:w-1/2 lg:w-3/4'
+          className='w-full mb-10 object-cover min-h-[350px] sm:w-1/2'
         />
       </div>
       <div>

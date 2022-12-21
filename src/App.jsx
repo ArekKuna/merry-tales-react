@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 
+import ScrollToTop from 'helpers/ScrollToTop';
 import Layout from 'layout/Layout/Layout';
 import HomePage from 'pages/HomePage';
 import Professional from 'pages/Professional';
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Layout>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/professional' element={<Professional />} />
