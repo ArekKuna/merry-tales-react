@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import { AiOutlineDown } from 'react-icons/ai';
 
 import merry from 'assets/about/about.webp';
+
+import SectionTitle from 'layout/SectionTitle/SectionTitle';
 import AboutParagraph from './AboutParagraph/AboutParagraph';
 
 const About = () => {
@@ -11,17 +14,17 @@ const About = () => {
   };
 
   return (
-    <div className='w-full flex flex-col items-center'>
-      <h3 className='mb-10 text-4xl'>My story</h3>
+    <div className='w-full max-w-lg pb-10 flex flex-col items-center lg:max-w-3xl xl:max-w-xl'>
+      <SectionTitle sectionTitle='My story' />
       <div>
         <img
           src={merry}
           alt='Merry'
-          className='w-full mb-10 object-cover min-h-[500px]'
+          className='w-full mb-10 object-cover min-h-[500px] xl:max-w-xs'
         />
       </div>
       <div>
-        <div className='px-4'>
+        <div className='px-6'>
           <AboutParagraph
             text='Hi! I’m a storyteller with a knack for rhetoric and acting. I’m
             currently working as a writer and narrative designer at Flying Wild
@@ -30,8 +33,8 @@ const About = () => {
           <div
             className={
               !more
-                ? 'max-h-0 overflow-hidden transition-all ease-in-out duration-700'
-                : 'max-h-[550px] overflow-hidden transition-all duration-700'
+                ? 'max-h-0 overflow-hidden transition-all ease-in-out duration-1000'
+                : 'max-h-[550px] overflow-hidden transition-all duration-1000'
             }
           >
             <AboutParagraph
@@ -45,7 +48,21 @@ const About = () => {
               so good! ;)'
             />
           </div>
-          <AboutParagraph text='more' variant='textEnd' onCLick={handleMore} />
+          <div className='flex justify-end items-center'>
+            <p
+              className='mr-2 font-semibold underline underline-offset-2 cursor-pointer'
+              onClick={handleMore}
+            >
+              {more ? 'less' : 'more'}
+            </p>
+            <AiOutlineDown
+              className={
+                more
+                  ? 'text-lg rotate-180 transition-all duration-700'
+                  : 'text-lg transition-all duration-700'
+              }
+            />
+          </div>
         </div>
       </div>
     </div>
