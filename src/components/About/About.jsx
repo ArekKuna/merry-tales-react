@@ -16,11 +16,11 @@ const About = () => {
   return (
     <div className='w-full max-w-lg pb-10 flex flex-col items-center lg:max-w-3xl xl:max-w-xl'>
       <SectionTitle sectionTitle='My story' />
-      <div>
+      <div className='flex justify-center'>
         <img
           src={merry}
           alt='Merry'
-          className='w-full mb-10 object-cover min-h-[500px] xl:max-w-xs'
+          className='w-full mb-10 object-cover min-h-[350px] sm:w-1/2 lg:w-3/4'
         />
       </div>
       <div>

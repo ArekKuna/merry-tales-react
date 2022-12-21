@@ -2,7 +2,7 @@ const variantMap = {
   def: 'w-full p-2 text-center font-medium border-b-2 border-black space-y-4 bg-ghostWhitet sm:p-4 sm:space-y-6 md:space-y-4 lg:p-6 lg:space-y-6 xl:p-2 xl:space-y-2',
   logo: 'flex justify-center !bg-black items-center sm:border-r-2 xl:col-span-2 xl:row-span-2 xl:order-0 xl:border-r-0',
   image:
-    '!p-0 flex flex-col row-span-2 sm:col-span-2 sm:row-span-2 sm:-order-1 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:order-2',
+    '!p-0 flex flex-col row-span-2 sm:col-span-2 sm:row-span-1 sm:-order-1 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:order-2',
   about:
     'flex flex-col justify-center items-center lg:!space-y-12 xl:!p-0 xl:justify-evenly xl:!space-y-0 xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-t-0',
   videoGames:
