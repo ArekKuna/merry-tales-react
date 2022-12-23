@@ -4,7 +4,7 @@ const VideoGamesSliderSlide = ({ srcSet, src, alt, sizes }) => {
       srcSet={srcSet}
       src={src}
       alt={alt}
-      sizes={sizes}
+      sizes='100vw'
       loading='lazy'
       className='w-full h-full'
     />

@@ -4,26 +4,41 @@ import { Navigation } from 'swiper';
 import VideoGamesSliderSlide from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlide';
 import VideoGamesSliderSlideText from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlideText';
 
-import evilWestMobile from 'assets/video-games/mobile/evil-west-280.webp';
-import evilWestTablet from 'assets/video-games/mobile/evil-west-580.webp';
-import evilWestDesktop from 'assets/video-games/desktop/evil-west-desktop.webp';
-import evilWestFallback from 'assets/video-games/mobile/evil-west-580.jpg';
-import lordsOfTheFallenMobile from 'assets/video-games/mobile/lords-of-the-fallen-280.webp';
-import lordsOfTheFallenTablet from 'assets/video-games/mobile/lords-of-the-fallen-580.webp';
-import lordsOfTheFallenDesktop from 'assets/video-games/desktop/lords-of-the-fallen-desktop.webp';
-import lordsOfTheFallenFallback from 'assets/video-games/mobile/lords-of-the-fallen-580.jpg';
-import sniper3Mobile from 'assets/video-games/mobile/sniper-ghost-warrior-3-280.webp';
-import sniper3Tablet from 'assets/video-games/mobile/sniper-ghost-warrior-3-580.webp';
-import sniper3Desktop from 'assets/video-games/desktop/sniper-ghost-warrior-3-desktop.webp';
-import sniper3Fallback from 'assets/video-games/mobile/sniper-ghost-warrior-3-580.jpeg';
-import sniperContractsMobile from 'assets/video-games/mobile/sniper-ghost-warrior-contracts-280.webp';
-import sniperContractsTablet from 'assets/video-games/mobile/sniper-ghost-warrior-contracts-580.webp';
-import sniperContractsDesktop from 'assets/video-games/desktop/sniper-ghost-warrior-contracts-desktop.webp';
-import sniperContractsFallback from 'assets/video-games/mobile/sniper-ghost-warrior-contracts-580.jpeg';
-import shadowWarriorMobile from 'assets/video-games/mobile/shadow-warrior-3-280.webp';
-import shadowWarriorTablet from 'assets/video-games/mobile/shadow-warrior-3-580.webp';
-import shadowWarriorDesktop from 'assets/video-games/desktop/shadow-warrior-3-desktop.webp';
-import shadowWarriorFallback from 'assets/video-games/mobile/shadow-warrior-3-580.jpg';
+import evilWest640 from 'assets/video-games/evil-west/evil-west-640.webp';
+import evilWest750 from 'assets/video-games/evil-west/evil-west-750.webp';
+import evilWest830 from 'assets/video-games/evil-west/evil-west-830.webp';
+import evilWest1080 from 'assets/video-games/evil-west/evil-west-1080.webp';
+import evilWest1200 from 'assets/video-games/evil-west/evil-west-1200.webp';
+import evilWest1920 from 'assets/video-games/evil-west/evil-west-1920.webp';
+import evilWestFallback from 'assets/video-games/evil-west/evil-west-1080.jpg';
+import lordsOfTheFallen640 from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-640.webp';
+import lordsOfTheFallen750 from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-750.webp';
+import lordsOfTheFallen830 from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-830.webp';
+import lordsOfTheFallen1080 from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-1080.webp';
+import lordsOfTheFallen1200 from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-1200.webp';
+import lordsOfTheFallen1920 from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-1920.webp';
+import lordsOfTheFallenFallback from 'assets/video-games/lords-of-the-fallen/lords-of-the-fallen-1080.jpg';
+import sniper640 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-640.webp';
+import sniper750 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-750.webp';
+import sniper830 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-830.webp';
+import sniper1080 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-1080.webp';
+import sniper1200 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-1200.webp';
+import sniper1920 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-1920.webp';
+import sniperFallback from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-1080.jpeg';
+import sniperContracts640 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-640.webp';
+import sniperContracts750 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-750.webp';
+import sniperContracts830 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-830.webp';
+import sniperContracts1080 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-1080.webp';
+import sniperContracts1200 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-1200.webp';
+import sniperContracts1920 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-1920.webp';
+import sniperContractsFallback from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-1080.jpeg';
+import shadowWarrior640 from 'assets/video-games/shadow-warrior/shadow-warrior-3-640.webp';
+import shadowWarrior750 from 'assets/video-games/shadow-warrior/shadow-warrior-3-750.webp';
+import shadowWarrior830 from 'assets/video-games/shadow-warrior/shadow-warrior-3-830.webp';
+import shadowWarrior1080 from 'assets/video-games/shadow-warrior/shadow-warrior-3-1080.webp';
+import shadowWarrior1200 from 'assets/video-games/shadow-warrior/shadow-warrior-3-1200.webp';
+import shadowWarrior1920 from 'assets/video-games/shadow-warrior/shadow-warrior-3-1920.webp';
+import shadowWarriorFallback from 'assets/video-games/shadow-warrior/shadow-warrior-3-1080.jpg';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -38,37 +53,32 @@ const VideoGamesSlider = () => {
     >
       <SwiperSlide>
         <VideoGamesSliderSlide
-          srcSet={`${evilWestMobile} 1000w, ${evilWestTablet} 1500w, ${evilWestDesktop} 2500w`}
+          srcSet={`${evilWest640} 640w, ${evilWest750} 750w, ${evilWest830} 830w, ${evilWest1080} 1080w, ${evilWest1200} 1200w, ${evilWest1920} 1920w`}
           src={evilWestFallback}
-          sizes='(max-width: 639px) 620px, (max-width: 1279px) 70vw, (min-width: 1280px) 100vw'
         />
       </SwiperSlide>
       <SwiperSlide>
         <VideoGamesSliderSlide
-          srcSet={`${lordsOfTheFallenMobile} 1000w, ${lordsOfTheFallenTablet} 1500w, ${lordsOfTheFallenDesktop} 2500w`}
+          srcSet={`${lordsOfTheFallen640} 640w, ${lordsOfTheFallen750} 750w, ${lordsOfTheFallen830} 830w, ${lordsOfTheFallen1080} 1080w, ${lordsOfTheFallen1200} 1200w, ${lordsOfTheFallen1920} 1920w`}
           src={lordsOfTheFallenFallback}
-          sizes='(max-width: 639px) 620px, (max-width: 1279px) 70vw, (min-width: 1280px) 100vw'
         />
       </SwiperSlide>
       <SwiperSlide>
         <VideoGamesSliderSlide
-          srcSet={`${sniper3Mobile} 1000w, ${sniper3Tablet} 1500w, ${sniper3Desktop} 2500w`}
-          src={sniper3Fallback}
-          sizes='(max-width: 639px) 620px, (max-width: 1279px) 70vw, (min-width: 1280px) 100vw'
+          srcSet={`${sniper640} 640w, ${sniper750} 750w, ${sniper830} 830w, ${sniper1080} 1080w, ${sniper1200} 1200w, ${sniper1920} 1920w`}
+          src={sniperFallback}
         />
       </SwiperSlide>
       <SwiperSlide>
         <VideoGamesSliderSlide
-          srcSet={`${sniperContractsMobile} 1000w, ${sniperContractsTablet} 1500w, ${sniperContractsDesktop} 2500w`}
+          srcSet={`${sniperContracts640} 640w, ${sniperContracts750} 750w, ${sniperContracts830} 830w, ${sniperContracts1080} 1080w, ${sniperContracts1200} 1200w, ${sniperContracts1920} 1920w`}
           src={sniperContractsFallback}
-          sizes='(max-width: 639px) 620px, (max-width: 1279px) 70vw, (min-width: 1280px) 100vw'
         />
       </SwiperSlide>
       <SwiperSlide>
         <VideoGamesSliderSlide
-          srcSet={`${shadowWarriorMobile} 1000w, ${shadowWarriorTablet} 1500w, ${shadowWarriorDesktop} 2500w`}
+          srcSet={`${shadowWarrior640} 640w, ${shadowWarrior750} 750w, ${shadowWarrior830} 830w, ${shadowWarrior1080} 1080w, ${shadowWarrior1200} 1200w, ${shadowWarrior1920} 1920w`}
           src={shadowWarriorFallback}
-          sizes='(max-width: 639px) 620px, (max-width: 1279px) 70vw, (min-width: 1280px) 100vw'
         />
       </SwiperSlide>
       <SwiperSlide className='h-auto flex justify-center items-center bg-orange-600'>
