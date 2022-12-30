@@ -1,5 +1,5 @@
 const variantMap = {
-  def: 'text-base font-bold tracking-tight capitalize sm:text-lg lg:text-xl xl:text-lg',
+  def: 'text-base font-bold tracking-tight capitalize',
   about: 'capitalize sm:!text-lg xl:leading-2 xl:!text-base xl:!leading-[1.25]',
   link: 'font-bold !text-2xl underline underline-offset-4 xl:!text-lg xl:!tracking-tight',
 };
