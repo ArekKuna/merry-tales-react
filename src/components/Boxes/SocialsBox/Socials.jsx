@@ -6,7 +6,7 @@ import SocialsItem from './SocialsItem/SocialsItem';
 
 const variantMap = {
   def: 'w-full h-full flex sm:grid sm:grid-cols-2 sm:grid-rows-2',
-  fixed: 'sm:!flex xl:fixed xl:!grid  xl:bottom-0 xl:right-0 xl:w-40 xl:h-40',
+  fixed: 'max-w-screen-2xl sm:!flex',
 };
 
 const SocialsBox = ({ variant }) => {

@@ -7,8 +7,10 @@ const Professional = () => {
   return (
     <>
       <PageTitle text='Professional' />
-      <About />
-      <Stats />
+      <div className='w-full max-w-screen-2xl flex flex-col items-center xl:flex-row xl:justify-center'>
+        <About />
+        <Stats />
+      </div>
       <SocialsBox variant='fixed' />
     </>
   );

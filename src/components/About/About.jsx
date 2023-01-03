@@ -13,16 +13,16 @@ const About = () => {
   };
 
   return (
-    <div className='w-full max-w-lg pb-10 flex flex-col items-center text-base lg:max-w-3xl xl:max-w-xl xl:text-lg'>
-      <div className='flex justify-center'>
+    <div className='w-full pb-10 flex flex-col items-center text-base xl:py-0 xl:px-4 xl:flex-row'>
+      <div className='flex justify-center xl:w-1/2'>
         <img
           src={merry}
           alt='Merry'
-          className='w-full mb-10 object-cover min-h-[350px] sm:w-1/2'
+          className='w-full mb-10 object-cover min-h-[350px] sm:w-1/2 xl:w-full xl:m-0'
         />
       </div>
-      <div>
-        <div className='px-6'>
+      <div className='sm:w-3/5'>
+        <div className='px-6 xl:px-12'>
           <AboutParagraph
             text='Hi! I’m a storyteller with a knack for rhetoric and acting. I’m
             currently working as a writer and narrative designer at Flying Wild
