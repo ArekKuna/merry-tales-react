@@ -19,22 +19,36 @@ const SocialsBox = ({ variant }) => {
     <div className={`${def} ${variantClasses}`}>
       <SocialsItem
         variant={location.pathname === '/' ? 'facebookHome' : 'facebook'}
-        element={<FaFacebookF className='mx-auto h-8 w-8' fill='#fff' />}
+        element={
+          <FaFacebookF
+            className='mx-auto h-6 w-6 2xl:h-8 2xl:w-8'
+            fill='#fff'
+          />
+        }
         href='https://www.facebook.com/szmeryznadkamery'
       />
       <SocialsItem
         variant={location.pathname === '/' ? 'linkedInHome' : 'linkedin'}
-        element={<FaLinkedinIn className='mx-auto h-8 w-8' fill='#fff' />}
+        element={
+          <FaLinkedinIn
+            className='mx-auto h-6 w-6 2xl:h-8 2xl:w-8'
+            fill='#fff'
+          />
+        }
         href='https://www.linkedin.com/in/maria-borys-pi%C4%85tkowska-126308149/'
       />
       <SocialsItem
         variant={location.pathname === '/' ? 'youTubeHome' : 'youtube'}
-        element={<GrYoutube className='mx-auto h-8 w-8' fill='#fff' />}
+        element={
+          <GrYoutube className='mx-auto h-6 w-6 2xl:h-8 2xl:w-8' fill='#fff' />
+        }
         href='https://www.youtube.com/@GrajKolektyw'
       />
       <SocialsItem
         variant='mail'
-        element={<GrMail className='mx-auto h-8 w-8' fill='#fff' />}
+        element={
+          <GrMail className='mx-auto h-6 w-6 2xl:h-8 2xl:w-8' fill='#fff' />
+        }
         href='mailto:merry.rpg@gmail.com?subject=Merry Tale Games Contact'
       />
     </div>

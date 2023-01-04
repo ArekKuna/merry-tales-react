@@ -1,6 +1,6 @@
 const PortfolioItem = ({ srcSet, src, alt, title, studio }) => {
   return (
-    <div className='px-4 max-w-sm mx-auto mb-10 last:mb-0 sm:max-w-md md:max-w-xs xl:max-w-[19rem]'>
+    <div className='px-4 max-w-sm mx-auto mb-10 last:mb-0 sm:max-w-md md:max-w-xs xl:max-w-[20%] xl:mb-0'>
       <div className='mb-4'>
         <img
           srcSet={srcSet}
@@ -8,6 +8,7 @@ const PortfolioItem = ({ srcSet, src, alt, title, studio }) => {
           sizes='100vw'
           alt={alt}
           className='rounded-full shadow-2xl'
+          loading='lazy'
         />
       </div>
       <div className='text-center'>
