@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 import { GrMail, GrYoutube } from 'react-icons/gr';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 
-import SocialsItem from './SocialsItem/SocialsItem';
+import SocialsItem from 'components/Boxes/SocialsBox/SocialsItem/SocialsItem';
 
 const variantMap = {
   def: 'w-full h-full flex sm:grid sm:grid-cols-2 sm:grid-rows-2',

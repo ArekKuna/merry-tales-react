@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import MobileNavigation from 'layout/Header/MobileNavigation/MobileNavigation';
-import DesktopNavigation from './DesktopNavigation/DesktopNavigation';
+import DesktopNavigation from 'layout/Header/DesktopNavigation/DesktopNavigation';
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);

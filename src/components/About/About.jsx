@@ -3,7 +3,7 @@ import { AiOutlineDown } from 'react-icons/ai';
 
 import merry from 'assets/about/about.webp';
 
-import AboutParagraph from './AboutParagraph/AboutParagraph';
+import AboutParagraph from 'components/About/AboutParagraph/AboutParagraph';
 
 const About = () => {
   const [more, setMore] = useState(false);
