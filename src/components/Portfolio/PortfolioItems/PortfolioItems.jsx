@@ -39,7 +39,7 @@ import shadowWarriorFallback from 'assets/video-games/shadow-warrior/shadow-warr
 
 const PortfolioItems = () => {
   return (
-    <div className='max-w-screen-2xl py-10 flex flex-col md:[&>*:nth-child(5)]:mb-0 md:flex-row md:flex-wrap xl:py-5'>
+    <div className='max-w-[1800px] py-10 flex flex-col md:[&>*:nth-child(5)]:mb-0 md:flex-row md:flex-wrap xl:py-8 xl:content-evenly'>
       <div>
         <PortfolioParagraph />
       </div>

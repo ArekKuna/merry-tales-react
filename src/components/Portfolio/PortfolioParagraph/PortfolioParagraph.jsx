@@ -1,6 +1,6 @@
 const PortfolioParagraph = () => {
   return (
-    <p className='px-6 mb-10 mx-auto text-center text-white sm:w-3/4'>
+    <p className='px-6 mb-10 mx-auto text-center text-white sm:w-3/4 xl:w-1/2'>
       So far I’ve worked on several titles -{' '}
       <span className='font-bold'>Sniper Ghost Warrior 3</span>,
       <span className='font-bold'> Sniper Ghost Warrior Contracts</span>,
