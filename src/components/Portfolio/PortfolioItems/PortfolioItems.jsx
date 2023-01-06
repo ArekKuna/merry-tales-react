@@ -21,14 +21,14 @@ import sniper830 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-wa
 import sniper1080 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-circle-1080.webp';
 import sniper1200 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-circle-1200.webp';
 import sniper1920 from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-circle-1920.webp';
-import sniperFallback from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-circle-1080.jpeg';
+import sniperFallback from 'assets/video-games/sniper-ghost-warrior-3/sniper-ghost-warrior-3-circle-1080.jpg';
 import sniperContracts640 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-640.webp';
 import sniperContracts750 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-750.webp';
 import sniperContracts830 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-830.webp';
 import sniperContracts1080 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-1080.webp';
 import sniperContracts1200 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-1200.webp';
 import sniperContracts1920 from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-1920.webp';
-import sniperContractsFallback from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-1080.jpeg';
+import sniperContractsFallback from 'assets/video-games/sniper-ghost-warrior-contracts/sniper-ghost-warrior-contracts-circle-1080.jpg';
 import shadowWarrior640 from 'assets/video-games/shadow-warrior/shadow-warrior-3-circle-640.webp';
 import shadowWarrior750 from 'assets/video-games/shadow-warrior/shadow-warrior-3-circle-750.webp';
 import shadowWarrior830 from 'assets/video-games/shadow-warrior/shadow-warrior-3-circle-830.webp';
