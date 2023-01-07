@@ -4,6 +4,9 @@ import { Navigation } from 'swiper';
 import VideoGamesSliderSlide from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlide';
 import VideoGamesSliderSlideText from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlideText';
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 import evilWest640 from 'assets/video-games/evil-west/evil-west-640.webp';
 import evilWest750 from 'assets/video-games/evil-west/evil-west-750.webp';
 import evilWest830 from 'assets/video-games/evil-west/evil-west-830.webp';
@@ -39,9 +42,6 @@ import shadowWarrior1080 from 'assets/video-games/shadow-warrior/shadow-warrior-
 import shadowWarrior1200 from 'assets/video-games/shadow-warrior/shadow-warrior-3-1200.webp';
 import shadowWarrior1920 from 'assets/video-games/shadow-warrior/shadow-warrior-3-1920.webp';
 import shadowWarriorFallback from 'assets/video-games/shadow-warrior/shadow-warrior-3-1080.jpg';
-
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 const VideoGamesSlider = () => {
   return (

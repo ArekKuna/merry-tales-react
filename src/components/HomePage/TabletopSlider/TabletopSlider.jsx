@@ -4,6 +4,10 @@ import { Navigation, Pagination } from 'swiper';
 import TabletopSliderImageSlide from 'components/HomePage/TabletopSlider/TabletopSliderSlides/TabletopSliderImageSlide';
 import TabletopSliderTextSlide from 'components/HomePage/TabletopSlider/TabletopSliderSlides/TabletopSliderTextSlide';
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 import ksiegaStraznika400 from 'assets/tabletop/cthulhu/cthulhu-ksiega-straznika-400.webp';
 import ksiegaStraznika600 from 'assets/tabletop/cthulhu/cthulhu-ksiega-straznika-600.webp';
 import ksiegaStraznika800 from 'assets/tabletop/cthulhu/cthulhu-ksiega-straznika-800.webp';
@@ -34,10 +38,6 @@ import sibirPunk800 from 'assets/tabletop/other/sibir-punk-800.webp';
 import sibirPunk1000 from 'assets/tabletop/other/sibir-punk-1000.webp';
 import sibirPunk1200 from 'assets/tabletop/other/sibir-punk-1200.webp';
 import sibirPunkFallback from 'assets/tabletop/other/sibir-punk-800.jpg';
-
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const TabletopSlider = () => {
   return (
