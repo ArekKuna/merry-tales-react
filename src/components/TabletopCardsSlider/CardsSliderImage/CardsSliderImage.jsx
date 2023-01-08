@@ -1,11 +1,11 @@
-const CardsSliderImage = ({ srcSet, src, alt, sizes }) => {
+const CardsSliderImage = ({ image }) => {
   return (
     <img
-      srcSet={srcSet}
-      src={src}
-      alt={alt}
-      className=''
-      sizes={sizes}
+      srcSet={image.srcSet}
+      src={image.src}
+      alt={image.alt}
+      className='w-full'
+      sizes='100vw'
       loading='lazy'
     />
   );

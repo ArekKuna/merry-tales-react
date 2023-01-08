@@ -2,6 +2,9 @@ import PageTitle from 'layout/PageTitle/PageTitle';
 import TableTopCardsSlider from 'components/TabletopCardsSlider/TableTopCardsSlider';
 import SocialsBox from 'components/Boxes/SocialsBox/Socials';
 
+import { cthulhuImages } from 'data/cthulhuImages';
+import { otherTabletops } from 'data/otherTabletops';
+
 const TabletopGames = () => {
   return (
     <>
@@ -16,7 +19,7 @@ const TabletopGames = () => {
             involved in the group of authors creating the project Zgrozy-Call of
             Cthulhu RPG Supplements.
           </p>
-          <TableTopCardsSlider />
+          <TableTopCardsSlider images={cthulhuImages} />
         </div>
         <div>
           <p>
@@ -27,7 +30,7 @@ const TabletopGames = () => {
             involved in the group of authors creating the project Zgrozy-Call of
             Cthulhu RPG Supplements.
           </p>
-          <TableTopCardsSlider />
+          <TableTopCardsSlider images={otherTabletops} />
         </div>
       </div>
       <SocialsBox variant='fixed' />
