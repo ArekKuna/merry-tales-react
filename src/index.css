@@ -6,6 +6,13 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+#root {
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 #hero {
     background-image: url('assets/main-photo/mobile/merry-main-280.webp');
     background-size: cover;

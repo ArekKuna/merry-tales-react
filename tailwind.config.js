@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
       },
+      backgroundImage: {
+        professional: 'url(assets/backgrounds/professional/professional.webp)',
+      },
       maxWidth: {
         '1/4': '25%',
         '1/3': '33%',

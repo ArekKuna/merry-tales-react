@@ -3,9 +3,10 @@ const variantMap = {
   facebookHome: 'border-r-2 border-ghostWhite sm:border-b-2',
   linkedInHome: 'border-r-2 border-ghostWHite sm:border-r-0 sm:border-b-2',
   youTubeHome: 'border-r-2 border-ghostWhite',
-  facebook: 'border-r-2 xl:border-r-2',
-  linkedin: 'border-r-2',
-  youtube: 'border-r-2',
+  facebook: 'border-r-2 bg-white xl:border-r-2',
+  linkedin: 'border-r-2 bg-white',
+  youtube: 'border-r-2 bg-white',
+  email: 'bg-white',
 };
 
 const SocialsItem = ({ element, variant, href }) => {
