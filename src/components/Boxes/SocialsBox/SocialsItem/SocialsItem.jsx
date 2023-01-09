@@ -1,5 +1,5 @@
 const variantMap = {
-  def: 'p-2 w-1/4 bg-black sm:w-full sm:h-full flex items-center justify-center',
+  def: 'py-2 w-1/4 bg-black border-black sm:w-full sm:h-full flex items-center justify-center',
   facebookHome: 'border-r-2 border-ghostWhite sm:border-b-2',
   linkedInHome: 'border-r-2 border-ghostWHite sm:border-r-0 sm:border-b-2',
   youTubeHome: 'border-r-2 border-ghostWhite',

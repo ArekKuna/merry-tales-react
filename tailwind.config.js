@@ -7,7 +7,10 @@ module.exports = {
         sans: ['Open Sans', 'sans-serif'],
       },
       backgroundImage: {
-        professional: 'url(assets/backgrounds/professional/professional.webp)',
+        professional1280:
+          'url(assets/backgrounds/professional/professional-1280.webp)',
+        professional1920:
+          'url(assets/backgrounds/professional/professional-1920.webp)',
       },
       maxWidth: {
         '1/4': '25%',
