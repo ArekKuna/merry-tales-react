@@ -15,7 +15,7 @@ import sibirPunk600 from 'assets/tabletop/other/sibir-punk-400.webp';
 import sibirPunk800 from 'assets/tabletop/other/sibir-punk-400.webp';
 import sibirPunk1000 from 'assets/tabletop/other/sibir-punk-400.webp';
 import sibirPunk1200 from 'assets/tabletop/other/sibir-punk-400.webp';
-import sibirPunkFallback from 'assets/tabletop/other/sibir-punk-400.webp';
+import sibirPunkFallback from 'assets/tabletop/other/sibir-punk-800.jpg';
 import labirynt400 from 'assets/tabletop/other/labirynt-bestii-400.webp';
 import labirynt600 from 'assets/tabletop/other/labirynt-bestii-400.webp';
 import labirynt800 from 'assets/tabletop/other/labirynt-bestii-400.webp';
