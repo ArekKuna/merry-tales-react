@@ -14,6 +14,10 @@ module.exports = {
           'url(assets/backgrounds/professional/professional-1280.webp)',
         professional1920:
           'url(assets/backgrounds/professional/professional-1920.webp)',
+        videoGames1280:
+          'url(assets/backgrounds/video-games/video-games-bg-1280.webp)',
+        videoGames1920:
+          'url(assets/backgrounds/video-games/video-games-bg-1920.webp)',
       },
       maxWidth: {
         '1/4': '25%',
