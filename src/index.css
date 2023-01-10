@@ -13,25 +13,6 @@ html::-webkit-scrollbar {
     margin: auto;
 }
 
-#hero {
-    background-image: url('assets/main-photo/mobile/merry-main-280.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-@media only screen and (min-width: 40em) {
-  #hero {
-    background-image: url('assets/main-photo/mobile/merry-main-580.webp');
-  }
-}
-
-@media only screen and (min-width: 80em) {
-  #hero {
-    background-image: url('assets/main-photo/desktop/merry-main-desktop.webp');
-  }
-}
-
 .active {
     text-decoration: underline;
     text-underline-offset: 4px;

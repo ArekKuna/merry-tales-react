@@ -14,7 +14,7 @@ const HomePage = () => {
       <Box variant='logo'>
         <Logo />
       </Box>
-      <Box variant='image' id='hero'></Box>
+      <Box variant='image'></Box>
       <Box variant='about'>
         <AboutBox />
       </Box>
