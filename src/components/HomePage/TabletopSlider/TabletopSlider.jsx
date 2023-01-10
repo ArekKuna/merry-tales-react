@@ -4,7 +4,7 @@ import { Navigation, Pagination } from 'swiper';
 import TabletopSliderImageSlide from 'components/HomePage/TabletopSlider/TabletopSliderSlides/TabletopSliderImageSlide';
 import TabletopSliderTextSlide from 'components/HomePage/TabletopSlider/TabletopSliderSlides/TabletopSliderTextSlide';
 
-import { homePageTabletops } from 'data/homepageTabletops';
+import { homePageTabletops } from 'data/homePageTabletops';
 
 import 'swiper/css';
 import 'swiper/css/navigation';

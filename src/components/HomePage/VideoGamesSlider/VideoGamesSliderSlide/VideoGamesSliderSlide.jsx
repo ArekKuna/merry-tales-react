@@ -1,9 +1,9 @@
-const VideoGamesSliderSlide = ({ srcSet, src, alt, sizes }) => {
+const VideoGamesSliderSlide = ({ image }) => {
   return (
     <img
-      srcSet={srcSet}
-      src={src}
-      alt={alt}
+      srcSet={image.srcSet}
+      src={image.src}
+      alt={image.alt}
       sizes='100vw'
       loading='lazy'
       className='w-full h-full cursor-pointer'
