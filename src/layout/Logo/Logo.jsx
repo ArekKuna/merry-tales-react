@@ -1,6 +1,6 @@
-import logo from 'assets/logo/mobile/merry-tale-logo.png';
-import logo1x from 'assets/logo/mobile/merry-tale-logo-1x.webp';
-import logo2x from 'assets/logo/mobile/merry-tale-logo-2x.webp';
+import logo from 'assets/logo/merry-tale-logo.png';
+import logo1x from 'assets/logo/merry-tale-logo-1x.webp';
+import logo2x from 'assets/logo/merry-tale-logo-2x.webp';
 
 const Logo = () => {
   return (
