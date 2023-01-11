@@ -12,7 +12,7 @@ const TabletopGames = () => {
   return (
     <GlobalContainer variant='tabletop'>
       <PageTitle text='Tabletop RPG Games' />
-      <div className='w-full z-10 max-w-screen-2xl flex flex-col xl:flex-row'>
+      <div className='w-full z-10 max-w-screen-2xl flex flex-col xl:px-4 xl:flex-row'>
         <CardsSliderBox>
           <TabletopParagraph variant='cthulhu' />
           <TableTopCardsSlider images={cthulhuImages} />
