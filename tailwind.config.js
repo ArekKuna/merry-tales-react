@@ -18,6 +18,8 @@ module.exports = {
           'url(assets/backgrounds/video-games/video-games-bg-1280.webp)',
         videoGames1920:
           'url(assets/backgrounds/video-games/video-games-bg-1920.webp)',
+        tabletop1280: 'url(assets/backgrounds/tabletop/tabletop-bg-1280.webp)',
+        tabletop1920: 'url(assets/backgrounds/tabletop/tabletop-bg-1920.webp)',
       },
       maxWidth: {
         '1/4': '25%',

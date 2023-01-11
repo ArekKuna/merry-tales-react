@@ -4,7 +4,7 @@ const CardsSliderImage = ({ image }) => {
       srcSet={image.srcSet}
       src={image.src}
       alt={image.alt}
-      className='w-full'
+      className='rounded-2xl swiper-lazy'
       sizes='100vw'
       loading='lazy'
     />

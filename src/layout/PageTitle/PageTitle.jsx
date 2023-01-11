@@ -1,6 +1,6 @@
 const PageTitle = ({ text }) => {
   return (
-    <h1 className='py-10 w-full text-4xl text-center font-bold uppercase text-white z-10 xl:py-4'>
+    <h1 className='py-14 w-full text-4xl text-center font-bold uppercase text-white z-10 xl:py-4'>
       {text}
     </h1>
   );
