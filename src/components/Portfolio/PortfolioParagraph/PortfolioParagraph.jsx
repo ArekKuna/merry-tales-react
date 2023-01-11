@@ -8,7 +8,7 @@ const PortfolioParagraph = () => {
       and VO recording.`;
 
   return (
-    <ReactMarkdown className='px-6 mb-10 mx-auto text-center text-white sm:w-3/4 xl:w-1/2 xl:mb-12'>
+    <ReactMarkdown className='px-4 mb-14 text-center text-white sm:w-3/4 xl:w-1/2 xl:mb-10'>
       {markdown}
     </ReactMarkdown>
   );

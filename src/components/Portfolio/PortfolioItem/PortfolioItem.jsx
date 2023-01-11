@@ -1,6 +1,6 @@
 const PortfolioItem = ({ image }) => {
   return (
-    <div className='px-4 max-w-xs mx-auto mb-14 last:mb-0 sm:max-w-sm md:max-w-md xl:max-w-[20%] xl:mb-0'>
+    <div className='px-4 mb-14 max-w-sm mx-auto last:mb-0 sm:px-0 sm:max-w-sm md:px-4 md:max-w-md xl:px-4 xl:max-w-[20%] xl:mb-0'>
       <div className='mb-4'>
         <img
           srcSet={image.srcSet}

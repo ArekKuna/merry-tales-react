@@ -22,7 +22,7 @@ const About = () => {
         />
       </div>
       <div className='sm:w-3/5'>
-        <div className='px-6 xl:px-12'>
+        <div className='px-4 xl:px-12'>
           <AboutParagraph
             text='Hi! I’m a storyteller with a knack for rhetoric and acting. I’m
             currently working as a writer and narrative designer at Flying Wild
