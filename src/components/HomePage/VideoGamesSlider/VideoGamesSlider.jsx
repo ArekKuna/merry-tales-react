@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
+import { Navigation, Autoplay } from 'swiper';
 
 import VideoGamesSliderSlide from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlide';
 import VideoGamesSliderSlideText from 'components/HomePage/VideoGamesSlider/VideoGamesSliderSlide/VideoGamesSliderSlideText';
@@ -12,9 +12,13 @@ import 'swiper/css/navigation';
 const VideoGamesSlider = () => {
   return (
     <Swiper
-      modules={[Navigation]}
+      modules={[Navigation, Autoplay]}
       navigation
       slidesPerView={1}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }}
       className='!mx-0'
     >
       {homePageVideoGames?.map((image) => (
