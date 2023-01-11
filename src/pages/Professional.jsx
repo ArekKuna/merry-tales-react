@@ -8,7 +8,7 @@ const Professional = () => {
   return (
     <GlobalContainer variant='professional'>
       <PageTitle text='Professional' />
-      <div className='w-full max-w-screen-2xl flex flex-col items-center z-10 xl:flex-row xl:justify-center'>
+      <div className='w-full max-w-screen-2xl flex flex-col items-center z-10 xl:px-4 xl:flex-row xl:justify-center'>
         <About />
         <Stats />
       </div>

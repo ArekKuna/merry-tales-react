@@ -1,6 +1,6 @@
 const SectionTitle = ({ sectionTitle }) => {
   return (
-    <h3 className='mb-5 text-2xl text-center text-white'>{sectionTitle}</h3>
+    <h3 className='mb-10 text-2xl text-center text-white'>{sectionTitle}</h3>
   );
 };
 
