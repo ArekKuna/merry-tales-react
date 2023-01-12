@@ -21,8 +21,11 @@ const SocialsBox = ({ variant }) => {
         variant={location.pathname === '/' ? 'facebookHome' : 'facebook'}
         element={
           <FaFacebookF
-            className='mx-auto h-8 w-8'
-            fill={location.pathname === '/' ? '#fff' : '#000'}
+            className={`mx-auto h-8 w-8 ${
+              location.pathname === '/'
+                ? 'text-white xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-white xl:duration-500'
+            }`}
           />
         }
         href='https://www.facebook.com/szmeryznadkamery'
@@ -31,8 +34,11 @@ const SocialsBox = ({ variant }) => {
         variant={location.pathname === '/' ? 'linkedInHome' : 'linkedin'}
         element={
           <FaLinkedinIn
-            className='mx-auto h-8 w-8'
-            fill={location.pathname === '/' ? '#fff' : '#000'}
+            className={`mx-auto h-8 w-8 ${
+              location.pathname === '/'
+                ? 'text-white xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-white xl:duration-500'
+            }`}
           />
         }
         href='https://www.linkedin.com/in/maria-borys-pi%C4%85tkowska-126308149/'
@@ -41,8 +47,11 @@ const SocialsBox = ({ variant }) => {
         variant={location.pathname === '/' ? 'youTubeHome' : 'youtube'}
         element={
           <GrYoutube
-            className='mx-auto h-8 w-8'
-            fill={location.pathname === '/' ? '#fff' : '#000'}
+            className={`mx-auto h-8 w-8 ${
+              location.pathname === '/'
+                ? 'text-white xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-white xl:duration-500'
+            }`}
           />
         }
         href='https://www.youtube.com/@GrajKolektyw'
@@ -51,8 +60,11 @@ const SocialsBox = ({ variant }) => {
         variant={location.pathname === '/' ? 'def' : 'email'}
         element={
           <GrMail
-            className='mx-auto h-8 w-8'
-            fill={location.pathname === '/' ? '#fff' : '#000'}
+            className={`mx-auto h-8 w-8 ${
+              location.pathname === '/'
+                ? 'text-white xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-white xl:duration-500'
+            }`}
           />
         }
         href='mailto:merry.rpg@gmail.com?subject=Merry Tale Games Contact'
