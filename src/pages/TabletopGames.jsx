@@ -3,7 +3,7 @@ import PageTitle from 'layout/PageTitle/PageTitle';
 import CardsSliderBox from 'components/TabletopCardsSlider/CardsSliderBox/CardsSliderBox';
 import TabletopParagraph from 'components/TabletopCardsSlider/TabletopParagraph/TabletopParagraph';
 import TableTopCardsSlider from 'components/TabletopCardsSlider/TableTopCardsSlider';
-import SocialsBox from 'components/Boxes/SocialsBox/Socials';
+import SocialsBox from 'components/SocialsBox/Socials';
 
 import { cthulhuImages } from 'data/cthulhuImages';
 import { otherTabletops } from 'data/otherTabletops';

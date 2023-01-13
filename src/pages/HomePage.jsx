@@ -1,41 +1,59 @@
-import Box from 'layout/Box/Box';
-import Logo from 'layout/Logo/Logo';
-import AboutBox from 'components/Boxes/AboutBox/AboutBox';
-import VideoGamesBox from 'components/Boxes/VideoGamesBox/VideoGamesBox';
-import WorkshopsBox from 'components/Boxes/WorkshopsBox/WorkshopsBox';
-import MediaBox from 'components/Boxes/MediaBox/MediaBox';
-import TabletopBox from 'components/Boxes/TabletopBox/TabletopBox';
-import AchievementsBox from 'components/Boxes/AchievementsBox/AchievementsBox';
-import SocialsBox from 'components/Boxes/SocialsBox/Socials';
+import Logo from 'components/Logo/Logo';
+import HeroImage from 'components/HeroImage/HeroImage';
+import LinkBox from 'components/LinkBox/LinkBox';
+import VideoGamesSlider from 'components/VideoGamesSlider/VideoGamesSlider';
+import TabletopSlider from 'components/TabletopSlider/TabletopSlider';
+import { GrWorkshop } from 'react-icons/gr';
+import { GiAlliedStar } from 'react-icons/gi';
+import { GrAchievement } from 'react-icons/gr';
+import SocialsBox from 'components/SocialsBox/Socials';
 
 const HomePage = () => {
   return (
     <>
-      <Box variant='logo'>
-        <Logo />
-      </Box>
-      <Box variant='image'></Box>
-      <Box variant='about'>
-        <AboutBox />
-      </Box>
-      <Box variant='videoGames'>
-        <VideoGamesBox />
-      </Box>
-      <Box variant='tabletop'>
-        <TabletopBox />
-      </Box>
-      <Box variant='workshops'>
-        <WorkshopsBox />
-      </Box>
-      <Box variant='media'>
-        <MediaBox />
-      </Box>
-      <Box variant='achievements'>
-        <AchievementsBox />
-      </Box>
-      <Box variant='socials'>
-        <SocialsBox />
-      </Box>
+      <Logo />
+      <HeroImage />
+      <LinkBox
+        to='/professional'
+        title={`Maria 
+        Borys - Piątkowska`}
+        description='Storyteller - Game Writer - Narrative Designer'
+        variant='about'
+      />
+      <LinkBox
+        to='/videoGames'
+        element={<VideoGamesSlider />}
+        variant='videoGames'
+      />
+      <LinkBox
+        to='/tabletopGames'
+        title='Tabletop Games'
+        description='Knack For Roleplaying'
+        element={<TabletopSlider />}
+        variant='tabletop'
+      />
+      <LinkBox
+        to='/workshops'
+        title='Workshops'
+        description='Skill Of Teaching'
+        element={<GrWorkshop className='w-12 h-12 mx-auto' />}
+        variant='workshops'
+      />
+      <LinkBox
+        to='/media'
+        title='Media'
+        description='Love To Share'
+        element={<GiAlliedStar className='w-12 h-12 mx-auto' />}
+        variant='media'
+      />
+      <LinkBox
+        to='/achievements'
+        title='Achievements'
+        description='Ambition To Learn'
+        element={<GrAchievement className='w-12 h-12 mx-auto' />}
+        variant='achievements'
+      />
+      <SocialsBox />
     </>
   );
 };

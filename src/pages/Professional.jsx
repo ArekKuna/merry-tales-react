@@ -2,7 +2,7 @@ import GlobalContainer from 'layout/GlobalContainer/GlobalContainer';
 import PageTitle from 'layout/PageTitle/PageTitle';
 import About from 'components/About/About';
 import Stats from 'components/Stats/Stats';
-import SocialsBox from 'components/Boxes/SocialsBox/Socials';
+import SocialsBox from 'components/SocialsBox/Socials';
 
 const Professional = () => {
   return (

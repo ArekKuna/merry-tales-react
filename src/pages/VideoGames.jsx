@@ -1,7 +1,7 @@
 import GlobalContainer from 'layout/GlobalContainer/GlobalContainer';
 import PageTitle from 'layout/PageTitle/PageTitle';
 import Portfolio from 'components/Portfolio/Portfolio';
-import SocialsBox from 'components/Boxes/SocialsBox/Socials';
+import SocialsBox from 'components/SocialsBox/Socials';
 
 const VideoGames = () => {
   return (

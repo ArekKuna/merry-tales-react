@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 
-import Header from 'layout/Header/Header';
+import Header from 'components/Header/Header';
 import Main from 'layout/Main/Main';
 
 const Layout = ({ children }) => {
