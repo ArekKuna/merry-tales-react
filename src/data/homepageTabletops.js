@@ -23,10 +23,10 @@ import fantastyka1000 from 'assets/tabletop/other/fantastyka-1000.webp';
 import fantastyka1200 from 'assets/tabletop/other/fantastyka-1200.webp';
 import fantastykaFallback from 'assets/tabletop/other/fantastyka-800.jpg';
 import sibirPunk400 from 'assets/tabletop/other/sibir-punk-400.webp';
-import sibirPunk600 from 'assets/tabletop/other/sibir-punk-400.webp';
-import sibirPunk800 from 'assets/tabletop/other/sibir-punk-400.webp';
-import sibirPunk1000 from 'assets/tabletop/other/sibir-punk-400.webp';
-import sibirPunk1200 from 'assets/tabletop/other/sibir-punk-400.webp';
+import sibirPunk600 from 'assets/tabletop/other/sibir-punk-600.webp';
+import sibirPunk800 from 'assets/tabletop/other/sibir-punk-800.webp';
+import sibirPunk1000 from 'assets/tabletop/other/sibir-punk-1000.webp';
+import sibirPunk1200 from 'assets/tabletop/other/sibir-punk-1200.webp';
 import sibirPunkFallback from 'assets/tabletop/other/sibir-punk-800.jpg';
 
 export const homePageTabletops = [
