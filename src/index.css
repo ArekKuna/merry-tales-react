@@ -67,6 +67,13 @@ html::-webkit-scrollbar {
     width: 12px;
     margin-right: 10px !important;
     background-color: #000;
+    transition: all .5s;
+}
+
+@media only screen and (min-width: 80em) {
+    .tabletop:hover > .swiper > .swiper-pagination > .swiper-pagination-bullet {
+        background-color: #f8f8ff;
+    }
 }
 
 .swiper-button-next,
@@ -83,16 +90,18 @@ html::-webkit-scrollbar {
 
 .swiper-button-next {
     right: 0;
-    border: 6px solid black;
+    border: 2px solid black;
     border-top: none;
     border-right: none;
+    transition: all .5s;
 }
 
 .swiper-button-prev {
     left: 0;
-    border: 6px solid black;
+    border: 2px solid black;
     border-top: none;
     border-left: none;
+    transition: all .5s;
 }
 
 .swiper-button-next::after,
@@ -103,10 +112,35 @@ html::-webkit-scrollbar {
     justify-content: center;
     color: #000;
     font-size: 30px;
+    transition: all .5s;
 }
 
 .swiper-button-prev::after {
     transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 80em) {
+    .swiper-button-next:hover {
+        border: 2px solid #f8f8ff;
+        border-top: none;
+        border-right: none;
+        background-color: #000;
+    }
+
+    .swiper-button-next:hover::after {
+        color: #f8f8ff;
+    }
+
+    .swiper-button-prev:hover {
+        border: 2px solid #f8f8ff;
+        border-top: none;
+        border-left: none;
+        background-color: #000;
+    }
+
+    .swiper-button-prev:hover::after {
+        color: #f8f8ff;
+    }
 }
 
 @media only screen and (min-width: 36.3em) {

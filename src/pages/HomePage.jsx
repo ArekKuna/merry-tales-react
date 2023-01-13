@@ -3,9 +3,9 @@ import HeroImage from 'components/HeroImage/HeroImage';
 import LinkBox from 'components/LinkBox/LinkBox';
 import VideoGamesSlider from 'components/VideoGamesSlider/VideoGamesSlider';
 import TabletopSlider from 'components/TabletopSlider/TabletopSlider';
-import { GrWorkshop } from 'react-icons/gr';
+import WorkshopsIcon from 'components/Icons/WorkshopsIcon/WorkshopsIcon';
 import { GiAlliedStar } from 'react-icons/gi';
-import { GrAchievement } from 'react-icons/gr';
+import AchievementIcon from 'components/Icons/AchievementIcon/AchievementIcon';
 import SocialsBox from 'components/SocialsBox/Socials';
 
 const HomePage = () => {
@@ -36,21 +36,27 @@ const HomePage = () => {
         to='/workshops'
         title='Workshops'
         description='Skill Of Teaching'
-        element={<GrWorkshop className='w-12 h-12 mx-auto' />}
+        element={
+          <WorkshopsIcon className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
+        }
         variant='workshops'
       />
       <LinkBox
         to='/media'
         title='Media'
         description='Love To Share'
-        element={<GiAlliedStar className='w-12 h-12 mx-auto' />}
+        element={
+          <GiAlliedStar className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
+        }
         variant='media'
       />
       <LinkBox
         to='/achievements'
         title='Achievements'
         description='Ambition To Learn'
-        element={<GrAchievement className='w-12 h-12 mx-auto' />}
+        element={
+          <AchievementIcon className='w-12 h-12 mx-auto text-black xl:group-hover:text-ghostWhite xl:duration-500' />
+        }
         variant='achievements'
       />
       <SocialsBox />
