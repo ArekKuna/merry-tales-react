@@ -13,7 +13,7 @@ const About = () => {
   };
 
   return (
-    <div className='w-full mb-20 flex flex-col items-center text-base text-white xl:py-0 xl:mb-0 xl:flex-row xl:text-xs 2xl:text-base'>
+    <div className='w-full mb-20 flex flex-col items-center text-base text-ghostWhite xl:py-0 xl:mb-0 xl:flex-row xl:text-xs 2xl:text-base'>
       <div className='mb-14 flex justify-center xl:mb-0 xl:w-1/2'>
         <img
           src={merry}

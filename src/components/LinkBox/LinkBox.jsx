@@ -11,7 +11,7 @@ const variantMap = {
     'sm:border-r-2 xl:col-span-2 xl:row-span-1 xl:order-5 xl:border-l-2',
   media: 'xl:col-span-2 xl:row-span-1 xl:border-b-2 xl:order-6',
   achievements:
-    'sm:border-r-2 xl:col-span-3 xl:row-span-1 xl:order-7 xl:border-l-2 xl:!border-b-0 xl:hover:border-r-white',
+    'sm:border-r-2 xl:col-span-3 xl:row-span-1 xl:order-7 xl:border-l-2 xl:!border-b-0 xl:hover:border-r-ghostWhite',
 };
 
 const LinkBox = ({ to, title, description, element, variant }) => {

@@ -83,7 +83,7 @@ html::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFF;
+    background-color: #f8f8ff;
     top: 0;;
     margin: 0;
 }

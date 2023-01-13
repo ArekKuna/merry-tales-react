@@ -23,8 +23,8 @@ const SocialsBox = ({ variant }) => {
           <FaFacebookF
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
-                ? 'text-white xl:group-hover:text-black xl:duration-500'
-                : 'text-black xl:group-hover:text-white xl:duration-500'
+                ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-ghostWhite xl:duration-500'
             }`}
           />
         }
@@ -36,8 +36,8 @@ const SocialsBox = ({ variant }) => {
           <FaLinkedinIn
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
-                ? 'text-white xl:group-hover:text-black xl:duration-500'
-                : 'text-black xl:group-hover:text-white xl:duration-500'
+                ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-ghostWhite xl:duration-500'
             }`}
           />
         }
@@ -49,8 +49,8 @@ const SocialsBox = ({ variant }) => {
           <GrYoutube
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
-                ? 'text-white xl:group-hover:text-black xl:duration-500'
-                : 'text-black xl:group-hover:text-white xl:duration-500'
+                ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-ghostWhite xl:duration-500'
             }`}
           />
         }
@@ -62,8 +62,8 @@ const SocialsBox = ({ variant }) => {
           <GrMail
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
-                ? 'text-white xl:group-hover:text-black xl:duration-500'
-                : 'text-black xl:group-hover:text-white xl:duration-500'
+                ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
+                : 'text-black xl:group-hover:text-ghostWhite xl:duration-500'
             }`}
           />
         }

@@ -29,7 +29,7 @@ const Stat = ({ title, percent, size }) => {
 
   return (
     <div>
-      <h3 className='font-semibold text-lg leading-5 uppercase text-white'>
+      <h3 className='font-semibold text-lg leading-5 uppercase text-ghostWhite'>
         {title}
       </h3>
       <div className='flex items-center'>
@@ -42,11 +42,15 @@ const Stat = ({ title, percent, size }) => {
           }
         >
           <div
-            className={isVisible ? `${mappedSize} h-3 rounded-lg bg-white` : ''}
+            className={
+              isVisible ? `${mappedSize} h-3 rounded-lg bg-ghostWhite` : ''
+            }
           ></div>
         </div>
         <div>
-          <span className='ml-2 font-bold text-lg text-white'>{percent}%</span>
+          <span className='ml-2 font-bold text-lg text-ghostWhite'>
+            {percent}%
+          </span>
         </div>
       </div>
     </div>

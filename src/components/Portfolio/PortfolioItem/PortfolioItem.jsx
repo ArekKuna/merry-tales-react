@@ -7,13 +7,13 @@ const PortfolioItem = ({ image }) => {
           src={image.src}
           sizes='100vw'
           alt={image.alt}
-          className='rounded-full shadow-2xl ring-2 ring-white'
+          className='rounded-full shadow-2xl ring-2 ring-ghostWhite'
           loading='lazy'
         />
       </div>
       <div className='text-center'>
         <h3 className='text-xl text-amber-400 italic'>{image.alt}</h3>
-        <p className='text-white'>{image.studio}</p>
+        <p className='text-ghostWhite'>{image.studio}</p>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ const TabletopParagraph = ({ variant }) => {
   const variantMarkdown = variantMap[variant];
 
   return (
-    <ReactMarkdown className='px-4 mb-14 text-base text-center text-white sm:max-w-[75%] md:max-w-[60%] xl:mb-0 xl:p-0 xl:max-w-[40%]'>
+    <ReactMarkdown className='px-4 mb-14 text-base text-center text-ghostWhite sm:max-w-[75%] md:max-w-[60%] xl:mb-0 xl:p-0 xl:max-w-[40%]'>
       {`${variantMarkdown}`}
     </ReactMarkdown>
   );
