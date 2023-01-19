@@ -35,16 +35,7 @@ const About = () => {
                 : 'max-h-[550px] overflow-hidden transition-all duration-1000'
             }
           >
-            <AboutParagraph
-              text='Since early childhood I’ve been exploring and creating fictional
-              settings in various games, be it the tabletop RPG or video games.
-              I’ve grown up on Call of Cthulhu and DnD, started my career as an
-              RPG writer, then moved forward to the game industry. Writing and
-              designing the narrative have become my forte. In my free time I
-              practise boxing and do amateur theatre. Other than that I host a
-              radio broadcast covering the topic of music in games. And so far,
-              so good! ;)'
-            />
+            <AboutParagraph text='Since my early childhood I’ve been exploring and creating fictional settings in games, be it the tabletop RPG or video games. I’ve grown up on the Call of Cthulhu and DnD, started my career as an RPG writer, then moved forward to the game industry. Writing and designing the narrative have become my forte. In my free time I practise boxing and do amateur theatre. Other than that I host a radio broadcast covering the topic of music in games. And so far, so good! ;)' />
           </div>
           <div className='flex justify-end items-center'>
             <p
