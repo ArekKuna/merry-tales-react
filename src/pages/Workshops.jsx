@@ -12,7 +12,7 @@ const Workshops = () => {
   return (
     <GlobalContainer variant='workshops'>
       <PageTitle text='Workshops' />
-      <div className='z-10 px-4 max-w-screen-2xl lg:px-16 xl:px-4'>
+      <div className='z-10 max-w-screen-2xl lg:px-16 xl:px-4'>
         <SectionParagraph variant='workshops' />
         <div className='flex flex-col xl:flex-row xl:justify-evenly'>
           <Composition workshops={workshops} />

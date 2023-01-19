@@ -1,10 +1,9 @@
 export const sectionParagraphs = {
   def: {
-    className: '',
+    className: 'px-4 mb-14 mx-auto text-base text-center text-ghostWhite',
   },
   videoGames: {
-    className:
-      'px-4 mb-14 text-center text-ghostWhite sm:w-3/4 xl:w-1/2 xl:mb-10',
+    className: 'sm:w-3/4',
     text: `So far I’ve worked on several titles - ****Sniper Ghost Warrior 3****, ****Sniper
       Ghost Warrior Contracts****, ****Shadow Warrior 3****, ****Lords of the Fallen iOS**** and
       ****Evil West****. In all titles I’ve been a part of the story design team, being
@@ -12,8 +11,7 @@ export const sectionParagraphs = {
       and VO recording.`,
   },
   cthulhu: {
-    className:
-      'px-4 mb-14 text-base text-center text-ghostWhite sm:max-w-[75%] md:max-w-[60%] xl:mb-0 xl:p-0 xl:max-w-[40%]',
+    className: 'sm:max-w-[75%] md:max-w-[60%] xl:mb-0 xl:p-0 xl:max-w-[40%]',
     text: `Tabletop RPG games are sort of my childish love, but honestly I
             never give them up. I’ve been working as a translator (****Core Book****
             &amp; ****Alone Against the Dark****) and scenario writer for the Polish 7th
@@ -22,8 +20,7 @@ export const sectionParagraphs = {
             Cthulhu RPG Supplements****.`,
   },
   otherTabletops: {
-    className:
-      'px-4 mb-14 text-base text-center text-ghostWhite sm:max-w-[75%] md:max-w-[60%] xl:mb-0 xl:p-0 xl:max-w-[40%]',
+    className: 'sm:max-w-[75%] md:max-w-[60%] xl:mb-0 xl:p-0 xl:max-w-[40%]',
     text: `My scenario for ****Blades in the Dark**** was published in ****Nowa Fantastyka****
             magazine. I also had the pleasure to write supplements for Polish
             5th ed. ****Vampire the Masquerade****, ****Sibir Punk**** and ****Nibiru RPG****. My
@@ -31,7 +28,7 @@ export const sectionParagraphs = {
             that I wrote in cooperation with ****Majka Jeżowska****.`,
   },
   workshops: {
-    className: 'text-ghostWhite mb-14 mx-auto text-center sm:w-3/4 xl:w-full',
+    className: 'sm:w-3/4 xl:w-full',
     text: `Since 2010 I’ve been running workshops and giving lectures on subjects
           concerning narrative design and game scriptwriting. I’ve been
           conducting tutorials and creating educational material for several
