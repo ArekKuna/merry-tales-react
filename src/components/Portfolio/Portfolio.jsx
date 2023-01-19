@@ -1,11 +1,11 @@
-import PortfolioParagraph from 'components/Portfolio/PortfolioParagraph/PortfolioParagraph';
+import SectionParagraph from 'layout/SectionParagraph/SectionParagraph';
 import PortfolioItems from 'components/Portfolio/PortfolioItems/PortfolioItems';
 
 const Portfolio = () => {
   return (
     <div className='w-full flex flex-col items-center justify-center z-10'>
       <div className='flex justify-center'>
-        <PortfolioParagraph />
+        <SectionParagraph variant='videoGames' />
       </div>
       <PortfolioItems />
     </div>
