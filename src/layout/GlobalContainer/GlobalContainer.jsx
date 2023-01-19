@@ -3,6 +3,7 @@ const variantMap = {
   professional: 'before:bg-professional1280 xl:before:bg-professional1920',
   videoGames: 'before:bg-videoGames1280 xl:before:bg-videoGames1920',
   tabletop: 'before:bg-tabletop1280 xl:before:bg-tabletop1920',
+  workshops: 'before:bg-workshops1280 xl:before:bg-workshops1920',
 };
 
 const GlobalContainer = ({ children, variant = 'def' }) => {
