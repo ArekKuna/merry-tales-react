@@ -5,10 +5,6 @@ import TabletopSliderImageSlide from 'components/TabletopSlider/TabletopSliderSl
 
 import { homePageTabletops } from 'data/homepageTabletops';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
 const TabletopSlider = () => {
   return (
     <>

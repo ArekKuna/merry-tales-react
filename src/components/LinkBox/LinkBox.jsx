@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom';
 
 const variantMap = {
-  def: 'group p-6 flex flex-col justify-center items-center text-center font-medium border-b-2 border-black space-y-2 bg-ghostWhite sm:space-y-4 xl:p-2 xl:space-y-2 xl:hover:bg-black xl:duration-500',
+  def: 'group p-6 flex-col justify-center items-center text-center font-medium border-b-2 border-black space-y-2 bg-ghostWhite sm:space-y-4 xl:p-2 xl:space-y-2 xl:hover:bg-black xl:duration-500',
   about: '!py-10 xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-r-2',
-  videoGames:
-    '!p-0 !flex-row items-stretch sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:order-4',
+  videoGames: '!p-0 sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:order-4',
   tabletop:
-    'tabletop !space-y-5 sm:col-span-2 xl:col-span-2 xl:row-span-3 xl:order-1 xl: xl:!space-y-4',
+    'tabletop flex !space-y-5 sm:col-span-2 xl:col-span-2 xl:row-span-3 xl:order-1 xl: xl:!space-y-4',
   workshops:
-    'sm:border-r-2 xl:col-span-2 xl:row-span-1 xl:order-5 xl:border-l-2',
-  media: 'xl:col-span-2 xl:row-span-1 xl:border-b-2 xl:order-6',
+    'flex sm:border-r-2 xl:col-span-2 xl:row-span-1 xl:order-5 xl:border-l-2',
+  media: 'flex xl:col-span-2 xl:row-span-1 xl:border-b-2 xl:order-6',
   achievements:
-    'sm:border-r-2 xl:col-span-3 xl:row-span-1 xl:order-7 xl:border-l-2 xl:!border-b-0 xl:hover:border-r-ghostWhite',
+    'flex sm:border-r-2 xl:col-span-3 xl:row-span-1 xl:order-7 xl:border-l-2 xl:!border-b-0 xl:hover:border-r-ghostWhite',
 };
 
 const LinkBox = ({ to, title, description, element, variant }) => {

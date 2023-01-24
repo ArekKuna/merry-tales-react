@@ -5,9 +5,6 @@ import VideoGamesSliderSlide from 'components/VideoGamesSlider/VideoGamesSliderS
 
 import { homePageVideoGames } from 'data/homePageVideoGames';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-
 const VideoGamesSlider = () => {
   return (
     <Swiper
@@ -19,7 +16,7 @@ const VideoGamesSlider = () => {
         delay: 2000,
         disableOnInteraction: false,
       }}
-      className='!mx-0'
+      className='!mx-0 h-full'
     >
       {homePageVideoGames?.map((image) => (
         <SwiperSlide key={image.id}>

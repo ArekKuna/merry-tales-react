@@ -3,10 +3,6 @@ import { EffectCards, Autoplay } from 'swiper';
 
 import CardsSliderImage from 'components/TabletopCardsSlider/CardsSliderImage/CardsSliderImage';
 
-import 'swiper/css';
-import 'swiper/css/effect-cards';
-import 'swiper/css/autoplay';
-
 const TableTopCardsSlider = ({ images }) => {
   return (
     <Swiper
