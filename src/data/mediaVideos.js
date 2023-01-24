@@ -1,0 +1,57 @@
+export const mediaVideos = [
+  {
+    id: 1,
+    embedID: '5uRJ9TySKPo',
+    start: 1574,
+    title: '„Faux Pas”, Polsat Games – an interview on narrative design',
+    alt: '„Faux Pas”, Polsat Games – an interview on narrative design',
+  },
+  {
+    id: 2,
+    embedID: '0h99w0r07Z0',
+    start: 0,
+    title: 'Call of Cthulhu 7ed. trailer',
+    alt: 'Call of Cthulhu 7ed. trailer',
+  },
+  {
+    id: 3,
+    embedID: 'xe_pOPZvkNo',
+    start: 0,
+    title: 'Pyrkon Studio – a series of interviews',
+    alt: 'Pyrkon Studio – a series of interviews',
+  },
+  {
+    id: 4,
+    embedID: 'eFm_O8JqBIc',
+    start: 2227,
+    title: 'Digital Dragons 2022 - women leadership panel',
+    alt: 'Digital Dragons 2022 - women leadership panel',
+  },
+  {
+    id: 5,
+    embedID: 'Q70rDHeYDoo',
+    start: 55,
+    title: '“To Ja Go Tnę” – an interview on Call of Cthulhu 7ed',
+    alt: '“To Ja Go Tnę” – an interview on Call of Cthulhu 7ed',
+  },
+  {
+    id: 6,
+    embedID: 'FxJZXmhbWxY',
+    start: 6,
+    title: 'Digital Dragons Academy – my lecture on character creation',
+    alt: 'Digital Dragons Academy – my lecture on character creation',
+  },
+  {
+    id: 7,
+    embedID: '7pCrTI5mID4',
+    start: 0,
+    title: 'Digital Dragons – speech on narrative design',
+    alt: 'Digital Dragons – speech on narrative design',
+  },
+  {
+    id: 8,
+    embedID: 'U6hAvJc_W_E',
+    title: 'Digital Dragons – speech on narrative design',
+    alt: 'Digital Dragons – speech on narrative design',
+  },
+];

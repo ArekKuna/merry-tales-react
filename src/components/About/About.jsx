@@ -17,7 +17,7 @@ const About = () => {
       <div className='mb-14 flex justify-center xl:mb-0 xl:w-1/2'>
         <img
           src={merry}
-          alt='Merry'
+          alt='Maria Borys - Piątkowska'
           className='w-full min-h-[350px] object-cover sm:w-1/2 xl:w-[90%]'
         />
       </div>

@@ -1,4 +1,4 @@
-import CompositionImage from './CompositionImage/CompositionImage';
+import CompositionImage from 'components/Composition/CompositionImage/CompositionImage';
 
 const Composition = ({ workshops }) => {
   return (

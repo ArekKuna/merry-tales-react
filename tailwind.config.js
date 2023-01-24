@@ -22,6 +22,8 @@ module.exports = {
         tabletop1920: 'url(assets/backgrounds/tabletop/tabletop-bg-1920.webp)',
         workshops1280: 'url(assets/backgrounds/workshops/workshops-1280.webp)',
         workshops1920: 'url(assets/backgrounds/workshops/workshops-1920.webp)',
+        media1280: 'url(assets/backgrounds/media/media-1280.webp)',
+        media1920: 'url(assets/backgrounds/media/media-1920.webp)',
       },
       maxWidth: {
         '1/4': '25%',

@@ -2,7 +2,7 @@ import ListItems from 'components/List/ListItems/ListItems';
 
 const List = ({ listTitle, listItems, text }) => {
   return (
-    <div className='mb-20 flex flex-col items-center xl:mb-0 xl:max-w-[55%] xl:justify-center'>
+    <div className='mb-20 px-4 flex flex-col items-center md:px-0 xl:mb-0 xl:max-w-[55%] xl:justify-center'>
       <h3 className='mb-10 text-2xl text-center capitalize text-ghostWhite xl:mb-6'>
         {listTitle}
       </h3>

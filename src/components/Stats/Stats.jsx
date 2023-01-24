@@ -1,4 +1,4 @@
-import StatsTitle from './StatsTitle/StatsTitle';
+import StatsTitle from 'components/Stats/StatsTitle/StatsTitle';
 import Stat from 'components/Stats/Stat/Stat';
 
 const Stats = () => {

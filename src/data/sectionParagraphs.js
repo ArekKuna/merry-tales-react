@@ -28,4 +28,9 @@ export const sectionParagraphs = {
           events: ****Digital Dragons****, ****Digital Dragons Academy****, ****Write the Game****, ****Game
           Jams****, etc.`,
   },
+  media: {
+    className: 'sm:w-3/4',
+    text: `From time to time I have the pleasure to take part in various media events, including interviews for 
+          ****Polsat Games****, ****CD Actions**** and other various ****magazines**** and ****TV programmes**** or ****podcasts****.`,
+  },
 };
