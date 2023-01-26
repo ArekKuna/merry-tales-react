@@ -5,7 +5,7 @@ const variantMap = {
   about:
     '!py-10 row-span-1 flex xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-r-2',
   videoGames:
-    '!p-0 row-span-2 sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:order-4',
+    '!p-0 row-span-2 !bg-gray-700 sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:order-4',
   tabletop:
     'tabletop flex !space-y-5 sm:col-span-2 xl:col-span-2 xl:row-span-3 xl:order-1 xl: xl:!space-y-4',
   workshops:

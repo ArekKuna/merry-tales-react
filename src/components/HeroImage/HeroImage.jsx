@@ -15,7 +15,7 @@ const HeroImage = () => {
   const { hero } = homePageImages;
 
   return (
-    <div className='relative w-full flex row-span-1 border-b-2 border-black sm:col-span-2 sm:row-span-1 sm:-order-1 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:border-black xl:order-2'>
+    <div className='relative w-full flex row-span-1 border-b-2 border-black bg-gray-500 sm:col-span-2 sm:row-span-1 sm:-order-1 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:border-black xl:order-2'>
       <LowResImage
         src={hero.lowQualityImage}
         alt={hero.alt}
