@@ -1,12 +1,21 @@
 import { useState } from 'react';
 import { AiOutlineDown } from 'react-icons/ai';
 
-import merry from 'assets/about/about.webp';
-
+import LowResImage from 'components/LowResImage/LowResImage';
+import BlurredUpImage from 'components/BlurredUpImage/BlurredUpImage';
 import AboutParagraph from 'components/About/AboutParagraph/AboutParagraph';
 
+import { homePageImages } from 'data/homePageImages';
+
 const About = () => {
+  const [highResImageLoaded, setHighResImageLoaded] = useState(false);
   const [more, setMore] = useState(false);
+
+  const { professional } = homePageImages;
+
+  const onHighResImageLoaded = () => {
+    setHighResImageLoaded(true);
+  };
 
   const handleMore = () => {
     setMore((prevState) => !prevState);
@@ -14,14 +23,19 @@ const About = () => {
 
   return (
     <div className='w-full mb-20 flex flex-col items-center text-base text-ghostWhite xl:py-0 xl:mb-0 xl:flex-row xl:text-xs 2xl:text-base'>
-      <div className='mb-14 flex justify-center xl:mb-0 xl:w-1/2'>
-        <img
-          src={merry}
-          alt='Maria Borys - Piątkowska'
-          className='w-full min-h-[350px] object-cover sm:w-1/2 xl:w-[90%]'
+      <div className='relative w-full min-h-[350px] mb-14 flex justify-center object-cover bg-black sm:w-1/2 lg:w-1/3 xl:mb-0 xl:w-1/2'>
+        <LowResImage
+          src={professional.src}
+          alt={professional.alt}
+          highResImageLoaded={highResImageLoaded}
+        />
+        <BlurredUpImage
+          src={professional.src}
+          alt={professional.alt}
+          onLoad={onHighResImageLoaded}
         />
       </div>
-      <div className='sm:w-3/5'>
+      <div className='sm:w-3/4'>
         <div className='px-4 xl:px-12'>
           <AboutParagraph
             text='Hi! I’m a storyteller with a knack for rhetoric and acting. I’m

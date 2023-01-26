@@ -9,6 +9,8 @@ import heroFallback from 'assets/hero-image/hero-1080.jpg';
 import logoLowRes from 'assets/logo/logo-lowRes.webp';
 import logo1x from 'assets/logo/logo-1x.webp';
 import logo2x from 'assets/logo/logo-2x.webp';
+import professionalLowRes from 'assets/about/professional-lowRes.webp';
+import professional from 'assets/about/professional.webp';
 
 export const homePageImages = {
   hero: {
@@ -26,5 +28,11 @@ export const homePageImages = {
     src: logo2x,
     sizes: '100vw',
     alt: 'Merry Tales Logo',
+  },
+  professional: {
+    id: 3,
+    lowQualityImage: professionalLowRes,
+    src: professional,
+    alt: 'Maria Borys - Piątkowska',
   },
 };
