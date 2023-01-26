@@ -1,17 +1,35 @@
-import logo from 'assets/logo/merry-tale-logo.png';
-import logo1x from 'assets/logo/merry-tale-logo-1x.webp';
-import logo2x from 'assets/logo/merry-tale-logo-2x.webp';
+import { useState } from 'react';
+
+import LowResImage from 'components/LowResImage/LowResImage';
+import BlurredUpImage from 'components/BlurredUpImage/BlurredUpImage';
+
+import { homePageImages } from 'data/homePageImages';
 
 const Logo = () => {
+  const [highResImageLoaded, setHighResImageLoaded] = useState(false);
+
+  const onHighResImageLoaded = () => {
+    setHighResImageLoaded(true);
+  };
+
+  const { logo } = homePageImages;
+
   return (
     <div className='flex justify-center items-center bg-black xl:col-span-2 xl:row-span-2 xl:order-0'>
-      <img
-        srcSet={`${logo1x} 1x, ${logo2x} 2x`}
-        src={logo}
-        alt='Merry Tale Logo'
-        className='max-w-3/4'
-        loading='lazy'
-      />
+      <div className='relative max-w-3/4'>
+        <LowResImage
+          src={logo.src}
+          alt={logo.alt}
+          highResImageLoaded={highResImageLoaded}
+        />
+        <BlurredUpImage
+          srcSet={logo.srcSet}
+          src={logo.src}
+          alt={logo.alt}
+          sizes={logo.sizes}
+          onLoad={onHighResImageLoaded}
+        />
+      </div>
     </div>
   );
 };

@@ -7,9 +7,6 @@ module.exports = {
         sans: ['Open Sans', 'sans-serif'],
       },
       backgroundImage: {
-        hero1100: 'url(assets/hero-image/hero-1100.webp)',
-        hero1800: 'url(assets/hero-image/hero-1800.webp)',
-        hero2200: 'url(assets/hero-image/hero-2200.webp)',
         professional1280:
           'url(assets/backgrounds/professional/professional-1280.webp)',
         professional1920:

@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom';
 
 const variantMap = {
   def: 'group p-6 flex-col justify-center items-center text-center font-medium border-b-2 border-black space-y-2 bg-ghostWhite sm:space-y-4 xl:p-2 xl:space-y-2 xl:hover:bg-black xl:duration-500',
-  about: '!py-10 xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-r-2',
-  videoGames: '!p-0 sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:order-4',
+  about:
+    '!py-10 row-span-1 flex xl:col-span-2 xl:row-span-1 xl:order-3 xl:border-r-2',
+  videoGames:
+    '!p-0 row-span-2 sm:col-span-2 xl:col-span-4 xl:row-span-2 xl:order-4',
   tabletop:
     'tabletop flex !space-y-5 sm:col-span-2 xl:col-span-2 xl:row-span-3 xl:order-1 xl: xl:!space-y-4',
   workshops:

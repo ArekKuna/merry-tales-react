@@ -1,7 +1,26 @@
 import { useState } from 'react';
 
-export const BlurredUpImage = ({ src, alt, srcSet, onLoad }) => {
+const variantMap = {
+  visible:
+    'absolute top-0 left-0 w-full h-full object-center opacity-100 blur-none duration-[2s]',
+  invisible:
+    'absolute top-0 left-0 w-full h-full object-center opacity-0 blur-md duration-[2s]',
+  rounded: 'rounded-lg',
+};
+
+export const BlurredUpImage = ({
+  src,
+  alt,
+  srcSet,
+  sizes,
+  onLoad,
+  variant,
+}) => {
   const [isLoaded, setisLoaded] = useState(false);
+
+  const variantClasses = variantMap[variant];
+
+  const { visible, invisible } = variantMap;
 
   const handleLoad = () => {
     setisLoaded(true);
@@ -13,11 +32,8 @@ export const BlurredUpImage = ({ src, alt, srcSet, onLoad }) => {
       src={src}
       alt={alt}
       srcSet={srcSet}
-      className={
-        isLoaded
-          ? 'absolute top-0 left-0 w-full rounded-lg opacity-100 blur-none duration-[1s]'
-          : 'absolute top-0 left-0 w-full rounded-lg opacity-0 blur-md duration-[1s]'
-      }
+      sizes={sizes}
+      className={isLoaded ? `${visible} ${variantClasses}` : `${invisible}`}
       loading='lazy'
       onLoad={handleLoad}
     />

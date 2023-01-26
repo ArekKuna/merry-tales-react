@@ -1,7 +1,33 @@
+import { useState } from 'react';
+
+import LowResImage from 'components/LowResImage/LowResImage';
+import BlurredUpImage from 'components/BlurredUpImage/BlurredUpImage';
+
+import { homePageImages } from 'data/homePageImages';
+
 const HeroImage = () => {
+  const [highResImageLoaded, setHighResImageLoaded] = useState(false);
+
+  const onHighResImageLoaded = () => {
+    setHighResImageLoaded(true);
+  };
+
+  const { hero } = homePageImages;
+
   return (
-    <div className='row-span-2 border-b-2 border-black sm:col-span-2 bg-hero1100 bg-cover bg-center bg-no-repeat sm:row-span-1 sm:-order-1 sm:bg-hero1800 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:border-black xl:order-2 xl:bg-hero2200'>
-      &nbsp;
+    <div className='relative w-full flex row-span-1 border-b-2 border-black sm:col-span-2 sm:row-span-1 sm:-order-1 xl:col-span-4 xl:row-span-3 xl:border-l-2 xl:border-black xl:order-2'>
+      <LowResImage
+        src={hero.lowQualityImage}
+        alt={hero.alt}
+        highResImageLoaded={highResImageLoaded}
+      />
+      <BlurredUpImage
+        srcSet={hero.srcSet}
+        src={hero.src}
+        sizes={hero.sizes}
+        alt={hero.alt}
+        onLoad={onHighResImageLoaded}
+      />
     </div>
   );
 };
