@@ -11,7 +11,7 @@ const VideoGamesSliderSlide = ({ image }) => {
   };
 
   return (
-    <div className='w-full h-full cursor-pointer'>
+    <>
       <LowResImage
         src={image.lowQualityImage}
         alt={image.alt}
@@ -24,7 +24,7 @@ const VideoGamesSliderSlide = ({ image }) => {
         sizes={image.sizes}
         onLoad={onHighResImageLoaded}
       />
-    </div>
+    </>
   );
 };
 

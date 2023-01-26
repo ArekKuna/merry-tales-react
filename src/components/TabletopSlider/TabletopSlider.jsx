@@ -13,6 +13,7 @@ const TabletopSlider = () => {
         slidesPerView={1}
         spaceBetween={50}
         loop={true}
+        speed={1500}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,

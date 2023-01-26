@@ -12,6 +12,7 @@ const VideoGamesSlider = () => {
       navigation
       slidesPerView={1}
       loop={true}
+      speed={1500}
       autoplay={{
         delay: 2000,
         disableOnInteraction: false,
@@ -19,7 +20,7 @@ const VideoGamesSlider = () => {
       className='!mx-0 h-full'
     >
       {homePageVideoGames?.map((image) => (
-        <SwiperSlide key={image.id}>
+        <SwiperSlide key={image.id} className='w-full h-full cursor-pointer'>
           <VideoGamesSliderSlide image={image} />
         </SwiperSlide>
       ))}
