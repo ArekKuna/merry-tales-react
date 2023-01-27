@@ -59,6 +59,10 @@ html::-webkit-scrollbar {
     transition: all .3s;
 }
 
+.swiper-cards {
+    perspective: 1000px !important;
+}
+
 .swiper-pagination {
     display: flex;
     justify-content: center;
