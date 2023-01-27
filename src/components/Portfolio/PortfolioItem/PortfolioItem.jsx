@@ -1,14 +1,31 @@
+import { useState } from 'react';
+
+import LowResImage from 'components/LowResImage/LowResImage';
+import BlurredUpImage from 'components/BlurredUpImage/BlurredUpImage';
+
 const PortfolioItem = ({ image }) => {
+  const [highResImageLoaded, setHighResImageLoaded] = useState(false);
+
+  const onHighResImageLoaded = () => {
+    setHighResImageLoaded(true);
+  };
+
   return (
-    <div className='px-4 mb-14 max-w-sm mx-auto last:mb-0 sm:px-0 sm:max-w-sm md:px-4 md:max-w-md xl:px-4 xl:max-w-[20%] xl:mb-0'>
-      <div className='mb-4'>
-        <img
+    <div className='w-[80%] px-4 mb-14 last:mb-0 sm:w-[45%] sm:px-0 md:px-4 lg:w-[35%] xl:max-w-[20%] xl:px-4 xl:mb-0'>
+      <div className='relative w-full mb-4 rounded-full shadow-2xl ring-2 ring-ghostWhite bg-gray-500'>
+        <LowResImage
+          src={image.lowQualityImage}
+          alt={image.alt}
+          variant='circle'
+          highResImageLoaded={highResImageLoaded}
+        />
+        <BlurredUpImage
           srcSet={image.srcSet}
           src={image.src}
-          sizes='100vw'
+          sizes={image.sizes}
           alt={image.alt}
-          className='rounded-full shadow-2xl ring-2 ring-ghostWhite'
-          loading='lazy'
+          variant='circle'
+          onLoad={onHighResImageLoaded}
         />
       </div>
       <div className='text-center'>

@@ -11,7 +11,7 @@ const CompositionImage = ({ workshop }) => {
   };
   console.log(highResImageLoaded);
   return (
-    <div className='relative w-full max-w-md aspect-[4/3] mb-14 last:mb-0 col-span-1 row-span-1 ring-2 ring-ghostWhite shadow-xl rounded-lg md:mb-0 md:max-w-[45%] lg:max-w-[48%] lg:mb-0 xl:max-w-[45%] xl:cursor-pointer xl:hover:scale-150 xl:hover:z-50 xl:duration-500'>
+    <div className='relative w-full max-w-md aspect-[4/3] mb-14 last:mb-0 col-span-1 row-span-1 ring-2 ring-ghostWhite shadow-xl rounded-lg bg-gray-500 md:mb-0 md:max-w-[45%] lg:max-w-[48%] lg:mb-0 xl:max-w-[45%] xl:cursor-pointer xl:hover:scale-150 xl:hover:z-50 xl:duration-500'>
       <LowResImage
         src={workshop.lowQualityImage}
         alt={workshop.alt}

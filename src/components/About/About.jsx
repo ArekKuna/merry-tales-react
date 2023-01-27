@@ -23,7 +23,7 @@ const About = () => {
 
   return (
     <div className='w-full mb-20 flex flex-col items-center text-base text-ghostWhite xl:py-0 xl:mb-0 xl:flex-row xl:text-xs 2xl:text-base'>
-      <div className='relative w-full min-h-[350px] mb-14 flex justify-center object-cover bg-black sm:w-1/2 lg:w-1/3 xl:mb-0 xl:w-1/2'>
+      <div className='relative w-full min-h-[350px] mb-14 flex justify-center object-cover bg-gray-500 sm:w-1/2 lg:w-1/3 xl:mb-0 xl:w-1/2'>
         <LowResImage
           src={professional.src}
           alt={professional.alt}

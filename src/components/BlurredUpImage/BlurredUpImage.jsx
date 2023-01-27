@@ -2,10 +2,11 @@ import { useState } from 'react';
 
 const variantMap = {
   visible:
-    'absolute top-0 left-0 w-full h-full object-center opacity-100 blur-none duration-[2s]',
+    'absolute top-0 left-0 w-full h-full object-center blur-none duration-[2s] z-10',
   invisible:
-    'absolute top-0 left-0 w-full h-full object-center opacity-0 blur-md duration-[2s]',
+    'absolute top-0 left-0 w-full h-full object-center blur-md duration-[2s]',
   rounded: 'rounded-lg',
+  circle: 'rounded-full',
 };
 
 export const BlurredUpImage = ({

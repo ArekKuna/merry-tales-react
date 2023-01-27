@@ -5,7 +5,7 @@ import { portfolioImages } from 'data/PortfolioImages';
 
 const PortfolioItems = () => {
   return (
-    <div className='max-w-screen-2xl mb-20 flex flex-col md:flex-row md:flex-wrap xl:mb-0 xl:content-evenly'>
+    <div className='max-w-screen-2xl w-full mb-20 flex flex-col justify-evenly items-center md:flex-row md:flex-wrap xl:mb-0'>
       {portfolioImages?.map((image) => (
         <PortfolioItem key={image.id} image={image} />
       ))}

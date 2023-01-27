@@ -20,7 +20,10 @@ const VideoGamesSlider = () => {
       className='!mx-0 h-full'
     >
       {homePageVideoGames?.map((image) => (
-        <SwiperSlide key={image.id} className='w-full h-full cursor-pointer'>
+        <SwiperSlide
+          key={image.id}
+          className='w-full h-full cursor-pointer bg-gray-500'
+        >
           <VideoGamesSliderSlide image={image} />
         </SwiperSlide>
       ))}
