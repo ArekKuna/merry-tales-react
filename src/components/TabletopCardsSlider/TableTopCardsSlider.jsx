@@ -9,15 +9,16 @@ const TableTopCardsSlider = ({ images }) => {
       modules={[EffectCards, Autoplay]}
       effect={'cards'}
       grabCursor={true}
+      speed={1000}
       autoplay={{
         delay: 2000,
         disableOnInteraction: false,
       }}
       loop={true}
-      className='max-w-1/2 h-full sm:max-w-1/3 xl:max-w-[40%]'
+      className='w-1/2 mx-0 h-full sm:w-[30%] md:w-[40%] lg:w-1/4 xl:w-[40%]'
     >
       {images?.map((image) => (
-        <SwiperSlide key={image.id} className=''>
+        <SwiperSlide key={image.id}>
           <CardsSliderImage image={image} />
         </SwiperSlide>
       ))}

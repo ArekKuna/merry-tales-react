@@ -8,14 +8,9 @@ import AboutParagraph from 'components/About/AboutParagraph/AboutParagraph';
 import { homePageImages } from 'data/homePageImages';
 
 const About = () => {
-  const [highResImageLoaded, setHighResImageLoaded] = useState(false);
   const [more, setMore] = useState(false);
 
   const { professional } = homePageImages;
-
-  const onHighResImageLoaded = () => {
-    setHighResImageLoaded(true);
-  };
 
   const handleMore = () => {
     setMore((prevState) => !prevState);
@@ -24,16 +19,8 @@ const About = () => {
   return (
     <div className='w-full mb-20 flex flex-col items-center text-base text-ghostWhite xl:py-0 xl:mb-0 xl:flex-row xl:text-xs 2xl:text-base'>
       <div className='relative w-full min-h-[350px] mb-14 flex justify-center object-cover bg-gray-500 sm:w-1/2 lg:w-1/3 xl:mb-0 xl:w-1/2'>
-        <LowResImage
-          src={professional.src}
-          alt={professional.alt}
-          highResImageLoaded={highResImageLoaded}
-        />
-        <BlurredUpImage
-          src={professional.src}
-          alt={professional.alt}
-          onLoad={onHighResImageLoaded}
-        />
+        <LowResImage src={professional.src} alt={professional.alt} />
+        <BlurredUpImage src={professional.src} alt={professional.alt} />
       </div>
       <div className='sm:w-3/4'>
         <div className='px-4 xl:px-12'>
