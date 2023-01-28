@@ -1,6 +1,17 @@
+import polsatGamesLowRes from 'assets/youtube-media/polsat-games.webp';
+import zewCthulhuLowRes from 'assets/youtube-media/call-of-cthulhu.webp';
+import pyrkonLowRes from 'assets/youtube-media/pyrkon-studio.webp';
+import womenLeadershipLowRes from 'assets/youtube-media/women-leadership-in-gamedev.webp';
+import toJaGoTneLowRes from 'assets/youtube-media/to-ja-go-tne.webp';
+import digitalDragonsCharacterCreationLowRes from 'assets/youtube-media/digital-dragons-academy.webp';
+import digitalDragonsLectureLowRes from 'assets/youtube-media/digital-dragons-academy-lecture.webp';
+import digitalDragonsNarrativeDesignLowRes from 'assets/youtube-media/digital-dragons-academy-narrative-design.webp';
+
 export const mediaVideos = [
   {
     id: 1,
+    LowQualityImage: polsatGamesLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: '5uRJ9TySKPo',
     start: 1574,
     title: '„Faux Pas”, Polsat Games – an interview on narrative design',
@@ -8,6 +19,8 @@ export const mediaVideos = [
   },
   {
     id: 2,
+    LowQualityImage: zewCthulhuLowRes,
+    HighQualityImage: '0',
     embedID: '0h99w0r07Z0',
     start: 0,
     title: 'Call of Cthulhu 7ed. trailer',
@@ -15,6 +28,8 @@ export const mediaVideos = [
   },
   {
     id: 3,
+    LowQualityImage: pyrkonLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: 'xe_pOPZvkNo',
     start: 0,
     title: 'Pyrkon Studio – a series of interviews',
@@ -22,6 +37,8 @@ export const mediaVideos = [
   },
   {
     id: 4,
+    LowQualityImage: womenLeadershipLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: 'eFm_O8JqBIc',
     start: 2227,
     title: 'Digital Dragons 2022 - women leadership panel',
@@ -29,6 +46,8 @@ export const mediaVideos = [
   },
   {
     id: 5,
+    LowQualityImage: toJaGoTneLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: 'Q70rDHeYDoo',
     start: 55,
     title: '“To Ja Go Tnę” – an interview on Call of Cthulhu 7ed',
@@ -36,6 +55,8 @@ export const mediaVideos = [
   },
   {
     id: 6,
+    LowQualityImage: digitalDragonsCharacterCreationLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: 'FxJZXmhbWxY',
     start: 6,
     title: 'Digital Dragons Academy – my lecture on character creation',
@@ -43,13 +64,17 @@ export const mediaVideos = [
   },
   {
     id: 7,
+    LowQualityImage: digitalDragonsLectureLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: '7pCrTI5mID4',
     start: 0,
-    title: 'Digital Dragons – speech on narrative design',
-    alt: 'Digital Dragons – speech on narrative design',
+    title: 'Digital Dragons - Academy lecture',
+    alt: 'Digital Dragons - Academy lecture',
   },
   {
     id: 8,
+    LowQualityImage: digitalDragonsNarrativeDesignLowRes,
+    HighQualityImage: 'maxresdefault',
     embedID: 'U6hAvJc_W_E',
     title: 'Digital Dragons – speech on narrative design',
     alt: 'Digital Dragons – speech on narrative design',

@@ -14,8 +14,8 @@ export const BlurredUpImage = ({
   alt,
   srcSet,
   sizes,
-  onLoad,
   variant,
+  onClick,
 }) => {
   const [isLoaded, setisLoaded] = useState(false);
 
@@ -25,7 +25,6 @@ export const BlurredUpImage = ({
 
   const handleLoad = () => {
     setisLoaded(true);
-    onLoad();
   };
 
   return (
@@ -37,6 +36,7 @@ export const BlurredUpImage = ({
       className={isLoaded ? `${visible} ${variantClasses}` : `${invisible}`}
       loading='lazy'
       onLoad={handleLoad}
+      onClick={onClick}
     />
   );
 };

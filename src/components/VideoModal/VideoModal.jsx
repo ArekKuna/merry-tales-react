@@ -14,8 +14,8 @@ const VideoModal = ({ isOpen, onClose, videoUrl, startTime }) => {
       onClick={onClose}
       className={
         isOpen
-          ? 'w-full h-full fixed flex justify-center items-center opacity-100 z-40 duration-500 bg-black/90 '
-          : 'opacity-0 duration-500'
+          ? 'w-full h-full fixed flex justify-center items-center opacity-100 z-40 duration-1000 bg-black/90 '
+          : 'opacity-0 duration-1000'
       }
     >
       <GiCrossedSwords
@@ -25,7 +25,7 @@ const VideoModal = ({ isOpen, onClose, videoUrl, startTime }) => {
       <YouTube
         videoId={videoUrl}
         loading='lazy'
-        iframeClassName='w-full h-[270px] mx-auto md:h-[400px] lg:h-[500px]'
+        iframeClassName='w-full h-full'
         opts={{
           playerVars: {
             autoplay: 1,
@@ -33,7 +33,7 @@ const VideoModal = ({ isOpen, onClose, videoUrl, startTime }) => {
             start: startTime,
           },
         }}
-        className='w-[95%] bg-cover bg-center sm:w-[90%] md:w-[80%] lg:w-[80%] xl:w-[70%] duration-500'
+        className='w-[95%] h-[330px] bg-cover bg-center sm:w-[90%] md:w-[80%] lg:w-[70%] lg:h-[450px] xl:w-[60%] xl:h-[500px] duration-1000'
       />
     </div>,
     element

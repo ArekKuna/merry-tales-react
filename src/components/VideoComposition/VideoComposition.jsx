@@ -1,27 +1,27 @@
 import { useState } from 'react';
 
 import VideoCompositionItem from 'components/VideoComposition/VideoCompistionItem/VideoCompositionItem';
-import Article from 'components/Article/Article';
+import OtherMedia from 'components/OtherMedia/OtherMedia';
 import VideoModal from 'components/VideoModal/VideoModal';
 
 import { mediaVideos } from 'data/mediaVideos';
-import { mediaArticles } from 'data/mediaArticles';
+import { otherMedia } from 'data/otherMedia';
 
 const VideoComposition = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [videoUrl, setVideoUrl] = useState(null);
-  const [start, setStart] = useState(null);
+  const [activeVideoUrl, setActiveVideoUrl] = useState(null);
+  const [activeVideoStartStamp, setActiveVideoStartStamp] = useState(null);
 
-  const handleImageClick = (event) => {
+  const handleImageClick = (activeVideoId, videoStartTimeStamp) => {
     setIsOpen(true);
-    setVideoUrl(() => event.target.attributes.activeid.value);
-    setStart(() => event.target.attributes.start.value);
+    setActiveVideoUrl(() => activeVideoId);
+    setActiveVideoStartStamp(() => videoStartTimeStamp);
   };
 
   const handleCloseModal = () => {
     setIsOpen(false);
-    setVideoUrl(null);
-    setStart(null);
+    setActiveVideoUrl(null);
+    setActiveVideoStartStamp(null);
   };
 
   return (
@@ -32,20 +32,20 @@ const VideoComposition = () => {
             key={video.id}
             video={video}
             onClick={handleImageClick}
-            activeid={video.embedID}
-            start={video.start}
+            activeVideoId={video.embedID}
+            videoStartTimeStamp={video.start}
           />
         ))}
-        {mediaArticles?.map((article) => (
-          <Article key={article.id} article={article} />
+        {otherMedia?.map((media) => (
+          <OtherMedia key={media.id} media={media} />
         ))}
       </div>
       <VideoModal
         isOpen={isOpen}
         onClose={handleCloseModal}
-        videoUrl={videoUrl}
+        videoUrl={activeVideoUrl}
         mediaVideos={mediaVideos}
-        startTime={start}
+        startTime={activeVideoStartStamp}
       />
     </>
   );
