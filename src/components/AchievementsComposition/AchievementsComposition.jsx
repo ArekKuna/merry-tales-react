@@ -1,4 +1,4 @@
-import AchievementsCompositionItem from './AchievementsCompositionItem/AchievementsCompositionItem';
+import AchievementsCompositionItem from 'components/AchievementsComposition/AchievementsCompositionItem/AchievementsCompositionItem';
 
 import { achievements } from 'data/achievements';
 
