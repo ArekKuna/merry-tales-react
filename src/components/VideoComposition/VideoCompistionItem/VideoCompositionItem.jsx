@@ -1,4 +1,4 @@
-import { HiPlay } from 'react-icons/hi';
+import PlayIcon from 'components/Icons/PlayIcon/PlayIcon';
 import LowResImage from 'components/LowResImage/LowResImage';
 import BlurredUpImage from 'components/BlurredUpImage/BlurredUpImage';
 
@@ -23,7 +23,7 @@ const VideoCompositionItem = ({
         {video.title}
       </h3>
       <div className='relative w-full h-full rounded-lg ring-2 ring-white bg-gray-500'>
-        <HiPlay
+        <PlayIcon
           className='absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] h-20 w-20 opacity-70 z-20 text-gray-300 xl:hidden'
           onClick={handleClick}
         />

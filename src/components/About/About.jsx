@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { AiOutlineDown } from 'react-icons/ai';
+import ArrowDown from 'components/Icons/ArrowDown/ArrowDown';
 
 import LowResImage from 'components/LowResImage/LowResImage';
 import BlurredUpImage from 'components/BlurredUpImage/BlurredUpImage';
@@ -45,7 +45,7 @@ const About = () => {
             >
               {more ? 'less' : 'more'}
             </p>
-            <AiOutlineDown
+            <ArrowDown
               className={
                 more
                   ? 'text-lg rotate-180 transition-all duration-700'

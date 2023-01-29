@@ -1,7 +1,7 @@
 import ReactDom from 'react-dom';
 import YouTube from 'react-youtube';
 
-import { GiCrossedSwords } from 'react-icons/gi';
+import SwordsIcon from 'components/Icons/SwordsIcon/SwordsIcon';
 
 const VideoModal = ({ isOpen, onClose, videoUrl, startTime }) => {
   if (!isOpen) {
@@ -18,7 +18,7 @@ const VideoModal = ({ isOpen, onClose, videoUrl, startTime }) => {
           : 'opacity-0 duration-1000'
       }
     >
-      <GiCrossedSwords
+      <SwordsIcon
         className='absolute top-5 right-5 h-8 w-8 cursor-pointer text-ghostWhite md:h-10 md:w-10 xl:h-12 xl:w-12 xl:top-20 xl:right-20'
         onClick={onClose}
       />

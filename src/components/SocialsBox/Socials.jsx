@@ -1,7 +1,8 @@
 import { useLocation } from 'react-router-dom';
-import { GrMail, GrYoutube } from 'react-icons/gr';
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-
+import FacebookIcon from 'components/Icons/FacebookIcon/FacebookIcon';
+import LinkedInIcon from 'components/Icons/LinkedInIcon/LinkedInIcon';
+import YouTubeIcon from 'components/Icons/YouTubeIcon/YouTubeIcon';
+import GmailIcon from 'components/Icons/GmailIcon/GmailIcon';
 import SocialsItem from 'components/SocialsBox/SocialsItem/SocialsItem';
 
 const variantMap = {
@@ -20,7 +21,7 @@ const SocialsBox = ({ variant }) => {
       <SocialsItem
         variant={location.pathname === '/' ? 'facebookHome' : 'facebook'}
         element={
-          <FaFacebookF
+          <FacebookIcon
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
                 ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
@@ -33,7 +34,7 @@ const SocialsBox = ({ variant }) => {
       <SocialsItem
         variant={location.pathname === '/' ? 'linkedInHome' : 'linkedin'}
         element={
-          <FaLinkedinIn
+          <LinkedInIcon
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
                 ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
@@ -46,7 +47,7 @@ const SocialsBox = ({ variant }) => {
       <SocialsItem
         variant={location.pathname === '/' ? 'youTubeHome' : 'youtube'}
         element={
-          <GrYoutube
+          <YouTubeIcon
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
                 ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'
@@ -59,7 +60,7 @@ const SocialsBox = ({ variant }) => {
       <SocialsItem
         variant={location.pathname === '/' ? 'def' : 'email'}
         element={
-          <GrMail
+          <GmailIcon
             className={`mx-auto h-8 w-8 ${
               location.pathname === '/'
                 ? 'text-ghostWhite xl:group-hover:text-black xl:duration-500'

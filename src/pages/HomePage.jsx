@@ -4,7 +4,7 @@ import LinkBox from 'components/LinkBox/LinkBox';
 import VideoGamesSlider from 'components/VideoGamesSlider/VideoGamesSlider';
 import TabletopSlider from 'components/TabletopSlider/TabletopSlider';
 import WorkshopsIcon from 'components/Icons/WorkshopsIcon/WorkshopsIcon';
-import { GiAlliedStar } from 'react-icons/gi';
+import StarIcon from 'components/Icons/StarIcon/StarIcon';
 import AchievementIcon from 'components/Icons/AchievementIcon/AchievementIcon';
 import SocialsBox from 'components/SocialsBox/Socials';
 
@@ -46,7 +46,7 @@ const HomePage = () => {
         title='Media'
         description='Love To Share'
         element={
-          <GiAlliedStar className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
+          <StarIcon className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
         }
         variant='media'
       />
