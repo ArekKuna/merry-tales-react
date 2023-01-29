@@ -1,4 +1,3 @@
-// import PortfolioParagraph from 'components/Portfolio/PortfolioParagraph/PortfolioParagraph';
 import PortfolioItem from 'components/Portfolio/PortfolioItem/PortfolioItem';
 
 import { portfolioImages } from 'data/portfolioImages';
