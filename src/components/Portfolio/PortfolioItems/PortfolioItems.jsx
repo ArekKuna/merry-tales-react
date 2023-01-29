@@ -1,6 +1,6 @@
 import PortfolioItem from 'components/Portfolio/PortfolioItem/PortfolioItem';
 
-import { portfolioImages } from 'data/portfolioImages';
+import { portfolioImages } from 'data/PortfolioImages';
 
 const PortfolioItems = () => {
   return (
