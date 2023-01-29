@@ -1,7 +1,7 @@
 // import PortfolioParagraph from 'components/Portfolio/PortfolioParagraph/PortfolioParagraph';
 import PortfolioItem from 'components/Portfolio/PortfolioItem/PortfolioItem';
 
-import { portfolioImages } from 'data/PortfolioImages';
+import { portfolioImages } from 'data/portfolioImages';
 
 const PortfolioItems = () => {
   return (

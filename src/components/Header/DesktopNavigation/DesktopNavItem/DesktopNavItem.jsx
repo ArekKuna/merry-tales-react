@@ -1,16 +1,15 @@
 import { NavLink } from 'react-router-dom';
 
-const DesktopNavItem = ({ links }) => {
+const DesktopNavItem = ({ link }) => {
   return (
-    <>
-      {links.map(({ to, text, id }) => (
-        <li key={id}>
-          <NavLink className='text-xl text-ghostWhite font-bold xl:text-3xl' to={to}>
-            {text}
-          </NavLink>
-        </li>
-      ))}
-    </>
+    <li>
+      <NavLink
+        className='text-xl text-ghostWhite font-bold xl:text-3xl'
+        to={link.to}
+      >
+        {link.text}
+      </NavLink>
+    </li>
   );
 };
 
