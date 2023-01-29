@@ -17,11 +17,14 @@ const TabletopGames = () => {
       <PageTitle text='Tabletop RPG Games' />
       <div className='w-full z-10 max-w-screen-2xl flex flex-col xl:px-4 xl:flex-row'>
         <CardsSliderBox>
-          <SectionParagraph variant='cthulhu' />
+          <SectionParagraph textVariant='cthulhu' variant='cthulhu' />
           <TableTopCardsSlider images={cthulhuImages} />
         </CardsSliderBox>
         <CardsSliderBox>
-          <SectionParagraph variant='otherTabletops' />
+          <SectionParagraph
+            textVariant='otherTabletops'
+            variant='otherTabletops'
+          />
           <TableTopCardsSlider images={otherTabletops} />
         </CardsSliderBox>
       </div>

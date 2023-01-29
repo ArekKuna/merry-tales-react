@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div className='w-full flex flex-col items-center justify-center z-10'>
       <div className='flex justify-center'>
-        <SectionParagraph variant='videoGames' />
+        <SectionParagraph textVariant='videoGames' />
       </div>
       <PortfolioItems />
     </div>

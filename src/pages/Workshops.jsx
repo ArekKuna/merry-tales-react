@@ -16,7 +16,7 @@ const Workshops = () => {
     >
       <PageTitle text='Workshops' />
       <div className='z-20 max-w-screen-2xl lg:px-16 xl:px-4'>
-        <SectionParagraph variant='workshops' />
+        <SectionParagraph textVariant='workshops' variant='workshops' />
         <div className='flex flex-col xl:flex-row xl:justify-evenly'>
           <Composition workshops={workshops} />
           <List

@@ -9,7 +9,7 @@ const Media = () => {
     <GlobalContainer loadingVariant='mediaLoading' readyVariant='mediaReady'>
       <PageTitle text='media' />
       <div className='z-20 max-w-screen-2xl xl:flex xl:flex-col'>
-        <SectionParagraph variant='media' />
+        <SectionParagraph textVariant='media' />
         <div className='mb-20 xl:mb-0'>
           <VideoComposition />
         </div>

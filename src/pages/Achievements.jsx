@@ -13,7 +13,7 @@ const Achievements = () => {
     >
       <PageTitle text='achievements' />
       <div className='z-20 max-w-screen-2xl'>
-        <SectionParagraph variant='achievements' />
+        <SectionParagraph textVariant='achievements' />
         <div className='px-4 flex flex-col justify-center items-center xl:px-0 xl:flex-row'>
           <AchievementsComposition />
           <Partners />
