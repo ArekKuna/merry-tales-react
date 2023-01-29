@@ -6,7 +6,7 @@ import SocialsBox from 'components/SocialsBox/Socials';
 
 const Media = () => {
   return (
-    <GlobalContainer variant='media'>
+    <GlobalContainer loadingVariant='mediaLoading' readyVariant='mediaReady'>
       <PageTitle text='media' />
       <div className='z-20 max-w-screen-2xl xl:flex xl:flex-col'>
         <SectionParagraph variant='media' />

@@ -7,7 +7,10 @@ import SocialsBox from 'components/SocialsBox/Socials';
 
 const Achievements = () => {
   return (
-    <GlobalContainer variant='achievements'>
+    <GlobalContainer
+      loadingVariant='achievementsLoading'
+      readyVariant='achievementsReady'
+    >
       <PageTitle text='achievements' />
       <div className='z-20 max-w-screen-2xl'>
         <SectionParagraph variant='achievements' />

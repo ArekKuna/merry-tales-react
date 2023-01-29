@@ -10,7 +10,10 @@ import { workshopsListItems } from 'data/workshopsList';
 
 const Workshops = () => {
   return (
-    <GlobalContainer variant='workshops'>
+    <GlobalContainer
+      loadingVariant='workshopsLoading'
+      readyVariant='workshopsReady'
+    >
       <PageTitle text='Workshops' />
       <div className='z-20 max-w-screen-2xl lg:px-16 xl:px-4'>
         <SectionParagraph variant='workshops' />
