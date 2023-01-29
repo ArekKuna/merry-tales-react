@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 const variantMap = {
   visible: 'w-full h-full object-center blur-none duration-[2s]',
   invisible: 'w-full h-full object-center opacity-0 blur-md duration-[2s]',
@@ -5,10 +7,16 @@ const variantMap = {
   circle: 'rounded-full',
 };
 
-const LowResImage = ({ src, alt, highResImageLoaded, variant }) => {
+const LowResImage = ({ src, alt, variant }) => {
+  const [isLoaded, setIsLoaded] = useState(true);
+
   const variantClasses = variantMap[variant];
 
   const { visible, invisible } = variantMap;
+
+  const handleLoad = () => {
+    setIsLoaded(false);
+  };
 
   return (
     <img
@@ -16,10 +24,11 @@ const LowResImage = ({ src, alt, highResImageLoaded, variant }) => {
       alt={alt}
       loading='lazy'
       className={
-        highResImageLoaded
-          ? `${invisible} ${variantClasses}`
-          : `${visible} ${variantClasses}`
+        isLoaded
+          ? `${visible} ${variantClasses}`
+          : `${invisible} ${variantClasses}`
       }
+      onLoad={handleLoad}
     />
   );
 };
