@@ -8,7 +8,7 @@ const Media = () => {
   return (
     <GlobalContainer variant='media'>
       <PageTitle text='media' />
-      <div className='z-20 max-w-screen-2xl xl:px-8 xl:flex xl:flex-col'>
+      <div className='z-20 max-w-screen-2xl xl:flex xl:flex-col'>
         <SectionParagraph variant='media' />
         <div className='mb-20 xl:mb-0'>
           <VideoComposition />

@@ -1,5 +1,5 @@
 const variantMap = {
-  def: 'pt-header min-h-screen w-full border-2 border-black xl:h-screen xl:max-h-screen',
+  def: 'pt-header min-h-screen w-full xl:h-screen xl:max-h-screen',
   grid: 'grid grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-3 xl:max-h-screen xl:grid-cols-8 xl:grid-rows-5',
   flex: 'flex justify-center',
 };

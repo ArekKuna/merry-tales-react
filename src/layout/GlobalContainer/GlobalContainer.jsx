@@ -5,6 +5,7 @@ const variantMap = {
   tabletop: 'before:bg-tabletop1280 xl:before:bg-tabletop1920',
   workshops: 'before:bg-workshops1280 xl:before:bg-workshops1920',
   media: 'before:bg-media1280 xl:before:bg-media1920',
+  achievements: 'before:bg-achievements1280 xl:before:bg-achievements1920',
 };
 
 const GlobalContainer = ({ children, variant = 'def' }) => {

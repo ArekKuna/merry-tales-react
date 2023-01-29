@@ -35,4 +35,8 @@ export const sectionParagraphs = {
     text: `From time to time I have the pleasure to take part in various media events, including interviews for 
           ****Polsat Games****, ****CD Actions**** and other various ****magazines**** and ****TV programmes**** or ****podcasts****.`,
   },
+  achievements: {
+    className: 'sm:w-3/4',
+    text: `I’ve gained my experience learning from the best - ****Laurie Hutzler**** and ****Susan O’Connor****. I’ve completed various narrative design and scriptwriting courses. Other than that I had the pleasure to attend voice over recording workshops run by ****Joanna Węgrzynowska**** from ****SDI Studio****.`,
+  },
 };
