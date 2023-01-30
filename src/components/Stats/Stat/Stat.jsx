@@ -1,9 +1,10 @@
 import { useRef, useState, useEffect } from 'react';
 
 const sizeMap = {
-  sm: 'w-[85%]',
-  m: 'w-[90%]',
-  lg: 'w-[95%]',
+  80: 'w-[80%]',
+  85: 'w-[85%]',
+  90: 'w-[90%]',
+  95: 'w-[95%]',
 };
 
 const Stat = ({ title, percent, size }) => {
