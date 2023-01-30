@@ -19,11 +19,7 @@ const Workshops = () => {
         <SectionParagraph textVariant='workshops' variant='workshops' />
         <div className='flex flex-col xl:flex-row xl:justify-evenly'>
           <Composition workshops={workshops} />
-          <List
-            listTitle='Topics to cover'
-            text='If you’re interested in any of the above, feel free to contact me'
-            listItems={workshopsListItems}
-          />
+          <List listTitle='Topics to cover' listItems={workshopsListItems} />
         </div>
       </div>
       <SocialsBox variant='fixed' />
