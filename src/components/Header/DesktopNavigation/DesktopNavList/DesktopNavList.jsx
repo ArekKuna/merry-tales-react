@@ -4,7 +4,7 @@ import { desktopMenuConfig } from 'data/desktopMenuConfig';
 
 const DesktopNavList = () => {
   return (
-    <ul className='flex w-full justify-center items-center space-x-4 capitalize xl:space-x-10'>
+    <ul className='flex justify-evenly items-center capitalize md:space-x-3 xl:space-x-10'>
       {desktopMenuConfig?.map((link) => (
         <DesktopNavItem key={link.id} link={link} />
       ))}

@@ -4,7 +4,7 @@ const DesktopNavItem = ({ link }) => {
   return (
     <li>
       <NavLink
-        className='text-xl text-ghostWhite font-bold xl:text-3xl'
+        className='text-lg text-ghostWhite font-bold uppercase lg:text-2xl'
         to={link.to}
       >
         {link.text}

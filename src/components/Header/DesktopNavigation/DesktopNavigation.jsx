@@ -2,7 +2,7 @@ import DesktopNavList from 'components/Header/DesktopNavigation/DesktopNavList/D
 
 const DesktopNavigation = () => {
   return (
-    <nav className='hidden w-full md:flex'>
+    <nav className='hidden w-full md:flex md:justify-center'>
       <DesktopNavList />
     </nav>
   );

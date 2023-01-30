@@ -35,7 +35,7 @@ const HomePage = () => {
       <LinkBox
         to='/workshops'
         title='Workshops'
-        description='Skill Of Teaching'
+        description='Skill To Teach'
         element={
           <WorkshopsIcon className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
         }
