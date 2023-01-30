@@ -14,6 +14,9 @@ const variantMap = {
   mediaReady: 'before:bg-media1280 xl:before:bg-media1920',
   achievementsLoading: 'before:bg-achievementsLowRes before:blur-md',
   achievementsReady: 'before:bg-achievements1280 xl:before:bg-achievements1920',
+  notFoundLoading: 'before:bg-notFoundLowRes before:blur-md',
+  notFoundReady:
+    '!justify-between before:bg-notFound1280 xl:before:bg-notFound1920',
 };
 
 const GlobalContainer = ({ children, loadingVariant, readyVariant }) => {

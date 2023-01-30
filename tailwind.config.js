@@ -38,6 +38,12 @@ module.exports = {
           'url(assets/backgrounds/achievements/achievements-bg-1280.webp)',
         achievements1920:
           'url(assets/backgrounds/achievements/achievements-bg-1920.webp)',
+        notFoundLowRes:
+          'url(assets/backgrounds/not-found/not-found-bg-LowRes.webp)',
+        notFound1280:
+          'url(assets/backgrounds/not-found/not-found-bg-1280.webp)',
+        notFound1920:
+          'url(assets/backgrounds/not-found/not-found-bg-1920.webp)',
       },
       maxWidth: {
         '1/4': '25%',
