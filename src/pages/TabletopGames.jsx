@@ -1,3 +1,4 @@
+import Main from 'layout/Main/Main';
 import GlobalContainer from 'layout/GlobalContainer/GlobalContainer';
 import PageTitle from 'layout/PageTitle/PageTitle';
 import CardsSliderBox from 'components/TabletopCardsSlider/CardsSliderBox/CardsSliderBox';
@@ -10,26 +11,28 @@ import { otherTabletops } from 'data/otherTabletops';
 
 const TabletopGames = () => {
   return (
-    <GlobalContainer
-      loadingVariant='tabletopLoading'
-      readyVariant='tabletopReady'
-    >
-      <PageTitle text='Tabletop RPG Games' />
-      <div className='w-full z-10 max-w-screen-2xl flex flex-col xl:px-4 xl:flex-row'>
-        <CardsSliderBox>
-          <SectionParagraph textVariant='cthulhu' variant='cthulhu' />
-          <TableTopCardsSlider images={cthulhuImages} />
-        </CardsSliderBox>
-        <CardsSliderBox>
-          <SectionParagraph
-            textVariant='otherTabletops'
-            variant='otherTabletops'
-          />
-          <TableTopCardsSlider images={otherTabletops} />
-        </CardsSliderBox>
-      </div>
-      <SocialsBox variant='fixed' />
-    </GlobalContainer>
+    <Main variant='flex'>
+      <GlobalContainer
+        loadingVariant='tabletopLoading'
+        readyVariant='tabletopReady'
+      >
+        <PageTitle text='Tabletop RPG Games' />
+        <div className='w-full z-10 max-w-screen-2xl flex flex-col xl:px-4 xl:flex-row'>
+          <CardsSliderBox>
+            <SectionParagraph textVariant='cthulhu' variant='cthulhu' />
+            <TableTopCardsSlider images={cthulhuImages} />
+          </CardsSliderBox>
+          <CardsSliderBox>
+            <SectionParagraph
+              textVariant='otherTabletops'
+              variant='otherTabletops'
+            />
+            <TableTopCardsSlider images={otherTabletops} />
+          </CardsSliderBox>
+        </div>
+        <SocialsBox variant='fixed' />
+      </GlobalContainer>
+    </Main>
   );
 };
 

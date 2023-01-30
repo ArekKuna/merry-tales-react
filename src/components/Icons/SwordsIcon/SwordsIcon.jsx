@@ -3,9 +3,9 @@ const SwordsIcon = ({ className, onClick }) => {
     <svg
       stroke='currentColor'
       fill='currentColor'
-      stroke-width='0'
+      strokeWidth='0'
       viewBox='0 0 512 512'
-      class='absolute top-5 right-5 h-8 w-8 cursor-pointer text-ghostWhite md:h-10 md:w-10 xl:h-12 xl:w-12 xl:top-20 xl:right-20'
+      // class='absolute top-5 right-5 h-8 w-8 cursor-pointer text-ghostWhite md:h-10 md:w-10 xl:h-12 xl:w-12 xl:top-20 xl:right-20'
       height='1em'
       width='1em'
       xmlns='http://www.w3.org/2000/svg'

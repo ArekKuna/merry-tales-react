@@ -1,3 +1,4 @@
+import Main from 'layout/Main/Main';
 import Logo from 'components/Logo/Logo';
 import HeroImage from 'components/HeroImage/HeroImage';
 import LinkBox from 'components/LinkBox/LinkBox';
@@ -10,7 +11,7 @@ import SocialsBox from 'components/SocialsBox/Socials';
 
 const HomePage = () => {
   return (
-    <>
+    <Main variant='grid'>
       <Logo />
       <HeroImage />
       <LinkBox
@@ -60,7 +61,7 @@ const HomePage = () => {
         variant='achievements'
       />
       <SocialsBox />
-    </>
+    </Main>
   );
 };
 
