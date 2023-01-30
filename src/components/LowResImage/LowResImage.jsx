@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const variantMap = {
-  visible: 'w-full h-full object-center blur-none duration-[2s]',
+  visible: 'w-full h-full object-center opacity-100 blur-md duration-[2s]',
   invisible: 'w-full h-full object-center opacity-0 blur-md duration-[2s]',
   rounded: 'rounded-lg',
   circle: 'rounded-full',

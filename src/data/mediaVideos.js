@@ -6,6 +6,7 @@ import toJaGoTneLowRes from 'assets/youtube-media/to-ja-go-tne.webp';
 import digitalDragonsCharacterCreationLowRes from 'assets/youtube-media/digital-dragons-academy.webp';
 import digitalDragonsLectureLowRes from 'assets/youtube-media/digital-dragons-academy-lecture.webp';
 import digitalDragonsNarrativeDesignLowRes from 'assets/youtube-media/digital-dragons-academy-narrative-design.webp';
+import nutkaWNutke from 'assets/youtube-media/nutka-w-nutke.webp';
 
 export const mediaVideos = [
   {
@@ -78,5 +79,13 @@ export const mediaVideos = [
     embedID: 'U6hAvJc_W_E',
     title: 'Digital Dragons – speech on narrative design',
     alt: 'Digital Dragons – speech on narrative design',
+  },
+  {
+    id: 8,
+    LowQualityImage: nutkaWNutke,
+    HighQualityImage: 'maxresdefault',
+    embedID: 'lsbBFXlCvLk',
+    title: 'RPG session recorded with Majka Jeżowska',
+    alt: 'RPG session recorded with Majka Jeżowska',
   },
 ];
