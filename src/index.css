@@ -19,12 +19,6 @@ html::-webkit-scrollbar {
     margin: auto;
 }
 
-.active {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    color: rgb(152, 7, 7);
-}
-
 .icon-top,
 .icon-middle,
 .icon-bottom {
