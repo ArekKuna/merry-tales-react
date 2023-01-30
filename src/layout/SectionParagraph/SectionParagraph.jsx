@@ -17,9 +17,11 @@ const SectionParagraph = ({ textVariant, variant = 'def' }) => {
   const { def } = variantMap;
 
   return (
-    <ReactMarkdown
-      className={`${def} ${variantClasses}`}
-    >{`${variantParagraph.text}`}</ReactMarkdown>
+    <>
+      <ReactMarkdown className={`${def} ${variantClasses}`} linkTarget='_blank'>
+        {`${variantParagraph.text}`}
+      </ReactMarkdown>
+    </>
   );
 };
 

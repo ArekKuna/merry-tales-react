@@ -10,7 +10,7 @@ export const sectionParagraphs = {
     text: `Tabletop RPG games are sort of my childish love, but honestly I never gave them up. I’ve been working as a translator (****core book**** & ****Alone Against the Dark gamebook****) and scenario writer for the Polish 7th ed. ****Call of Cthulhu**** (additional campaign books). Lately I’ve been involved in the group of authors creating the project ****Zgrozy-Call**** of ****Cthulhu RPG Supplements****.`,
   },
   otherTabletops: {
-    text: `My scenario for ****Blades in the Dark**** was published in ****Nowa Fantastyka**** magazine. I also had the pleasure to write supplements for Polish 5th ed. ****Vampire the Masquerade****, ****Sibir Punk**** and ****Nibiru RPG****. My personal favourite though is the scenario for ****Tales from the Loop**** that I wrote in cooperation with ****Majka Jeżowska****.`,
+    text: `My scenario for ****Blades in the Dark**** was published in ****Nowa Fantastyka**** magazine. I also had the pleasure to write supplements for Polish 5th ed. ****Vampire the Masquerade****, ****Sibir Punk**** and ****Nibiru RPG****. My personal favourite though is the scenario for ****Tales from the Loop**** that I wrote in cooperation with ****Majka Jeżowska****. You can download it [****here****](https://www.drivethrurpg.com/product/403201/nutkawnutkezgadzasieexe) or read it in Nowa Fantastyka magazine.`,
   },
   workshops: {
     text: `Since 2010 I’ve been running workshops and giving lectures on subjects
@@ -26,6 +26,6 @@ export const sectionParagraphs = {
           ****Polsat Games****, ****CD Actions**** and other various ****magazines**** and ****TV programmes**** or ****podcasts****.`,
   },
   achievements: {
-    text: `I’ve gained my experience learning from the best - ****Laurie Hutzler**** and ****Susan O’Connor****. I’ve completed various narrative design and scriptwriting courses. Other than that I had the pleasure to attend voice over recording workshops run by ****Joanna Węgrzynowska**** from ****SDI Studio****.`,
+    text: `I’ve gained my experience learning from the best - ****Laurie Hutzler**** and ****Susan O’Connor****. I’ve completed various narrative design and scriptwriting courses (e.g. ****Bahama Films Studio****). Other than that I had the pleasure to attend voice over recording workshops run by ****Joanna Węgrzynowska**** from ****SDI Studio****.`,
   },
 };
