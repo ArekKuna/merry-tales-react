@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className='fixed flex items-center justify-between w-full h-[64px] px-2 py-1 z-30 bg-black md:p-0'>
+    <header className='fixed flex items-center justify-between w-full h-[62px] px-2 py-1 z-30 bg-black md:p-0'>
       <h1 className='text-xl text-ghostWhite font-bold uppercase sm:text-xl md:hidden'>
         Merry Tale Games
       </h1>
