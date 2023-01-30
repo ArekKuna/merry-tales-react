@@ -28,7 +28,7 @@ const LinkBox = ({ to, title, description, element, variant }) => {
         </h2>
       )}
       {description && (
-        <span className='text-lg font-bold tracking-tight capitalize xl:group-hover:text-ghostWhite xl:duration-500'>
+        <span className='text-lg font-bold tracking-tight xl:group-hover:text-ghostWhite xl:duration-500'>
           {description}
         </span>
       )}

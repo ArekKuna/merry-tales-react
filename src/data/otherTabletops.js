@@ -40,6 +40,13 @@ import wampir800 from 'assets/tabletop/other/wampir-az-po-zeby-800.webp';
 import wampir1000 from 'assets/tabletop/other/wampir-az-po-zeby-1000.webp';
 import wampir1200 from 'assets/tabletop/other/wampir-az-po-zeby-1200.webp';
 import wampirFallback from 'assets/tabletop/other/wampir-az-po-zeby-800.jpg';
+import nowafantastykaLowRes from 'assets/tabletop/other/nowa-fantastyka-LowRes.webp';
+import nowaFantastyka400 from 'assets/tabletop/other/nowa-fantastyka-400.webp';
+import nowaFantastyka600 from 'assets/tabletop/other/nowa-fantastyka-600.webp';
+import nowaFantastyka800 from 'assets/tabletop/other/nowa-fantastyka-800.webp';
+import nowaFantastyka1000 from 'assets/tabletop/other/nowa-fantastyka-1000.webp';
+import nowaFantastyka1200 from 'assets/tabletop/other/nowa-fantastyka-1200.webp';
+import nowaFantastykaFallback from 'assets/tabletop/other/nowa-fantastyka-800.jpg';
 
 export const otherTabletops = [
   {
@@ -89,5 +96,13 @@ export const otherTabletops = [
     src: wampirFallback,
     sizes: '100vw',
     alt: 'Wampir Maskarada - A Po Zęby',
+  },
+  {
+    id: 7,
+    lowQualityImage: nowafantastykaLowRes,
+    srcSet: `${nowaFantastyka400} 400w, ${nowaFantastyka600} 600w, ${nowaFantastyka800} 800w, ${nowaFantastyka1000} 1000w, ${nowaFantastyka1200} 1200w`,
+    src: nowaFantastykaFallback,
+    sizes: '100vw',
+    alt: 'Nowa Fantastyka, magazine, 11.2022',
   },
 ];

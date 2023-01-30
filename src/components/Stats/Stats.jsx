@@ -7,7 +7,7 @@ const Stats = () => {
       <StatsTitle title='Skills' />
       <Stat title='characters' percent='90' size='90' />
       <Stat title='world building' percent='80' size='80' />
-      <Stat title='dialogues' percent='80' size='80' />
+      <Stat title='dialogues' percent='85' size='85' />
       <Stat title='cutscenes' percent='85' size='85' />
       <Stat title='english' percent='95' size='95' />
       <Stat title='scriptwriting' percent='85' size='85' />
