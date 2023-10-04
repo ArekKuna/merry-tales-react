@@ -1,64 +1,64 @@
-import Main from 'layout/Main/Main';
-import Logo from 'components/Logo/Logo';
-import HeroImage from 'components/HeroImage/HeroImage';
-import LinkBox from 'components/LinkBox/LinkBox';
-import VideoGamesSlider from 'components/VideoGamesSlider/VideoGamesSlider';
-import TabletopSlider from 'components/TabletopSlider/TabletopSlider';
-import WorkshopsIcon from 'components/Icons/WorkshopsIcon/WorkshopsIcon';
-import StarIcon from 'components/Icons/StarIcon/StarIcon';
-import AchievementIcon from 'components/Icons/AchievementIcon/AchievementIcon';
-import SocialsBox from 'components/SocialsBox/Socials';
+import HeroImage from "components/HeroImage/HeroImage";
+import AchievementIcon from "components/Icons/AchievementIcon/AchievementIcon";
+import StarIcon from "components/Icons/StarIcon/StarIcon";
+import WorkshopsIcon from "components/Icons/WorkshopsIcon/WorkshopsIcon";
+import LinkBox from "components/LinkBox/LinkBox";
+import Logo from "components/Logo/Logo";
+import SocialsBox from "components/SocialsBox/Socials";
+import TabletopSlider from "components/TabletopSlider/TabletopSlider";
+import VideoGamesSlider from "components/VideoGamesSlider/VideoGamesSlider";
+import Main from "layout/Main/Main";
 
 const HomePage = () => {
   return (
-    <Main variant='grid'>
+    <Main variant="grid">
       <Logo />
       <HeroImage />
       <LinkBox
-        to='/professional'
+        to="/professional"
         title={`Maria 
         Borys - Piątkowska`}
-        description='Storyteller - Game Writer - Narrative Designer'
-        variant='about'
+        description="Storyteller - Game Writer - Narrative Designer"
+        variant="about"
       />
       <LinkBox
-        to='/videoGames'
+        to="/videoGames"
         element={<VideoGamesSlider />}
-        variant='videoGames'
+        variant="videoGames"
       />
       <LinkBox
-        to='/tabletopGames'
-        title='Tabletop Games'
-        description='Knack for Roleplaying'
+        to="/tabletopGames"
+        title="Tabletop Games"
+        description="Knack for Roleplaying"
         element={<TabletopSlider />}
-        variant='tabletop'
+        variant="tabletop"
       />
       <LinkBox
-        to='/workshops'
-        title='Workshops'
-        description='Affinity for Teachning'
+        to="/workshops"
+        title="Workshops"
+        description="Affinity to Teaching"
         element={
-          <WorkshopsIcon className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
+          <WorkshopsIcon className="w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500" />
         }
-        variant='workshops'
+        variant="workshops"
       />
       <LinkBox
-        to='/media'
-        title='Media'
-        description='Love to Share'
+        to="/media"
+        title="Media"
+        description="Love to Share"
         element={
-          <StarIcon className='w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500' />
+          <StarIcon className="w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500" />
         }
-        variant='media'
+        variant="media"
       />
       <LinkBox
-        to='/achievements'
-        title='Achievements'
-        description='Ambition to Learn'
+        to="/achievements"
+        title="Achievements"
+        description="Ambition to Learn"
         element={
-          <AchievementIcon className='w-12 h-12 mx-auto text-black xl:group-hover:text-ghostWhite xl:duration-500' />
+          <AchievementIcon className="w-12 h-12 mx-auto text-black xl:group-hover:text-ghostWhite xl:duration-500" />
         }
-        variant='achievements'
+        variant="achievements"
       />
       <SocialsBox />
     </Main>

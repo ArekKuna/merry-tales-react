@@ -19,13 +19,13 @@ export const sectionParagraphs = {
           companies in the game industry, e.g. ****Ice Code Games****, ****Vulpesoft****, ****Sylen
           Studio****. I’m also constantly taking active part in various game-design
           events: ****Digital Dragons****, ****Digital Dragons Academy****, ****Write the Game****, ****Game
-          Jams****, etc.`,
+          Jams****, ****DevCom****, ****Gamescom**** etc.`,
   },
   media: {
     text: `From time to time I have the pleasure to take part in various media events, including interviews for 
           ****Polsat Games****, ****CD Actions**** and other various ****magazines**** and ****TV programmes**** or ****podcasts****.`,
   },
   achievements: {
-    text: `I’ve gained my experience learning from the best - ****Laurie Hutzler**** and ****Susan O’Connor****. I’ve completed various narrative design and scriptwriting courses (e.g. ****Bahama Films Studio****). Other than that I had the pleasure to attend voice over recording workshops run by ****Joanna Węgrzynowska**** from ****SDI Studio****.`,
+    text: `I’ve gained my experience learning from the best - ****Laurie Hutzler**** and ****Susan O’Connor**** (GDC Masterclass on Narrative Design). I’ve completed various narrative design and scriptwriting courses (e.g. ****Bahama Films Studio****). Other than that I had the pleasure to attend voice over recording workshops run by ****Joanna Węgrzynowska**** from ****SDI Studio****.`,
   },
 };
