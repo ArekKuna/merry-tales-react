@@ -29,14 +29,14 @@ const HomePage = () => {
       <LinkBox
         to="/tabletopGames"
         title="Tabletop Games"
-        description="Knack for Roleplaying"
+        description="Knack for roleplaying"
         element={<TabletopSlider />}
         variant="tabletop"
       />
       <LinkBox
         to="/workshops"
         title="Workshops"
-        description="Affinity to Teaching"
+        description="Affinity to teaching"
         element={
           <WorkshopsIcon className="w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500" />
         }
@@ -45,7 +45,7 @@ const HomePage = () => {
       <LinkBox
         to="/media"
         title="Media"
-        description="Love to Share"
+        description="Love to share"
         element={
           <StarIcon className="w-12 h-12 mx-auto xl:group-hover:text-ghostWhite xl:duration-500" />
         }
@@ -54,7 +54,7 @@ const HomePage = () => {
       <LinkBox
         to="/achievements"
         title="Achievements"
-        description="Ambition to Learn"
+        description="Ambition to learn"
         element={
           <AchievementIcon className="w-12 h-12 mx-auto text-black xl:group-hover:text-ghostWhite xl:duration-500" />
         }

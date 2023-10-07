@@ -32,8 +32,8 @@ const About = () => {
           <div
             className={
               !more
-                ? "max-h-0 overflow-hidden transition-all ease-in-out duration-1000"
-                : "max-h-[550px] overflow-hidden transition-all duration-1000"
+                ? "max-h-0 overflow-hidden transition-all duration-700"
+                : "max-h-[550px] overflow-hidden transition-all duration-700"
             }
           >
             <AboutParagraph>
@@ -45,8 +45,7 @@ const About = () => {
               career as an RPG writer, then moved forward to the game industry.
               Writing and designing the narrative have become my forte. In my
               free time I practise boxing and do amateur theatre. Other than
-              that I host a radio broadcast covering the topic of music in
-              games. Other than that I’ve hosted a&nbsp;
+              that I’ve hosted a&nbsp;
               <a
                 href="https://radiospacja.pl/shows/groteka/"
                 target="_blank"
