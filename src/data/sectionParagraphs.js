@@ -7,10 +7,11 @@ export const sectionParagraphs = {
       and VO recording.`,
   },
   cthulhu: {
-    text: `Tabletop RPG games are sort of my childish love, but honestly I never gave them up. I’ve been working as a translator (****core book**** & ****Alone Against the Dark gamebook****) and scenario writer for the Polish 7th ed. ****Call of Cthulhu**** (additional campaign books). Lately I’ve been involved in the group of authors creating the project ****Zgrozy-Call**** of ****Cthulhu RPG Supplements****.`,
+    text: `Tabletop RPGs are sort of my childish love, but honestly I never gave them up. I’m a translator (*****core book***** & *****Alone Against the Dark gamebook*****) and scenario writer for the Polish 7th ed. *****Call of Cthulhu*****. I also partake in the project *****Zgrozy - Call of Cthulhu RPG Supplements*****. Other than that I’m a proud founder of the gaming association [*****Graj! Kolektyw*****](https://www.grajkolektyw.pl/#top).
+    `,
   },
   otherTabletops: {
-    text: `My scenario for ****Blades in the Dark**** was published in ****Nowa Fantastyka**** magazine. I also had the pleasure to write supplements for Polish 5th ed. ****Vampire the Masquerade****, ****Sibir Punk**** and ****Nibiru RPG****. My personal favourite though is the scenario for ****Tales from the Loop**** that I wrote in cooperation with ****Majka Jeżowska****. You can download it [****here****](https://www.drivethrurpg.com/product/403201/nutkawnutkezgadzasieexe) or read it in Nowa Fantastyka magazine.`,
+    text: `My scenario for *****Blades in the Dark***** was published in *****Nowa Fantastyka***** magazine. I also had the pleasure to write supplements for Polish 5th ed. of *****Vampire the Masquerade*****, *****Sibir Punk***** and *****Nibiru RPG*****. My personal favourite though is the scenario for *****Tales from the Loop***** that I wrote in cooperation with ****Majka Jeżowska****. You can download it [****here****](https://www.drivethrurpg.com/product/403201/nutkawnutkezgadzasieexe) or read it in *****Nowa Fantastyka***** magazine.`,
   },
   workshops: {
     text: `Since 2010 I’ve been running workshops and giving lectures on subjects

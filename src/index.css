@@ -2,166 +2,171 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'swiper/css';
-@import 'swiper/css/effect-cards';
-@import 'swiper/css/autoplay';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination';
+@import "swiper/css";
+@import "swiper/css/effect-cards";
+@import "swiper/css/autoplay";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 html::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @media only screen and (min-width: 36.3em) {
-    /* :root {
+  /* :root {
     zoom: 0.8;
   } */
 }
 
 #root {
-    max-width: 2000px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+  max-width: 2000px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .icon-top,
 .icon-middle,
 .icon-bottom {
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    width: 30px;
-    height: 3px;
-    background-color: #f8f8ff;
-    transition: all .3s;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: #f8f8ff;
+  transition: all 0.3s;
 }
 
 .icon-top {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .icon-bottom {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .icon-top-active {
-    transform: rotate(45deg) translate(7px, 8px);
-    transition: all .3s;
+  transform: rotate(45deg) translate(7px, 8px);
+  transition: all 0.3s;
 }
 
 .icon-middle-active {
-    display: none;
+  display: none;
 }
 
 .icon-bottom-active {
-    transform: rotate(-45deg) translate(6px, -7px);
-    transition: all .3s;
+  transform: rotate(-45deg) translate(6px, -7px);
+  transition: all 0.3s;
 }
 
 .swiper-cards {
-    perspective: 1000px !important;
+  perspective: 1000px !important;
 }
 
 .swiper-pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: -5px !important;
-    padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -5px !important;
+  padding-bottom: 12px;
 }
 
 .swiper-pagination-bullet {
-    height: 12px;
-    width: 12px;
-    margin-right: 10px !important;
-    background-color: #000;
-    transition: all .5s;
+  height: 12px;
+  width: 12px;
+  margin-right: 10px !important;
+  background-color: #000;
+  transition: all 0.5s;
 }
 
 @media only screen and (min-width: 80em) {
-    .tabletop:hover > .swiper > .swiper-pagination > .swiper-pagination-bullet {
-        background-color: #f8f8ff;
-    }
+  .tabletop:hover > .swiper > .swiper-pagination > .swiper-pagination-bullet {
+    background-color: #f8f8ff;
+  }
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    position: absolute !important;
-    height: 30px;
-    width: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f8f8ff;
-    top: 0;;
-    margin: 0;
+  position: absolute !important;
+  height: 30px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8ff;
+  top: 0;
+  margin: 0;
 }
 
 .swiper-button-next {
-    right: 0;
-    border: 2px solid black;
-    border-top: none;
-    border-right: none;
-    transition: all .5s;
+  right: 0;
+  border: 2px solid black;
+  border-top: none;
+  border-right: none;
+  transition: all 0.5s;
 }
 
 .swiper-button-prev {
-    left: 0;
-    border: 2px solid black;
-    border-top: none;
-    border-left: none;
-    transition: all .5s;
+  left: 0;
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  transition: all 0.5s;
 }
 
 .swiper-button-next::after,
-.swiper-button-prev::after  {
-    content: '\2794';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    font-size: 30px;
-    transition: all .5s;
+.swiper-button-prev::after {
+  content: "\2794";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 30px;
+  transition: all 0.5s;
 }
 
 .swiper-button-prev::after {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 80em) {
-    .swiper-button-next:hover {
-        border: 2px solid #f8f8ff;
-        border-top: none;
-        border-right: none;
-        background-color: #000;
-    }
+  .swiper-button-next:hover {
+    border: 2px solid #f8f8ff;
+    border-top: none;
+    border-right: none;
+    background-color: #000;
+  }
 
-    .swiper-button-next:hover::after {
-        color: #f8f8ff;
-    }
+  .swiper-button-next:hover::after {
+    color: #f8f8ff;
+  }
 
-    .swiper-button-prev:hover {
-        border: 2px solid #f8f8ff;
-        border-top: none;
-        border-left: none;
-        background-color: #000;
-    }
+  .swiper-button-prev:hover {
+    border: 2px solid #f8f8ff;
+    border-top: none;
+    border-left: none;
+    background-color: #000;
+  }
 
-    .swiper-button-prev:hover::after {
-        color: #f8f8ff;
-    }
+  .swiper-button-prev:hover::after {
+    color: #f8f8ff;
+  }
 }
 
 @media only screen and (min-width: 36.3em) {
-    .swiper-button-next,
-    .swiper-button-prev {
-        height: 40px;
-        width: 100px;
-    }  
+  .swiper-button-next,
+  .swiper-button-prev {
+    height: 40px;
+    width: 100px;
+  }
 
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-        font-size: 40px;
-    } 
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 40px;
+  }
+}
+
+.underlined-link a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
